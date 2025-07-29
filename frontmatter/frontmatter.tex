@@ -15,18 +15,20 @@
 %----------------------------------------------------------------------------------------
 %	STATEMENT of INTEGRITY
 %----------------------------------------------------------------------------------------
-\integritystatement
+%\integritystatement
+
+
 
 %----------------------------------------------------------------------------------------
 %	DEDICATION  (optional)
-%----------------------------------------------------------------------------------------
-%
-%\dedicatory{For/Dedicated to/To my\ldots}
-\begin{dedicatory}
-The dedicatory is optional. Below is an example of a humorous dedication.
+%--------------------------------------------------------------------------------------
 
-"To my wife Marganit and my children Ella Rose and Daniel Adam without whom this book would have been completed two years earlier." in "An Introduction To Algebraic Topology" by Joseph J. Rotman.
-\end{dedicatory}
+%\dedicatory{For/Dedicated to/To my\ldots}
+% \begin{dedicatory}
+% The dedicatory is optional. Below is an example of a humorous dedication.
+
+% "To my wife Marganit and my children Ella Rose and Daniel Adam without whom this book would have been completed two years earlier." in "An Introduction To Algebraic Topology" by Joseph J. Rotman.
+% \end{dedicatory}
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
@@ -36,28 +38,13 @@ The dedicatory is optional. Below is an example of a humorous dedication.
 
 % here you put the abstract in the main language of the work.
 
-This document explains the main formatting rules to apply to a TMDEI Master Dissertation work for the MSc in Computer Engineering of the Computer Engineering Department (DEI) of the School of Engineering (ISEP) of the Polytechnic of Porto (IPP).
-
-The rules here presented are a set of recommended good practices for formatting the disseration work. Please note that this document does not have definite hard rules, and the discussion of these and other aspects of the development of the work should be discussed with the respective supervisor(s).
-
-This document is based on a previous document prepared by Dr. Fátima Rodrigues (DEI/ISEP).
-
-The abstract should usually not exceed 200 words, or one page. When the work is written in Portuguese, it should have an abstract in English.
-
-Please define up to 6 keywords that better describe your work, in the \emph{THESIS INFORMATION} block of the \file{main.tex} file.
-
-\end{abstract}
-
-\begin{abstractotherlanguage}
-% here you put the abstract in the "other language": English, if the work is written in Portuguese; Portuguese, if the work is written in English.
-
 Trabalhos escritos em língua Inglesa devem incluir um resumo alargado com cerca de 1000 palavras, ou duas páginas.
 
 Se o trabalho estiver escrito em Português, este resumo deveria ser em língua Inglesa, com cerca de 200 palavras, ou uma página.
 
 Para alterar a língua basta ir às configurações do documento no ficheiro \file{main.tex} e alterar para a língua desejada ('english' ou 'portuguese')\footnote{Alterar a língua requer apagar alguns ficheiros temporários; O target \keyword{clean} do \keyword{Makefile} incluído pode ser utilizado para este propósito.}. Isto fará com que os cabeçalhos incluídos no template sejam traduzidos para a respetiva língua.
 
-\end{abstractotherlanguage}
+\end{abstract}
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS (optional)
@@ -109,13 +96,13 @@ The optional Acknowledgment goes here\ldots Below is an example of a humorous ac
 
 \begin{symbols}{lll} % Include a list of Symbols (a three column table)
 
-$a$ & distance & \si{\meter} \\
-$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
-%Symbol & Name & Unit \\
+% $a$ & distance & \si{\meter} \\
+% $P$ & power & \si{\watt} (\si{\joule\per\second}) \\
+% %Symbol & Name & Unit \\
 
-\addlinespace % Gap to separate the Roman symbols from the Greek
+% \addlinespace % Gap to separate the Roman symbols from the Greek
 
-$\omega$ & angular frequency & \si{\radian} \\
+% $\omega$ & angular frequency & \si{\radian} \\
 
 \end{symbols}
 

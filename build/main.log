@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  29 JUL 2025 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  29 JUL 2025 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1191,31 +1191,30 @@ Package glossaries Info: Writing glossary file main.glo on input line 29.
 Package glossaries Info: Writing glossary file main.acn on input line 29.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
-Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 16.
-)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 66.
+Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 66.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count549
@@ -1236,7 +1235,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count555
-Package tocbasic Info: setting babel extension for `lol' on input line 68.
+Package tocbasic Info: setting babel extension for `lol' on input line 66.
  (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
@@ -1278,24 +1277,24 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating portuguese \dissertationdisclamer on input line 68.
-Package scrbase Info: activating portuguese \advisorlabel on input line 68.
-Package scrbase Info: activating portuguese \coadvisorlabel on input line 68.
-Package scrbase Info: activating portuguese \supervisorlabel on input line 68.
-Package scrbase Info: activating portuguese \cosupervisorlabel on input line 68.
-Package scrbase Info: activating portuguese \evallabel on input line 68.
-Package scrbase Info: activating portuguese \presidentlabel on input line 68.
-Package scrbase Info: activating portuguese \memberslabel on input line 68.
-Package scrbase Info: activating portuguese \statementlabel on input line 68.
-Package scrbase Info: activating portuguese \statementtext on input line 68.
-Package scrbase Info: activating portuguese \dedicationlabel on input line 68.
-Package scrbase Info: activating portuguese \abslabel on input line 68.
-Package scrbase Info: activating portuguese \keywordslabel on input line 68.
-Package scrbase Info: activating portuguese \abslabelotherlang on input line 68.
-Package scrbase Info: activating portuguese \abbrevname on input line 68.
-Package scrbase Info: activating portuguese \constantsname on input line 68.
-Package scrbase Info: activating portuguese \symbolsname on input line 68.
-Package scrbase Info: activating portuguese \acknowledgementlabel on input line 68.
+Package scrbase Info: activating portuguese \dissertationdisclamer on input line 66.
+Package scrbase Info: activating portuguese \advisorlabel on input line 66.
+Package scrbase Info: activating portuguese \coadvisorlabel on input line 66.
+Package scrbase Info: activating portuguese \supervisorlabel on input line 66.
+Package scrbase Info: activating portuguese \cosupervisorlabel on input line 66.
+Package scrbase Info: activating portuguese \evallabel on input line 66.
+Package scrbase Info: activating portuguese \presidentlabel on input line 66.
+Package scrbase Info: activating portuguese \memberslabel on input line 66.
+Package scrbase Info: activating portuguese \statementlabel on input line 66.
+Package scrbase Info: activating portuguese \statementtext on input line 66.
+Package scrbase Info: activating portuguese \dedicationlabel on input line 66.
+Package scrbase Info: activating portuguese \abslabel on input line 66.
+Package scrbase Info: activating portuguese \keywordslabel on input line 66.
+Package scrbase Info: activating portuguese \abslabelotherlang on input line 66.
+Package scrbase Info: activating portuguese \abbrevname on input line 66.
+Package scrbase Info: activating portuguese \constantsname on input line 66.
+Package scrbase Info: activating portuguese \symbolsname on input line 66.
+Package scrbase Info: activating portuguese \acknowledgementlabel on input line 66.
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package biblatex Info: Trying to load language 'portuguese'...
@@ -1311,10 +1310,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.bbl)
-Package biblatex Info: Reference section=0 on input line 68.
-Package biblatex Info: Reference segment=0 on input line 68.
-Package hyperref Info: Link coloring OFF on input line 68.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out) (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out)
+Package biblatex Info: Reference section=0 on input line 66.
+Package biblatex Info: Reference segment=0 on input line 66.
+Package hyperref Info: Link coloring OFF on input line 66.
 \@outlinefile=\write8
 \openout8 = `main.out'.
 
@@ -1323,7 +1321,7 @@ Package hyperref Info: Link coloring OFF on input line 68.
 \openout9 = `main.glsdefs'.
 
 )
-<.//frontmatter/assets/isep_logo.pdf, id=50, 8130.375pt x 993.7125pt>
+<.//frontmatter/assets/isep_logo.pdf, id=6, 8130.375pt x 993.7125pt>
 File: .//frontmatter/assets/isep_logo.pdf Graphic file (type pdf)
 <use .//frontmatter/assets/isep_logo.pdf>
 Package pdftex.def Info: .//frontmatter/assets/isep_logo.pdf  used on input line 12.
@@ -1337,9 +1335,16 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 12.
 
-
-LaTeX Font Warning: Font shape `T1/cmbr/b/sc' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 12.
+frontmatter/frontmatter.tex:12: Undefined control sequence.
+\maketitlepage ...ent \supervisorlabel : \supname 
+                                                  } \\ \ifdefined \cosupname...
+l.12 \maketitlepage
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
@@ -1361,160 +1366,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
 ]
 --------------------
- Declara\c {c}\~ao de Integridade
+ Resumo
 --------------------
+LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 45.
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\t1cmtl.fd
+File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
+)
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+LaTeX Font Warning: Font shape `T1/cmtl/b/n' undefined
+(Font)              using `T1/cmtl/m/n' instead on input line 45.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-
-LaTeX Font Info:    Trying to load font information for OT1+cmbr on input line 25.
+LaTeX Font Info:    Trying to load font information for OT1+cmbr on input line 45.
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ot1cmbr.fd
 File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 25.
+LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 45.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 25.
+LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 45.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 25.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 45.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 25.
+(Font)              <10.95> on input line 45.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 45.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 25.
- [3
+(Font)              <6> on input line 45.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 45.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 45.
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <9> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.95> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 47.
+
+--------------------
+ Agradecimentos
+--------------------
+
+
+[3
 
 ]
 
 [4
 
 ]
---------------------
- Dedicat\'oria
---------------------
 
-
-[5
-
-]
+[5]
 
 [6
 
 ]
---------------------
- Resumo
---------------------
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 47.
-LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 47.
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\t1cmtl.fd
-File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
-)
-
-LaTeX Font Warning: Font shape `T1/cmtl/b/n' undefined
-(Font)              using `T1/cmtl/m/n' instead on input line 47.
-
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 49.
+No file main.toc.
+\tf@toc=\write10
+\openout10 = `main.toc'.
 
 
-[7
 
-]
+[7]
 
 [8
 
 ]
---------------------
- Resumo
---------------------
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 58.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 58.
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <9> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 58.
---------------------
- Agradecimentos
---------------------
+No file main.lof.
+\tf@lof=\write11
+\openout11 = `main.lof'.
 
 
-[9
 
-]
+[9]
 
 [10
 
 ]
+No file main.lot.
+\tf@lot=\write12
+\openout12 = `main.lot'.
+
+
 
 [11]
 
 [12
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.toc)
-\tf@toc=\write10
-\openout10 = `main.toc'.
-
+]
+No file main.acr.
 
 
 [13]
 
 [14
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof)
-\tf@lof=\write11
-\openout11 = `main.lof'.
-
-
-
-[15]
-
-[16
-
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot)
-\tf@lot=\write12
-\openout12 = `main.lot'.
-
-
-
-[17]
-
-[18
-
-]
-No file main.acr.
-
-
-[19]
-
-[20
-
-]) (capitulos/Introducao/introducao.tex
+]) (capitulos/cap1-introducao/introducao.tex
 Cap\'{\i }tulo 1.
 
 
@@ -1524,21 +1475,53 @@ Cap\'{\i }tulo 1.
 LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 39.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
-))
-
-LaTeX Warning: Empty bibliography on input line 90.
-
-(appendices/appendixA.tex
+)) (capitulos/cap2-estadodaarte/estadodaarte.tex
 
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 3.
+(babel)             Reported on input line 1.
 [2]
-Ap\^endice A.
-)
+Cap\'{\i }tulo 2.
+) (capitulos/cap3-analisedoproblema/analisedoproblema.tex
 
 [3
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
+]
+
+[4
+
+]
+Cap\'{\i }tulo 3.
+) (capitulos/cap4-implementacao/implementacao.tex
+
+[5]
+
+[6
+
+]
+Cap\'{\i }tulo 4.
+) (capitulos/reflexaotrabalho/reflexao.tex
+
+[7]
+
+[8
+
+]
+Cap\'{\i }tulo 5.
+)
+
+LaTeX Warning: Empty bibliography on input line 93.
+
+(appendices/appendixA.tex
+
+[9]
+
+[10
+
+]
+Ap\^endice A.
+)
+
+[11] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1547,24 +1530,41 @@ L3 programming layer <2020/03/25>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BECA5915C49C3DD947359472D98846F3;1465.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  992EAAC6F95CE7A8349817905681CD99;3774.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58620 strings out of 468149
- 1404751 string characters out of 5431082
- 2362624 words of memory out of 5000000
- 86393 multiletter control sequences out of 15000+600000
+ 58632 strings out of 468149
+ 1405567 string characters out of 5431082
+ 2362417 words of memory out of 5000000
+ 86382 multiletter control sequences out of 15000+600000
  644723 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,20n,131p,2534b,1712s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\cmbr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\cmbrmi10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
-Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (23 pages, 159499 bytes).
+ 101i,20n,131p,2534b,1692s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
+Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (25 pages, 143835 bytes).
 PDF statistics:
- 575 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 506 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
