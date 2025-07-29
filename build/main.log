@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  29 JUL 2025 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  29 JUL 2025 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1191,7 +1191,10 @@ Package glossaries Info: Writing glossary file main.glo on input line 29.
 Package glossaries Info: Writing glossary file main.acn on input line 29.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 16.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -1212,8 +1215,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
-Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 68.
 Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 68.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1309,11 +1310,11 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.bbl)
 Package biblatex Info: Reference section=0 on input line 68.
 Package biblatex Info: Reference segment=0 on input line 68.
 Package hyperref Info: Link coloring OFF on input line 68.
- (main.out) (main.out)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out) (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
 
@@ -1322,7 +1323,7 @@ Package hyperref Info: Link coloring OFF on input line 68.
 \openout9 = `main.glsdefs'.
 
 )
-<.//frontmatter/assets/isep_logo.pdf, id=166, 8130.375pt x 993.7125pt>
+<.//frontmatter/assets/isep_logo.pdf, id=50, 8130.375pt x 993.7125pt>
 File: .//frontmatter/assets/isep_logo.pdf Graphic file (type pdf)
 <use .//frontmatter/assets/isep_logo.pdf>
 Package pdftex.def Info: .//frontmatter/assets/isep_logo.pdf  used on input line 12.
@@ -1475,35 +1476,27 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <9> not available
 
 [12
 
-] (main.toc
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <8> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 11.
-
-
-LaTeX Font Warning: Font shape `T1/cmbr/bx/n' in size <8> not available
-(Font)              Font shape `T1/cmbr/sb/n' tried instead on input line 11.
-
-
-
-[13])
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.toc)
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
 
 
-[14] (main.lof)
+[13]
+
+[14
+
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof)
 \tf@lof=\write11
 \openout11 = `main.lof'.
 
 
 
-[15
-
-]
+[15]
 
 [16
 
-] (main.lot)
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot)
 \tf@lot=\write12
 \openout12 = `main.lot'.
 
@@ -1521,36 +1514,57 @@ No file main.acr.
 
 [20
 
-]) (capitulos/ch1/chapter1.tex
+]) (capitulos/Introducao/introducao.tex
 Cap\'{\i }tulo 1.
 
-LaTeX Warning: Reference `chap:Chapter2' on page 1 undefined on input line 35.
 
+[1
 
-LaTeX Warning: Reference `chap:Chapter3' on page 1 undefined on input line 35.
+]
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 39.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ts1cmbr.fd
+File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
+))
 
+LaTeX Warning: Empty bibliography on input line 90.
+
+(appendices/appendixA.tex
+
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 3.
+[2]
+Ap\^endice A.
 )
 
-! LaTeX Error: File `ch2/chapter2.tex' not found.
+[3
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
 
-Enter file name: 
-c:/Users/carlo/Documents/Universidade/2425/Relatorio Pesti/main.tex:85: Emergency stop.
-<read *> 
-         
-l.85 \input{ch2/chapter2}
-                         ^^M
-*** (cannot \read from terminal in nonstop modes)
 
- 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: BECA5915C49C3DD947359472D98846F3;1465.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 58660 strings out of 468149
- 1404201 string characters out of 5431082
- 2371335 words of memory out of 5000000
- 86414 multiletter control sequences out of 15000+600000
- 645129 words of font info for 75 fonts, out of 8000000 for 9000
+ 58620 strings out of 468149
+ 1404751 string characters out of 5431082
+ 2362624 words of memory out of 5000000
+ 86393 multiletter control sequences out of 15000+600000
+ 644723 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,20n,131p,2534b,2775s stack positions out of 10000i,1000n,20000p,200000b,200000s
-c:/Users/carlo/Documents/Universidade/2425/Relatorio Pesti/main.tex:85:  ==> Fatal error occurred, no output PDF file produced!
+ 101i,20n,131p,2534b,1712s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\cmbr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\cmbrmi10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
+Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (23 pages, 159499 bytes).
+PDF statistics:
+ 575 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+
