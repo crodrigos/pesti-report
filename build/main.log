@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  29 JUL 2025 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  29 JUL 2025 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1191,10 +1191,7 @@ Package glossaries Info: Writing glossary file main.glo on input line 29.
 Package glossaries Info: Writing glossary file main.acn on input line 29.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (main.aux
-Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 16.
-)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -1215,6 +1212,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 68.
 Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 68.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1237,7 +1236,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count555
 Package tocbasic Info: setting babel extension for `lol' on input line 68.
- (main.glsdefs) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1522,171 +1521,36 @@ No file main.acr.
 
 [20
 
-]) (ch1/chapter1.tex
+]) (capitulos/ch1/chapter1.tex
 Cap\'{\i }tulo 1.
-) (ch2/chapter2.tex
 
-[1
-
-]
-
-[2
-
-]
-Cap\'{\i }tulo 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 9.
-
-LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
-(Font)              using `T1/cmbr/m/n' instead on input line 11.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 13.
-
-Overfull \hbox (15.78993pt too wide) in paragraph at lines 28--30
-[]\T1/cmbr/m/n/10.95 The ^^S  Not So Short In-tro-duc-tion to L[]T[]X^^T (avai-la-ble on []$\T1/cmtl/b/n/10.95 http : / / www . ctan . org / tex-[]archive /
- []
+LaTeX Warning: Reference `chap:Chapter2' on page 1 undefined on input line 35.
 
 
+LaTeX Warning: Reference `chap:Chapter3' on page 1 undefined on input line 35.
 
-[3]
-Overfull \hbox (3.53058pt too wide) in paragraph at lines 56--57
-\T1/cmbr/m/n/10.95 X. Check the web-page for the L[]T[]X pro-ject for more in-for-ma-tion: []$\T1/cmtl/b/n/10.95 https : / / latex-[]project .
- []
-
-
-
-Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 73.
-[4]
-
-[5]
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 116.
- (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ts1cmbr.fd
-File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
-)
-Overfull \hbox (8.10028pt too wide) in paragraph at lines 128--129
-[]\T1/cmtl/b/n/10.95 biber -input-directory=build -output-directory=build main \T1/cmbr/m/n/10.95 -- The com-mand
- []
-
-
-
-[6]
-LaTeX Font Info:    Font shape `T1/cmtl/m/it' in size <10.95> not available
-(Font)              Font shape `T1/cmtl/m/sl' tried instead on input line 163.
-
-
-
-LaTeX Font Warning: Font shape `T1/cmtl/b/sl' undefined
-(Font)              using `T1/cmtl/b/n' instead on input line 164.
-
-[7]
-
-[8]
-
-[9]
-
-[10]
-<ch2/assets/electron.pdf, id=436, 398.3386pt x 284.52756pt>
-File: ch2/assets/electron.pdf Graphic file (type pdf)
-<use ch2/assets/electron.pdf>
-Package pdftex.def Info: ch2/assets/electron.pdf  used on input line 272.
-(pdftex.def)             Requested size: 199.16881pt x 142.26343pt.
-<ch2/assets/comic.pdf, id=440, 602.25pt x 272.01625pt>
-File: ch2/assets/comic.pdf Graphic file (type pdf)
-<use ch2/assets/comic.pdf>
-Package pdftex.def Info: ch2/assets/comic.pdf  used on input line 287.
-(pdftex.def)             Requested size: 423.9459pt x 191.48923pt.
-
-
-[11 <./ch2/assets/electron.pdf>]
-
-[12 <./ch2/assets/comic.pdf>]) (ch3/chapter3.tex
-
-[13]
-
-[14
-
-]
-Cap\'{\i }tulo 3.
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 15.
-
-
-[15] (ch3/assets/euclid.java) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-) (ch3/assets/euclid.c)
-
-[16]
-
-[17]
-Overfull \hbox (11.51262pt too wide) in paragraph at lines 164--168
-\T1/cmtl/b/n/10.95 PGF / TikZ$[] \T1/cmbr/m/n/10.95 and []$\T1/cmtl/b/n/10.95 ftp : / / ftp . di . uminho . pt / pub / ctan / graphics / pgf / base / doc / pgfmanual .
- []
-
-
-
-[18]
-Overfull \hbox (6.43799pt too wide) in paragraph at lines 224--227
-[]\T1/cmbr/m/n/10.95 A great amount of exam-ples are avai-la-ble at []$\T1/cmtl/b/n/10.95 http : / / pgfplots . sourceforge . net / gallery .
- []
-
-
-
-[19])
-
-[20] (appendices/appendixA.tex
-
-[21
-
-]
-
-[22
-
-]
-Ap\^endice A.
 )
 
-[23] (main.aux)
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2020/03/25>
- ***********
+! LaTeX Error: File `ch2/chapter2.tex' not found.
 
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+Enter file name: 
+c:/Users/carlo/Documents/Universidade/2425/Relatorio Pesti/main.tex:85: Emergency stop.
+<read *> 
+         
+l.85 \input{ch2/chapter2}
+                         ^^M
+*** (cannot \read from terminal in nonstop modes)
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC90DA1281493DE0942ECE8A958C3913;6508.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 60089 strings out of 468149
- 1432462 string characters out of 5431082
- 2488692 words of memory out of 5000000
- 87735 multiletter control sequences out of 15000+600000
- 655484 words of font info for 104 fonts, out of 8000000 for 9000
+ 58660 strings out of 468149
+ 1404201 string characters out of 5431082
+ 2371335 words of memory out of 5000000
+ 86414 multiletter control sequences out of 15000+600000
+ 645129 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,23n,131p,2534b,2775s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\cmbrsy10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrmi8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebto10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmo8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\cmbr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\cmbrmi10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebsr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
-Output written on main.pdf (43 pages, 508033 bytes).
-PDF statistics:
- 1512 PDF objects out of 1728 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 348 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 101i,20n,131p,2534b,2775s stack positions out of 10000i,1000n,20000p,200000b,200000s
+c:/Users/carlo/Documents/Universidade/2425/Relatorio Pesti/main.tex:85:  ==> Fatal error occurred, no output PDF file produced!

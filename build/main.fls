@@ -1,7 +1,7 @@
 PWD c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti
 INPUT C:\Users\carlo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\main.tex
-OUTPUT main.log
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.log
 INPUT .\tmdei-style.cls
 INPUT tmdei-style.cls
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
@@ -447,13 +447,13 @@ INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\reru
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-OUTPUT main.glo
-OUTPUT main.acn
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glo
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.acn
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
-OUTPUT main.aux
+INPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
+INPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
+INPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -462,16 +462,16 @@ INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\main.glsdefs
-INPUT .\main.glsdefs
-INPUT main.glsdefs
+INPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs
+INPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs
+INPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-english\glossaries-dictionary-English.dict
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-english\glossaries-dictionary-English.dict
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-english\glossaries-dictionary-English.dict
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\portuguese.lbx
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\portuguese.lbx
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\portuguese.lbx
-OUTPUT main.bcf
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.bcf
 INPUT main.bbl
 INPUT .\main.bbl
 INPUT .\main.bbl
@@ -481,10 +481,10 @@ INPUT .\main.out
 INPUT .\main.out
 INPUT main.out
 INPUT main.out
-OUTPUT main.pdf
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf
 INPUT .\main.out
 INPUT .\main.out
-OUTPUT main.out
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out
 INPUT .\frontmatter\frontmatter.tex
 INPUT .\frontmatter\frontmatter.tex
 INPUT .\frontmatter\frontmatter.tex
@@ -495,7 +495,7 @@ INPUT .\frontmatter\glossary.tex
 INPUT .\frontmatter\glossary.tex
 INPUT .\frontmatter\glossary.tex
 INPUT frontmatter\glossary.tex
-OUTPUT main.glsdefs
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs
 INPUT .\\frontmatter\assets\isep_logo.pdf
 INPUT .\\frontmatter\assets\isep_logo.pdf
 INPUT .\\frontmatter\assets\isep_logo.pdf
@@ -509,7 +509,7 @@ INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebm
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebbx10.tfm
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebmr10.tfm
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebbx10.tfm
-OUTPUT main.ist
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.ist
 INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebmo10.tfm
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\cmbright\ot1cmbr.fd
@@ -553,145 +553,17 @@ INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
 INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebsr8.tfm
-OUTPUT main.toc
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.toc
 INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
-OUTPUT main.lof
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof
 INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
-OUTPUT main.lot
-INPUT .\ch1\chapter1.tex
-INPUT .\ch1\chapter1.tex
-INPUT .\ch1\chapter1.tex
-INPUT .\ch1\chapter1.tex
-INPUT ch1\chapter1.tex
-INPUT .\ch2\chapter2.tex
-INPUT .\ch2\chapter2.tex
-INPUT .\ch2\chapter2.tex
-INPUT .\ch2\chapter2.tex
-INPUT ch2\chapter2.tex
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbr17.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbr17.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbr17.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrmi10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrmi10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrmi10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrsy10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrsy10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrsy10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbr10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbr10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbr8.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrmi10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrmi10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrmi8.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrsy10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrsy10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrsy8.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebbx10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbr10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrmi10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\cmbrsy10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebmo8.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\cmbright\ts1cmbr.fd
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\cmbright\ts1cmbr.fd
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\cmbright\ts1cmbr.fd
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\tbmr10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebtl10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebto10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebmr10.tfm
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebtl10.tfm
-INPUT .\ch2\assets\electron.pdf
-INPUT .\ch2\assets\electron.pdf
-INPUT .\ch2\assets\electron.pdf
-INPUT .\ch2\assets\electron.pdf
-INPUT .\ch2\assets\electron.pdf
-INPUT .\ch2\assets\comic.pdf
-INPUT .\ch2\assets\comic.pdf
-INPUT .\ch2\assets\comic.pdf
-INPUT .\ch2\assets\comic.pdf
-INPUT .\ch2\assets\comic.pdf
-INPUT .\ch3\chapter3.tex
-INPUT .\ch3\chapter3.tex
-INPUT .\ch3\chapter3.tex
-INPUT .\ch3\chapter3.tex
-INPUT ch3\chapter3.tex
-INPUT .\ch3\assets\euclid.java
-INPUT .\ch3\assets\euclid.java
-INPUT ch3\assets\euclid.java
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT .\ch3\assets\euclid.c
-INPUT .\ch3\assets\euclid.c
-INPUT ch3\assets\euclid.c
-INPUT C:\Users\carlo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cmbright\ebtl10.tfm
-INPUT .\appendices\appendixA.tex
-INPUT .\appendices\appendixA.tex
-INPUT .\appendices\appendixA.tex
-INPUT .\appendices\appendixA.tex
-INPUT appendices\appendixA.tex
-INPUT main.aux
-INPUT .\main.out
-INPUT .\main.out
-INPUT main.run.xml
-OUTPUT main.run.xml
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\cmbrsy10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\cmbrsy10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi540\ebtl10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi540\ebtl10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\cmbrmi8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\cmbrmi8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebtl10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebtl10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebmr10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebmr10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebto10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebto10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi864\ebtl10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi864\ebtl10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\tbmr10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\tbmr10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebmo8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebmo8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsy8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsy8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\cmbr10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\cmbr10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\cmbrmi10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\cmbrmi10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebsr8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebsr8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi540\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi540\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebmr9.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebmr9.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi450\ebmr8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi450\ebmr8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebmr8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi600\ebmr8.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebtl10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebtl10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebmo10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebmo10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebmr10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi657\ebmr10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi720\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi720\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi864\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi864\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi1244\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi1244\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi1493\ebbx10.pk
-INPUT C:\Users\carlo\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cmbright\dpi1493\ebbx10.pk
+OUTPUT c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot
+INPUT .\capitulos\ch1\chapter1.tex
+INPUT .\capitulos\ch1\chapter1.tex
+INPUT .\capitulos\ch1\chapter1.tex
+INPUT .\capitulos\ch1\chapter1.tex
+INPUT capitulos\ch1\chapter1.tex
