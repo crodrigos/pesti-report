@@ -10,7 +10,105 @@
 
 \subsection{Listagem e filtragem de projetos}
 
+\subsection{Deployments}
 
+%Pipeline frontend
+\begin{verbatim} 
+
+trigger:
+  branches:
+    include:
+      - main
+
+pool: 'blended4future-vms'
+
+variables:
+  - group: ssh
+  - name: BUILDTAG
+    value: blended4future-frontend:latest
+  - name: CONTAINERNAME
+    value: blended4future-frontend
+
+steps:
+  - task: SSH@0
+    displayName: "Clean build directory on VM"
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      commands: |
+        sudo rm -rf $(FRONTENDBUILDPATH)
+        mkdir -p $(FRONTENDBUILDPATH)
+      readyTimeout: '20000'
+
+  - task: CopyFilesOverSSH@0
+    displayName: "Copy all necessary files to VM"
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      sourceFolder: '$(Build.SourcesDirectory)'
+      contents: |
+        **/*
+        !node_modules/**
+        !.git/**
+        !cypress/**
+      targetFolder: $(FRONTENDBUILDPATH)
+      readyTimeout: '20000'
+
+  - task: SSH@0
+    displayName: "Move nginx.conf & Restart Nginx"
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      failOnStdErr: false
+      commands: |
+        echo "Deploying nginx.conf and restarting Nginx..."
+        sudo mv $(FRONTENDBUILDPATH)/nginx.conf /etc/nginx/nginx.conf
+        sudo nginx -t && sudo systemctl restart nginx
+      readyTimeout: '20000'
+
+  - task: SSH@0
+    displayName: "Remove Old Docker Image (optional clean)"
+    continueOnError: true
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      commands: |
+        echo "Cleaning up old Docker image..."
+        sudo docker rmi -f $(BUILDTAG) || true
+      readyTimeout: '20000'
+
+  - task: SSH@0
+    displayName: "Build Frontend Docker image on VM"
+    continueOnError: true
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      failOnStdErr: false
+      commands: |
+        echo "Building Docker image..."
+        sudo docker build -t $(BUILDTAG) $(FRONTENDBUILDPATH)
+      readyTimeout: '20000'
+
+  - task: SSH@0
+    displayName: "Remove Previous Frontend Container on VM"
+    continueOnError: true
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      commands: |
+        echo "Removing old Docker container..."
+        sudo docker rm -f $(CONTAINERNAME) || true
+      readyTimeout: '20000'
+
+  - task: SSH@0
+    displayName: "Run Docker Container"
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      commands: |
+        echo "Starting new Docker container..."
+        sudo docker run -d --name $(CONTAINERNAME) -p 3000:3000 $(BUILDTAG)
+      readyTimeout: '20000'
+\end{verbatim}
 
 \section{Testagem}
 

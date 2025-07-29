@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  29 JUL 2025 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  29 JUL 2025 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1499,11 +1499,20 @@ Cap\'{\i }tulo 3.
 
 ]
 Cap\'{\i }tulo 4.
-) (capitulos/reflexaotrabalho/reflexao.tex
+
 
 [7]
 
-[8
+[8]
+Overfull \hbox (7.20567pt too wide) in paragraph at lines 111--111
+[]        \T1/cmtl/m/n/10.95 sudo docker run -d --name $(CONTAINERNAME) -p 3000:3000 $(BUILDTAG)[] 
+ []
+
+) (capitulos/reflexaotrabalho/reflexao.tex
+
+[9]
+
+[10
 
 ]
 Cap\'{\i }tulo 5.
@@ -1513,15 +1522,15 @@ LaTeX Warning: Empty bibliography on input line 93.
 
 (appendices/appendixA.tex
 
-[9]
+[11]
 
-[10
+[12
 
 ]
 Ap\^endice A.
 )
 
-[11] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
+[13] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1543,7 +1552,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  992EAAC6F95CE7A8349817905681CD99;3774.
+(rerunfilecheck)             After:  1786DFEFFD1B4716F789D0DF196053CF;3887.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1554,17 +1563,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58632 strings out of 468149
- 1405567 string characters out of 5431082
- 2362417 words of memory out of 5000000
- 86382 multiletter control sequences out of 15000+600000
+ 58641 strings out of 468149
+ 1405808 string characters out of 5431082
+ 2368417 words of memory out of 5000000
+ 86388 multiletter control sequences out of 15000+600000
  644723 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,20n,131p,2534b,1692s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
-Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (25 pages, 143835 bytes).
+Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (27 pages, 166756 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 579 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
