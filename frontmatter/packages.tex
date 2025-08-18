@@ -1,0 +1,66 @@
+\usepackage{tikz} % Required for creating graphics programmatically (can be removed if not used)
+%\usetikzlibrary{arrows} % Required for fancy arrows in TiKZ graphics (can be removed if not used)
+
+\usepackage{pgfplots} % Required for drawing high--quality function plots (can be removed if not used)
+\pgfplotsset{compat=newest}
+
+\usepackage{listings}
+\usepackage{fancyvrb} % Important: allows listings to break across pages
+\usepackage{xcolor}   % For coloring
+\usepackage{caption}  % Optional: better captions
+
+% YAML language support
+\lstdefinelanguage{yaml}{
+    morekeywords={true,false,null,yes,no},
+    sensitive=true,
+    morecomment=[l]{\#},
+    morestring=[b]',
+    morestring=[b]",
+    alsoletter={-},
+    literate={:}{{\color{black}:}}{1},
+}
+
+% Global listing settings
+\lstset{
+    language=yaml,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{orange},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=10pt,
+    tabsize=4,
+    keepspaces=true,
+    breaklines=true,
+    breakatwhitespace=false,
+    breakautoindent=true,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+    prebreak=\space,
+    breakindent=10pt,
+    showstringspaces=false,
+    frame=tb,  % ⬅️ Use this instead of `single` to allow page breaks
+    inputpath=, % Remove path from file name in caption
+    captionpos=b,
+    aboveskip=1em,
+    belowskip=1em,
+    title=\lstname % Only show the file name, not the path
+}
+
+
+\usepackage{lmodern}
+\usepackage{graphicx} % Load Images
+
+\usepackage[style=authoryear-comp,backend=biber]{biblatex} 
+\addbibresource{mainbibliography.bib} % The filename of the bibliography
+
+\usepackage[acronym]{glossaries} % Load glossaries package
+\makeglossaries % build the glossary
+
+% Tudo para tabelas
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{tabularray}

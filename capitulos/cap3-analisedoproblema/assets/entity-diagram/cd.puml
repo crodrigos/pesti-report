@@ -1,0 +1,124 @@
+@startuml
+
+!pragma layout svek_trace
+
+skinparam linetype polyline
+
+hide empty members
+hide <<enum>> circle
+hide <<entity>> circle
+
+package main as "Main Package" {
+    entity professor as "Professor" <<entity>> {
+        * id: string
+        ---
+        name: string
+        email: string
+        phone: string
+    }
+
+    entity student as "Student" <<entity>> {
+        * id: string
+        ---
+        name: string
+        qualification: Qualification
+    }
+
+    entity qualification as "Qualification" <<enum>> {
+        * IT
+        * Marketing
+        * Research
+        * Design
+    }
+
+    entity university as "University" <<entity>> {
+        * id: string
+        ---
+        name: string
+        country: string
+        city: string
+    }
+
+    student "*" - "1" university : studies in
+    professor "*" --- "1" university : teaches in
+    student::qualification <- qualification
+
+
+    entity company as "Company" <<entity>> {
+        name: string
+        website: string
+    }
+
+    entity companyRep as "Company Representative" <<entity>> {
+        * id: string
+        ----
+        email: string
+        name: string
+        phoneNumber: string
+    }
+
+    company "1" -- "1" companyRep
+}
+
+
+
+
+
+entity iteration as "Course Iteration" <<entity>> {
+    * id : string
+    ----
+    name: string
+    startingDate: date
+    endingDate: date
+    locationKickoffMeeting: string
+    locationFinalMeeting: string
+    status: CourseStatus
+}
+
+CourseStatus -> iteration::CourseStatus
+
+enum CourseStatus as "CourseStatus" <<enum>> {
+    * Pending
+    * Ongoing
+    * Concluded
+}
+
+entity project as "Project" <<entity>> {
+    * id: string
+    ----
+    title: string
+    description: string
+}
+
+package pac_sub as "Project Submission" {
+    entity sub as "Project Submission" <<entity>> {
+        * id: string
+        ----
+        projectTitle: string
+        projectDescription: string
+        status: SubmissionStatus
+        ====
+        kickoffCommitment: int
+        midtermCommitment: int
+        finalMeetingCommitment: int
+        finacialContributionCommitment: int
+    }
+
+    enum SubmissionStatus <<enum>>{
+    * Submitted
+    * Verified
+    * Accepted
+    }
+
+    sub::status --> SubmissionStatus
+}
+
+iteration "1" -- "N" project
+project "1" ------- "1" companyRep
+project "1" -- "1" sub
+
+student "*" -- "1" project : works for
+professor "*" -- "0|*" project : supervises
+
+
+@enduml

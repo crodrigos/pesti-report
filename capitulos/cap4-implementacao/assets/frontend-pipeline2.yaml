@@ -1,0 +1,32 @@
+  - task: SSH@0
+    displayName: "Build Frontend Docker image on VM"
+    continueOnError: true
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      failOnStdErr: false
+      commands: |
+        echo "Building Docker image..."
+        sudo docker build -t $(BUILDTAG) $(FRONTENDBUILDPATH)
+      readyTimeout: '20000'
+
+  - task: SSH@0
+    displayName: "Remove Previous Frontend Container on VM"
+    continueOnError: true
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      commands: |
+        echo "Removing old Docker container..."
+        sudo docker rm -f $(CONTAINERNAME) || true
+      readyTimeout: '20000'
+
+  - task: SSH@0
+    displayName: "Run Docker Container"
+    inputs:
+      sshEndpoint: 'blended4future-vm'
+      runOptions: 'commands'
+      commands: |
+        echo "Starting new Docker container..."
+        sudo docker run -d --name $(CONTAINERNAME) -p 3000:3000 $(BUILDTAG)
+      readyTimeout: '20000'

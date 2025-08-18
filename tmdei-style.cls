@@ -295,6 +295,9 @@ KOMA-script documentation for details.}]{fancyhdr}
 
 \def\authorname{}
 \def\ttitle{}
+\def\stdnumber{}
+\newcommand*{\studentnumber}[1]{\def\stdnumber{#1}}
+\newcommand*{\company}[1]{\def\company{#1}}
 \newcommand*{\advisor}[1]{\def\advname{#1}}
 \newcommand*{\coadvisor}[1]{\def\coadvname{#1}}
 \newcommand*{\supervisor}[1]{\def\supname{#1}}
@@ -314,9 +317,10 @@ KOMA-script documentation for details.}]{fancyhdr}
 %	TITLEPAGE PAGE DESIGN
 %----------------------------------------------------------------------------------------
 
-\newcommand{\dissertationdisclamer}{A dissertation submitted in partial fulfilment of the \\ requirements for the degree of Master of Science, Area of}
-\providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\dissertationdisclamer}{A dissertation submitted in partial fulfillment of \\ the requirements for the degree of Master of Science, Specialisation Area of}
-\providecaptionname{portuguese}{\dissertationdisclamer}{Disserta\c{c}\~ao para obten\c{c}\~ao do Grau de Mestre em \\ Engenharia Inform\'atica, \'Area de Especializa\c{c}\~ao em\\} % Portuguese 
+\newcommand{\dissertationdisclamer}{}
+\providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\dissertationdisclamer}{}
+\providecaptionname{portuguese}{\dissertationdisclamer}{} % Portuguese 
+
 \newcommand{\advisorlabel}{Orientador}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\advisorlabel}{Advisor}
 \providecaptionname{portuguese}{\advisorlabel}{Orientador}
@@ -341,36 +345,42 @@ KOMA-script documentation for details.}]{fancyhdr}
 
 \newcommand{\maketitlepage}{
 	\checktoopen
+
 	\begin{titlepage}
-	{\centering \includegraphics[width=3in]{/frontmatter/assets/isep_logo.pdf} \\}
-	\null\vfill
-	\begin{center}
-	{\Huge \bfseries \ttitle}\\ % Thesis title
-	\ifdefined\tsubtitle {\huge \bfseries \tsubtitle} \\ \fi % thesis sub title, if exists
-	\vfill
-	{\huge \bfseries \authorname}\\
-	\vfill
-	{\Large \bfseries \dissertationdisclamer~\subjectname}
-	\end{center}
-	\vfill
-	{\large \bfseries \noindent \advisorlabel: \advname } \\
-	\ifdefined\cosupname {\large \bfseries \coadvisorlabel: \coadvname} \\ \fi
-	{\large \bfseries \noindent \supervisorlabel: \supname } \\
-	\ifdefined\cosupname {\large \bfseries \cosupervisorlabel: \cosupname} \\ \fi
-	\vfill
-        % add the thesis committee, if committeepresident is defined
-        \ifdefined\presidentname { 
-    	{\normalsize \bfseries \noindent \evallabel:} \\
-    	{\normalsize \presidentlabel: } \\
-    	\bigskip
-    	{\normalsize \presidentname } \\
-    	{\normalsize \memberslabel:} \\
-    	{\normalsize \committee } \\
-    	\smallskip \\}
-        \fi 
-	\begin{center}
-	{\normalsize \tdate} % Date
-	\end{center}
+		
+		{\centering \includegraphics[width=5in]{/frontmatter/assets/isep_logo.pdf} \\}
+	
+		\null\vfill
+
+		\begin{center}
+
+			{\Huge \bfseries \ttitle}  % Thesis title
+
+			\null
+
+			\ifdefined\company {\large \bfseries \company} \\ \fi
+
+			\null 
+
+			\ifdefined\tsubtitle {\Large \bfseries \tsubtitle} \\ \fi % thesis sub title, if exists
+
+			\null \null
+
+			{\Large \bfseries \stdnumber} {\Large \bfseries \authorname} \\
+			
+			\null \null
+
+			{\large \bfseries \noindent \advisorlabel: \advname } \\
+
+		\end{center}
+
+		\vfill
+		\fi 
+
+		\begin{center}
+			{\Large \tdate} % Date
+		\end{center}
+	
 	\end{titlepage}
 }
 

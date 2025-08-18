@@ -16,18 +16,8 @@ nohyperreflinkcolor, % hyperref links are not colored (comment to color links, f
 headsepline, % Uncomment to get a line under the header
 ]{tmdei-style} % The class file specifying the document structure
 
-\usepackage{tikz} % Required for creating graphics programmatically (can be removed if not used)
-%\usetikzlibrary{arrows} % Required for fancy arrows in TiKZ graphics (can be removed if not used)
-
-\usepackage{pgfplots} % Required for drawing high--quality function plots (can be removed if not used)
-\pgfplotsset{compat=newest}
-
-\usepackage[style=authoryear-comp,backend=biber]{biblatex} 
-
-\addbibresource{mainbibliography.bib} % The filename of the bibliography
-
-\usepackage[acronym]{glossaries} % Load glossaries package
-\makeglossaries % build the glossary
+% Aqui está os imports de todos os packages
+\input{frontmatter/packages.tex}
 
 %----------------------------------------------------------------------------------------
 %	THESIS INFORMATION
@@ -37,7 +27,11 @@ headsepline, % Uncomment to get a line under the header
 
 %\thesissubtitle{{[}Thesis Subtitle{]}} % Your thesis title, this is used in the title, print it elsewhere with \tsubtitle
 
-\author{Carlos Santos} % Your name, this is used in the title page, print it elsewhere with \authorname
+\author{Carlos Rodrigo Marques dos Santos} % Your name, this is used in the title page, print it elsewhere with \authorname
+
+\studentnumber{1201367}
+
+\company{Blended4Future}
 
 \subjectarea{Engenharia de Software} % Specialisation area (Cybersecurity and Systems Administration; Data Engineering; Software Engineering;Games, Graphics and Interactive Systems; Information and Knowledge Systems), used in the title page, print it elsewhere with \areaname
 
@@ -98,13 +92,13 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
-\begin{appendices}
+% \begin{appendices}
 
-\input{appendices/appendixA}
-%\input{appendices/appendixB}
-%\input{appendices/appendixC}
+% %\input{appendices/appendixA}
+% %\input{appendices/appendixB}
+% %\input{appendices/appendixC}
 
-\end{appendices}
+% \end{appendices}
 %----------------------------------------------------------------------------------------
 
 \end{document}
