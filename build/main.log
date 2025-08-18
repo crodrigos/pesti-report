@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  18 AUG 2025 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  18 AUG 2025 21:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -878,6 +878,13 @@ Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \c@FancyVerbLine=\count413
 \FV@StepNumber=\count414
 \FV@OutFile=\write4
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip74
+\fb@frw=\dimen345
+\fb@frh=\dimen346
+\FrameRule=\dimen347
+\FrameSep=\dimen348
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
@@ -932,14 +939,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@sectionciteorderinternal@0=\count456
 \blx@entrysetcounter=\count457
 \blx@biblioinstance=\count458
-\labelnumberwidth=\skip74
-\labelalphawidth=\skip75
-\biblabelsep=\skip76
-\bibitemsep=\skip77
-\bibnamesep=\skip78
-\bibinitsep=\skip79
-\bibparsep=\skip80
-\bibhang=\skip81
+\labelnumberwidth=\skip75
+\labelalphawidth=\skip76
+\biblabelsep=\skip77
+\bibitemsep=\skip78
+\bibnamesep=\skip79
+\bibinitsep=\skip80
+\bibparsep=\skip81
+\bibhang=\skip82
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language80
@@ -1023,20 +1030,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count527
 \c@pageref=\count528
 \c@savedpageref=\count529
-\shorthandwidth=\skip82
-\shortjournalwidth=\skip83
-\shortserieswidth=\skip84
-\shorttitlewidth=\skip85
-\shortauthorwidth=\skip86
-\shorteditorwidth=\skip87
-\locallabelnumberwidth=\skip88
-\locallabelalphawidth=\skip89
-\localshorthandwidth=\skip90
-\localshortjournalwidth=\skip91
-\localshortserieswidth=\skip92
-\localshorttitlewidth=\skip93
-\localshortauthorwidth=\skip94
-\localshorteditorwidth=\skip95
+\shorthandwidth=\skip83
+\shortjournalwidth=\skip84
+\shortserieswidth=\skip85
+\shorttitlewidth=\skip86
+\shortauthorwidth=\skip87
+\shorteditorwidth=\skip88
+\locallabelnumberwidth=\skip89
+\locallabelalphawidth=\skip90
+\localshorthandwidth=\skip91
+\localshortjournalwidth=\skip92
+\localshortserieswidth=\skip93
+\localshorttitlewidth=\skip94
+\localshortauthorwidth=\skip95
+\localshorteditorwidth=\skip96
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -1124,7 +1131,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen345
+\@linkdim=\dimen349
 \Hy@linkcounter=\count542
 \Hy@pagecounter=\count543
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
@@ -1149,15 +1156,15 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count545
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen346
+\XeTeXLinkMargin=\dimen350
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count546
-\Field@Width=\dimen347
-\Fld@charsize=\dimen348
+\Field@Width=\dimen351
+\Fld@charsize=\dimen352
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -1181,43 +1188,43 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip96
+\Hy@SectionHShift=\skip97
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 56.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 56.
-Package hyperref Info: Option `colorlinks' set `false' on input line 56.
-Package hyperref Info: Option `unicode' set `true' on input line 56.
-Package hyperref Info: Option `breaklinks' set `true' on input line 56.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 58.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 58.
+Package hyperref Info: Option `colorlinks' set `false' on input line 58.
+Package hyperref Info: Option `unicode' set `true' on input line 58.
+Package hyperref Info: Option `breaklinks' set `true' on input line 58.
 \glswrite=\write6
 \glo@main@file=\write7
 \openout7 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 59.
+Package glossaries Info: Writing glossary file main.glo on input line 61.
 \glo@acronym@file=\write8
 \openout8 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 59.
+Package glossaries Info: Writing glossary file main.acn on input line 61.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen349
-\TX@old@table=\dimen350
-\TX@old@col=\dimen351
-\TX@target=\dimen352
-\TX@delta=\dimen353
+\TX@col@width=\dimen353
+\TX@old@table=\dimen354
+\TX@old@col=\dimen355
+\TX@target=\dimen356
+\TX@delta=\dimen357
 \TX@cols=\count552
 \TX@ftn=\toks62
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen354
+\rotheadsize=\dimen358
 \c@nlinenum=\count553
 \TeXr@lab=\toks63
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip97
+\multirow@colwidth=\skip98
 \multirow@cntb=\count554
-\multirow@dima=\skip98
-\bigstrutjot=\dimen355
-)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.sty
+\multirow@dima=\skip99
+\bigstrutjot=\dimen359
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.sty
 Package: tabularray 2025-03-11 v2025A Typeset tabulars and arrays with LaTeX3
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
@@ -1225,16 +1232,16 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 \l__tblr_a_int=\count555
 \l__tblr_c_int=\count556
 \l__tblr_r_int=\count557
-\l__tblr_d_dim=\dimen356
-\l__tblr_h_dim=\dimen357
-\l__tblr_o_dim=\dimen358
-\l__tblr_p_dim=\dimen359
-\l__tblr_q_dim=\dimen360
-\l__tblr_r_dim=\dimen361
-\l__tblr_s_dim=\dimen362
-\l__tblr_t_dim=\dimen363
-\l__tblr_v_dim=\dimen364
-\l__tblr_w_dim=\dimen365
+\l__tblr_d_dim=\dimen360
+\l__tblr_h_dim=\dimen361
+\l__tblr_o_dim=\dimen362
+\l__tblr_p_dim=\dimen363
+\l__tblr_q_dim=\dimen364
+\l__tblr_r_dim=\dimen365
+\l__tblr_s_dim=\dimen366
+\l__tblr_t_dim=\dimen367
+\l__tblr_v_dim=\dimen368
+\l__tblr_w_dim=\dimen369
 \l__tblr_a_box=\box90
 \l__tblr_b_box=\box91
 \l__tblr_c_box=\box92
@@ -1244,10 +1251,10 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 \c@colnum=\count560
 \c@rowcount=\count561
 \c@colcount=\count562
-\abovesep=\dimen366
-\belowsep=\dimen367
-\leftsep=\dimen368
-\rightsep=\dimen369
+\abovesep=\dimen370
+\belowsep=\dimen371
+\leftsep=\dimen372
+\rightsep=\dimen373
 \gTblrLevelInt=\count563
 \g__tblr_data_row_key_count_int=\count564
 \g__tblr_data_column_key_count_int=\count565
@@ -1266,35 +1273,35 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 \l__child_sign_h_int=\count578
 \l__child_sign_v_int=\count579
 \l__child_step_int=\count580
-\lTblrDefaultHruleWidthDim=\dimen370
-\lTblrDefaultVruleWidthDim=\dimen371
+\lTblrDefaultHruleWidthDim=\dimen374
+\lTblrDefaultVruleWidthDim=\dimen375
 \l__tblr_split_balance_int=\count581
-\l__tblr_strut_dp_dim=\dimen372
-\l__tblr_strut_ht_dim=\dimen373
-\g__tblr_cell_wd_dim=\dimen374
-\g__tblr_cell_ht_dim=\dimen375
-\g__tblr_cell_head_dim=\dimen376
-\g__tblr_cell_foot_dim=\dimen377
+\l__tblr_strut_dp_dim=\dimen376
+\l__tblr_strut_ht_dim=\dimen377
+\g__tblr_cell_wd_dim=\dimen378
+\g__tblr_cell_ht_dim=\dimen379
+\g__tblr_cell_head_dim=\dimen380
+\g__tblr_cell_foot_dim=\dimen381
 \l__tblr_measured_cell_box=\box94
 \g__tblr_last_box=\box95
 \l__tblr_temp_box=\box96
-\l__tblr_column_target_dim=\dimen378
-\l__tblr_hfuzz_dim=\dimen379
+\l__tblr_column_target_dim=\dimen382
+\l__tblr_hfuzz_dim=\dimen383
 \l__tblr_caption_box=\box97
 \l__tblr_caption_left_box=\box98
 \lTblrRowHeadInt=\count582
 \lTblrRowFootInt=\count583
 \l__tblr_row_head_box=\box99
 \l__tblr_row_foot_box=\box100
-\l__tblr_row_head_foot_dim=\dimen380
-\lTblrTableWidthDim=\dimen381
+\l__tblr_row_head_foot_dim=\dimen384
+\lTblrTableWidthDim=\dimen385
 \l__tblr_table_firsthead_box=\box101
 \l__tblr_table_middlehead_box=\box102
 \l__tblr_table_lasthead_box=\box103
 \l__tblr_table_firstfoot_box=\box104
 \l__tblr_table_middlefoot_box=\box105
 \l__tblr_table_lastfoot_box=\box106
-\l__tblr_remain_height_dim=\dimen382
+\l__tblr_remain_height_dim=\dimen386
 \l__tblr_long_from_int=\count584
 \l__tblr_long_to_int=\count585
 \l__tblr_curr_i_int=\count586
@@ -1302,53 +1309,63 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 \lTblrTablePageInt=\count588
 \l__tblr_table_head_box=\box107
 \l__tblr_table_foot_box=\box108
-\l__tblr_table_head_foot_dim=\dimen383
-\l__tblr_table_head_body_foot_dim=\dimen384
+\l__tblr_table_head_foot_dim=\dimen387
+\l__tblr_table_head_body_foot_dim=\dimen388
 \l__tblr_table_box=\box109
 \lTblrRowFirstInt=\count589
 \lTblrRowLastInt=\count590
 \l__tblr_table_hlines_box=\box110
 \l__tblr_hline_box=\box111
 \l__tblr_row_box=\box112
-\l__tblr_col_o_wd_dim=\dimen385
-\l__tblr_col_b_wd_dim=\dimen386
-\l__tblr_hline_leftskip_dim=\dimen387
-\l__tblr_hline_rightskip_dim=\dimen388
-\l__tblr_row_ht_dim=\dimen389
-\l__tblr_row_dp_dim=\dimen390
-\l__tblr_row_abovesep_dim=\dimen391
-\l__tblr_row_belowsep_dim=\dimen392
+\l__tblr_col_o_wd_dim=\dimen389
+\l__tblr_col_b_wd_dim=\dimen390
+\l__tblr_hline_leftskip_dim=\dimen391
+\l__tblr_hline_rightskip_dim=\dimen392
+\l__tblr_row_ht_dim=\dimen393
+\l__tblr_row_dp_dim=\dimen394
+\l__tblr_row_abovesep_dim=\dimen395
+\l__tblr_row_belowsep_dim=\dimen396
 \l__tblr_row_vlines_box=\box113
 \l__tblr_vline_box=\box114
 \l__tblr_cell_box=\box115
-\l__tblr_row_upper_dim=\dimen393
-\l__tblr_row_lower_dim=\dimen394
-\l__tblr_row_vpace_dim=\dimen395
-\l__tblr_vline_aboveskip_dim=\dimen396
-\l__tblr_vline_belowskip_dim=\dimen397
+\l__tblr_row_upper_dim=\dimen397
+\l__tblr_row_lower_dim=\dimen398
+\l__tblr_row_vpace_dim=\dimen399
+\l__tblr_vline_aboveskip_dim=\dimen400
+\l__tblr_vline_belowskip_dim=\dimen401
 \lTblrCellRowSpanInt=\count591
 \lTblrCellColSpanInt=\count592
-\l__tblr_cell_wd_dim=\dimen398
-\l__tblr_cell_ht_dim=\dimen399
-\lTblrCellAboveBorderWidthDim=\dimen400
-\lTblrCellBelowBorderWidthDim=\dimen401
-\lTblrCellLeftBorderWidthDim=\dimen402
-\lTblrCellRightBorderWidthDim=\dimen403
+\l__tblr_cell_wd_dim=\dimen402
+\l__tblr_cell_ht_dim=\dimen403
+\lTblrCellAboveBorderWidthDim=\dimen404
+\lTblrCellBelowBorderWidthDim=\dimen405
+\lTblrCellLeftBorderWidthDim=\dimen406
+\lTblrCellRightBorderWidthDim=\dimen407
 \l__tblr_diag_box=\box116
-\l__tblr_cell_inner_wd_dim=\dimen404
-\l__tblr_cell_inner_dp_dim=\dimen405
-\l__tblr_cell_hanchor_dim=\dimen406
-\l__tblr_last_cell_table_ht_dim=\dimen407
-\l__tblr_last_cell_table_dp_dim=\dimen408
-\l__tblr_last_vline_wd_dim=\dimen409
+\l__tblr_cell_inner_wd_dim=\dimen408
+\l__tblr_cell_inner_dp_dim=\dimen409
+\l__tblr_cell_hanchor_dim=\dimen410
+\l__tblr_last_cell_table_ht_dim=\dimen411
+\l__tblr_last_cell_table_dp_dim=\dimen412
+\l__tblr_last_vline_wd_dim=\dimen413
 \l__tblr_tikz_node_box=\box117
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/lscapeenhanced\lscapeenhanced.sty
+Package: lscapeenhanced 2024-04-16 v1.0 improved lscape package
+Package lscapeenhanced Info: \landscape patched to make \textheight change optional on input line 72.
+\@lscapeenhanced@textheight=\skip100
 )
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
-Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 16.
-)
+
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -1369,17 +1386,19 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 61.
 Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 61.
- (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count593
-\scratchdimen=\dimen410
+\scratchdimen=\dimen414
 \scratchbox=\box118
 \nofMPsegments=\count594
 \nofMParguments=\count595
 \everyMPshowfont=\toks64
 \MPscratchCnt=\count596
-\MPscratchDim=\dimen411
+\MPscratchDim=\dimen415
 \MPnumerator=\count597
 \makeMPintoPDFobject=\count598
 \everyMPtoPDFconversion=\toks65
@@ -1468,7 +1487,6 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 61.
 Package biblatex Info: Reference segment=0 on input line 61.
 Package hyperref Info: Link coloring OFF on input line 61.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out) (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
 
@@ -1477,7 +1495,7 @@ Package hyperref Info: Link coloring OFF on input line 61.
 \openout10 = `main.glsdefs'.
 
 )
-<.//frontmatter/assets/isep_logo.pdf, id=118, 8130.375pt x 993.7125pt>
+<.//frontmatter/assets/isep_logo.pdf, id=6, 8130.375pt x 993.7125pt>
 File: .//frontmatter/assets/isep_logo.pdf Graphic file (type pdf)
 <use .//frontmatter/assets/isep_logo.pdf>
 Package pdftex.def Info: .//frontmatter/assets/isep_logo.pdf  used on input line 12.
@@ -1560,7 +1578,8 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.95> not available
 
 [3
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.toc)
+]
+No file main.toc.
 \tf@toc=\write11
 \openout11 = `main.toc'.
 
@@ -1568,10 +1587,8 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.95> not available
 
 [4
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 7.
-)
+]
+No file main.lof.
 \tf@lof=\write12
 \openout12 = `main.lof'.
 
@@ -1579,7 +1596,8 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
 
 [5
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot)
+]
+No file main.lot.
 \tf@lot=\write13
 \openout13 = `main.lot'.
 
@@ -1601,19 +1619,25 @@ No file main.acr.
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <20.74> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 9.
 
 
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 46.
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 47.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
 
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 65.
-[2] (capitulos/cap1-introducao/tabelas/tab-organizacao-sprint.tex
+(babel)             Reported on input line 64.
+[2]
+
+LaTeX Warning: Reference `tab:organizacao_sprints' on page 3 undefined on input line 67.
+
+(capitulos/cap1-introducao/tabelas/tab-organizacao-sprint.tex
 Overfull \vbox (62.40417pt too high) detected at line 46
  []
 
@@ -1653,39 +1677,35 @@ Underfull \hbox (badness 10000) in alignment at lines 46--46
 LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 (Font)              using `T1/cmbr/m/n' instead on input line 47.
 
-)) (capitulos/cap2-estadodaarte/estadodaarte.tex
+) (capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex)
 
-[3]
+LaTeX Warning: Reference `tab:tecnologias-mais-utilizadas' on page 3 undefined on input line 80.
+
+
+
+[3]) (capitulos/cap2-estadodaarte/estadodaarte.tex
+
+[4]
 Cap\'{\i }tulo 2.
 ) (capitulos/cap3-analisedoproblema/analisedoproblema.tex
-
-[4
-
-]
-Cap\'{\i }tulo 3.
-) (capitulos/cap4-implementacao/implementacao.tex
 
 [5
 
 ]
-Cap\'{\i }tulo 4.
-(capitulos/cap4-implementacao/assets/frontend-pipeline1.yaml
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1.
-)
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 17.
- (capitulos/cap4-implementacao/assets/frontend-pipeline2.yaml)) (capitulos/reflexaotrabalho/reflexao.tex
+Cap\'{\i }tulo 3.
+) (capitulos/cap4-implementacao/implementacao.tex
 
 [6
 
 ]
 
 [7]
+Cap\'{\i }tulo 4.
+) (capitulos/reflexaotrabalho/reflexao.tex
 
-[8]
+[8
+
+]
 Cap\'{\i }tulo 5.
 )
 
@@ -1704,24 +1724,41 @@ L3 programming layer <2020/03/25>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 939A7F85B654E0623436EB4BC2AFA5B5;4111.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  7D2ECD809F132EA0E214A8051E10D1A3;5734.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 62131 strings out of 468149
- 1485007 string characters out of 5431082
- 2921760 words of memory out of 5000000
- 89757 multiletter control sequences out of 15000+600000
- 648430 words of font info for 84 fonts, out of 8000000 for 9000
+ 61853 strings out of 468149
+ 1484050 string characters out of 5431082
+ 2459250 words of memory out of 5000000
+ 89543 multiletter control sequences out of 15000+600000
+ 645472 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,21n,131p,2534b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrmi10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
-Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (17 pages, 235972 bytes).
+ 101i,21n,131p,2534b,1692s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
+Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (17 pages, 182210 bytes).
 PDF statistics:
- 907 PDF objects out of 1000 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
