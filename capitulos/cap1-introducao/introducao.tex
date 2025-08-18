@@ -38,26 +38,25 @@ A interface da aplicação deverá seguir as diretrizes de design definidas prev
 
 
 \section{Abordagem}
+
 \subsection{A equipa}
 
 A equipa foi composta por um grupo de estudantes provenientes de várias universidades europeias, com a seguinte constituição:
 
 \begin{itemize}
-    \item \textbf{5 Desenvolvedores};
-    \item \textbf{1 Designer};
-    \item \textbf{1 Marketer}.
+    \item 5 Desenvolvedores
+    \item 1 Designer
+    \item 1 Marketer
 \end{itemize}
 
 A equipa de IT, constituída por cinco desenvolvedores, foi organizada em duas subequipas: 
 \begin{itemize}
-    \item \textbf{3 estudantes} dedicados ao desenvolvimento de \textit{Backend};
-    \item \textbf{2 estudantes} dedicados ao desenvolvimento de \textit{Frontend}.
+    \item 3 estudantes dedicados ao desenvolvimento de \textit{Backend}
+    \item 2 estudantes dedicados ao desenvolvimento de \textit{Frontend}, incluindo o autor deste relatório, que integrou esta subequipa para participar no desenvolvimento da interface de utilizador.
 \end{itemize}
 
 Esta divisão teve como objetivo garantir um maior avanço na lógica de negócio durante a fase inicial do projeto. 
-Numa etapa posterior, quando a lógica estivesse próxima da sua conclusão, alguns dos estudantes poderiam \textbf{transitar} para a subequipa de \textit{Frontend}, focando-se então na criação da \textbf{interface de utilizador}.
-
-
+Numa etapa posterior, quando a lógica estivesse próxima da sua conclusão, alguns dos estudantes poderiam transitar para a subequipa de \textit{Frontend}, focando-se então na criação da interface de utilizador.
 
 \subsection{Metodologia de trabalho}
 
@@ -69,3 +68,28 @@ A tabela \ref{tab:organizacao_sprints} demonstra de sprints que foi escolhida pe
 
 %tab:organizacao_sprints
 \input{capitulos/cap1-introducao/tabelas/tab-organizacao-sprint.tex}
+
+\subsection{Tecnologias Definidas}
+
+Atendendo à heterogeneidade da equipa, composta por indivíduos com diferentes experiências e origens académicas, tornou-se imperativo definir consensualmente as tecnologias a utilizar no projeto. Para tal, procedeu-se ao levantamento sistemático das ferramentas previamente utilizadas pelos elementos da equipa, tendo-se optado, em média, pelas tecnologias mais frequentemente referidas e consideradas mais adequadas à criação de interfaces de utilizador e à implementação de APIs do tipo REST.
+
+\input{capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex}
+
+Houve uma clara preferência quanto ao uso de linguagens com tipagem forte. Esta permite a melhor rastreamento de erros e a garante o formato dos objetos no programa. Esta preferência teve como base principal a inexperiência de vários elementos da equipa.
+
+A tabela \ref{tab:tecnologias-mais-utilizadas} demonstra este levantamento que permitiu à equipa fundamentar a decisão sobre as tecnologias a adoptar:
+
+\begin{enumerate}
+    \item \textbf{Java}: Linguagem de programação orientada a objetos amplamente utilizada no desenvolvimento de aplicações empresariais e sistemas robustos. A sua integração com o ecossistema Spring possibilita a criação eficiente de APIs REST, suportando a escalabilidade e manutenção do software. A sua tipagem forte permite que erros sejam mais faceis de evitar, principalmente para desenvolvedores com pouca experiência.  \cite{spring-rest-intro,geeksforgeeks-rest,spring-guides}.
+        \begin{enumerate}
+            \item \textbf{Spring}: Framework que simplifica o desenvolvimento de aplicações Java, especialmente no contexto de serviços web RESTful. Permite a gestão de pedidos HTTP, serialização de dados em JSON e integração com múltiplas bases de dados, favorecendo a modularidade e segurança das aplicações \cite{spring-rest-intro,geeksforgeeks-rest,spring-guides}.
+        \end{enumerate}
+    \item \textbf{TypeScript}: Linguagem de programação baseada em JavaScript, que integra tipagem estática e recursos avançados, facilitando o desenvolvimento de interfaces de utilizador complexas e a manutenção de grandes bases de código. A sua adoção é relevante na construção de aplicações web modernas e escaláveis.
+    \begin{enumerate}
+        \item \textbf{React TS}: Framework de desenvolvimento frontend baseada em componentes, que alia a flexibilidade do React à segurança oferecida pela tipagem forte do TypeScript. Esta combinação permite construir interfaces de utilizador dinâmicas, reutilizáveis e com maior robustez, suportando os modernos paradigmas de desenvolvimento web.
+    \end{enumerate}
+    \item \textbf{MySQL}: Sistema de gestão de bases de dados relacional de código aberto, amplamente utilizado em projetos de engenharia de software pela sua confiabilidade, eficiência no processamento de dados e compatibilidade com múltiplas linguagens de programação.
+\end{enumerate}
+
+
+% REF: tab:tecnologias-mais-utilizadas
