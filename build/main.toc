@@ -25,30 +25,38 @@
 \contentsline {subparagraph}{React TS}{6}{section*.36}%
 \contentsline {subparagraph}{TailwindCSS}{7}{section*.37}%
 \contentsline {paragraph}{MySQL}{7}{section*.38}%
-\contentsline {section}{\numberline {1.5}Dificuldades enfrentadas}{7}{section.39}%
-\contentsline {subsection}{\numberline {1.5.1}}{7}{subsection.40}%
-\contentsline {chapter}{\numberline {2}Estado da Arte}{8}{chapter.41}%
-\contentsline {chapter}{\numberline {3}Analise do problema e desenho de uma solução}{9}{chapter.42}%
-\contentsline {section}{\numberline {3.1}O Dominio}{9}{section.43}%
-\contentsline {section}{\numberline {3.2}Engenharia de requisitos}{9}{section.45}%
-\contentsline {subsection}{\numberline {3.2.1}User Flow Chart}{9}{subsection.46}%
-\contentsline {subsection}{\numberline {3.2.2}Requisitos funcionais}{9}{subsection.47}%
-\contentsline {subsubsection}{Casos de uso}{9}{section*.48}%
-\contentsline {subsection}{\numberline {3.2.3}Requisitos não Funcionais}{9}{subsection.49}%
-\contentsline {section}{\numberline {3.3}Arquitetura do sistema}{10}{section.50}%
-\contentsline {subsection}{\numberline {3.3.1}Desenho do sistema}{10}{subsection.51}%
-\contentsline {subsection}{\numberline {3.3.2}Nivel 1}{10}{subsection.52}%
-\contentsline {subsection}{\numberline {3.3.3}Nivel 2}{10}{subsection.53}%
-\contentsline {subsection}{\numberline {3.3.4}Nivel 3}{10}{subsection.54}%
-\contentsline {subsection}{\numberline {3.3.5}Nivel 4 - Código}{10}{subsection.55}%
-\contentsline {subsection}{\numberline {3.3.6}Padrões utilizados}{10}{subsection.56}%
-\contentsline {chapter}{\numberline {4}Implementação de uma solução}{11}{chapter.57}%
-\contentsline {section}{\numberline {4.1}A Implementação}{11}{section.58}%
-\contentsline {subsection}{\numberline {4.1.1}}{11}{subsection.59}%
-\contentsline {subsection}{\numberline {4.1.2}Frontend}{11}{subsection.60}%
-\contentsline {subsection}{\numberline {4.1.3}Deployments}{11}{subsection.61}%
-\contentsline {section}{\numberline {4.2}Testes}{11}{section.62}%
-\contentsline {subsection}{\numberline {4.2.1}Testes Unitários}{11}{subsection.63}%
-\contentsline {subsection}{\numberline {4.2.2}Testes de Implementação}{11}{subsection.64}%
-\contentsline {section}{\numberline {4.3}Avaliação da solução}{11}{section.65}%
-\contentsline {chapter}{\numberline {5}Reflexão sobre trabalho em equipa}{12}{chapter.66}%
+\contentsline {section}{\numberline {1.5}Desafios enfrentados}{7}{section.39}%
+\contentsline {subsection}{\numberline {1.5.1}Expectativa criada}{7}{subsection.40}%
+\contentsline {subsection}{\numberline {1.5.2}Problemas}{7}{subsection.41}%
+\contentsline {subsubsection}{Falta de comunicação}{7}{section*.42}%
+\contentsline {subsubsection}{Incumprimento de tarefas}{7}{section*.43}%
+\contentsline {subsubsection}{Desconhecimento sobre as ferramentas}{7}{section*.44}%
+\contentsline {subsection}{\numberline {1.5.3}Tentativas de solução}{7}{subsection.45}%
+\contentsline {subsubsection}{Reuniões de equipa}{7}{section*.46}%
+\contentsline {subsubsection}{Comunicação com os professores envolvidos}{7}{section*.47}%
+\contentsline {subsubsection}{Redução da scope do projeto}{7}{section*.48}%
+\contentsline {chapter}{\numberline {2}Estado da Arte}{8}{chapter.49}%
+\contentsline {chapter}{\numberline {3}Analise do problema e desenho de uma solução}{9}{chapter.50}%
+\contentsline {section}{\numberline {3.1}O Dominio}{9}{section.51}%
+\contentsline {section}{\numberline {3.2}Engenharia de requisitos}{9}{section.53}%
+\contentsline {subsection}{\numberline {3.2.1}User Flow Chart}{9}{subsection.54}%
+\contentsline {subsection}{\numberline {3.2.2}Requisitos funcionais}{9}{subsection.55}%
+\contentsline {subsubsection}{Casos de uso}{9}{section*.56}%
+\contentsline {subsection}{\numberline {3.2.3}Requisitos não Funcionais}{9}{subsection.57}%
+\contentsline {section}{\numberline {3.3}Arquitetura do sistema}{10}{section.58}%
+\contentsline {subsection}{\numberline {3.3.1}Desenho do sistema}{10}{subsection.59}%
+\contentsline {subsection}{\numberline {3.3.2}Nivel 1}{10}{subsection.60}%
+\contentsline {subsection}{\numberline {3.3.3}Nivel 2}{10}{subsection.61}%
+\contentsline {subsection}{\numberline {3.3.4}Nivel 3}{10}{subsection.62}%
+\contentsline {subsection}{\numberline {3.3.5}Nivel 4 - Código}{10}{subsection.63}%
+\contentsline {subsection}{\numberline {3.3.6}Padrões utilizados}{10}{subsection.64}%
+\contentsline {chapter}{\numberline {4}Implementação de uma solução}{11}{chapter.65}%
+\contentsline {section}{\numberline {4.1}A Implementação}{11}{section.66}%
+\contentsline {subsection}{\numberline {4.1.1}}{11}{subsection.67}%
+\contentsline {subsection}{\numberline {4.1.2}Frontend}{11}{subsection.68}%
+\contentsline {subsection}{\numberline {4.1.3}Deployments}{11}{subsection.69}%
+\contentsline {section}{\numberline {4.2}Testes}{11}{section.70}%
+\contentsline {subsection}{\numberline {4.2.1}Testes Unitários}{11}{subsection.71}%
+\contentsline {subsection}{\numberline {4.2.2}Testes de Implementação}{11}{subsection.72}%
+\contentsline {section}{\numberline {4.3}Avaliação da solução}{11}{section.73}%
+\contentsline {chapter}{\numberline {5}Reflexão sobre trabalho em equipa}{12}{chapter.74}%
