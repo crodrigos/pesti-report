@@ -15,16 +15,16 @@
 \contentsline {subsubsection}{Divisão de sprints}{3}{section*.22}%
 \contentsline {subsection}{\numberline {1.4.3}Tecnologias Definidas}{3}{subsection.24}%
 \contentsline {subsubsection}{Ferramentas de Gestão de projetos}{3}{section*.25}%
-\contentsline {paragraph}{Github Projects}{5}{section*.28}%
+\contentsline {paragraph}{Github Projects}{4}{section*.28}%
 \contentsline {paragraph}{Jira}{5}{section*.29}%
 \contentsline {subsubsection}{Tecnologias para desenvolvimento}{5}{section*.30}%
-\contentsline {paragraph}{Java}{5}{section*.32}%
-\contentsline {subparagraph}{Spring}{5}{section*.33}%
+\contentsline {paragraph}{Java}{6}{section*.32}%
+\contentsline {subparagraph}{Spring}{6}{section*.33}%
 \contentsline {subparagraph}{Junit}{6}{section*.34}%
 \contentsline {paragraph}{TypeScript}{6}{section*.35}%
 \contentsline {subparagraph}{React TS}{6}{section*.36}%
-\contentsline {subparagraph}{TailwindCSS}{7}{section*.37}%
-\contentsline {paragraph}{MySQL}{7}{section*.38}%
+\contentsline {subparagraph}{TailwindCSS}{6}{section*.37}%
+\contentsline {paragraph}{MySQL}{6}{section*.38}%
 \contentsline {section}{\numberline {1.5}Desafios enfrentados}{7}{section.39}%
 \contentsline {subsection}{\numberline {1.5.1}Expectativa criada}{7}{subsection.40}%
 \contentsline {subsection}{\numberline {1.5.2}Problemas}{7}{subsection.41}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  19 AUG 2025 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  20 AUG 2025 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1364,7 +1364,8 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
+
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -1388,7 +1389,7 @@ LaTeX Font Info:    ... okay on input line 61.
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
 (babel)             Reported on input line 61.
 Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 61.
- (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count593
 \scratchdimen=\dimen414
@@ -1631,7 +1632,7 @@ File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
 
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 64.
+(babel)             Reported on input line 62.
 [2] (capitulos/cap1-introducao/tabelas/tab-organizacao-sprint.tex
 Overfull \vbox (62.40417pt too high) detected at line 48
  []
@@ -1674,33 +1675,34 @@ LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 
 )
 
-LaTeX Warning: Reference `tab:organizacao_sprints' on page 3 undefined on input line 70.
+LaTeX Warning: Reference `tab:organizacao_sprints' on page 3 undefined on input line 72.
 
 
-LaTeX Warning: Reference `fig:devops-boards' on page 3 undefined on input line 81.
+LaTeX Warning: Reference `fig:devops-boards' on page 3 undefined on input line 83.
 
 
-LaTeX Warning: Reference `fig:devops-homepage' on page 3 undefined on input line 81.
+LaTeX Warning: Reference `fig:devops-homepage' on page 3 undefined on input line 83.
 
-<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=89, 1154.51324pt x 649.2255pt>
-File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic file (type png)
-<use capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>
-Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png  used on input line 86.
-(pdftex.def)             Requested size: 423.9459pt x 238.3968pt.
-<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=91, 970.22475pt x 380.622pt>
-File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic file (type png)
-<use capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>
-Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png  used on input line 92.
-(pdftex.def)             Requested size: 423.9459pt x 166.31262pt.
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 93.
 
 
 [3]
+<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=99, 1154.51324pt x 649.2255pt>
+File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic file (type png)
+<use capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>
+Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png  used on input line 88.
+(pdftex.def)             Requested size: 423.9459pt x 238.3968pt.
+<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=101, 970.22475pt x 380.622pt>
+File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic file (type png)
+<use capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>
+Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png  used on input line 94.
+(pdftex.def)             Requested size: 423.9459pt x 166.31262pt.
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 95.
+
 
 [4 <./capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png> <./capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>] (capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex)
 
-LaTeX Warning: Reference `tab:tecnologias-mais-utilizadas' on page 5 undefined on input line 116.
+LaTeX Warning: Reference `tab:tecnologias-mais-utilizadas' on page 5 undefined on input line 118.
 
 
 
@@ -1771,17 +1773,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61893 strings out of 468149
- 1485466 string characters out of 5431082
- 2456238 words of memory out of 5000000
- 89560 multiletter control sequences out of 15000+600000
+ 61890 strings out of 468149
+ 1485299 string characters out of 5431082
+ 2456247 words of memory out of 5000000
+ 89559 multiletter control sequences out of 15000+600000
  646275 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,21n,131p,2534b,1692s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
-Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (20 pages, 315625 bytes).
+Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (20 pages, 316293 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
+ 686 PDF objects out of 1000 (max. 8388607)
  96 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
