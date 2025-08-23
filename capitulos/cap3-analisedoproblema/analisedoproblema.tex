@@ -5,32 +5,78 @@
 
 \section{O Dominio}
 
-Este projeto tem como objetivo a criação de uma plataforma adaptada à organização e aos seus desafios. Para tal, foi necessário esquematizar a respetiva lógica de negócio.
+Este projeto teve como objetivo principal o desenvolvimento de uma plataforma ajustada às necessidades da organização e aos desafios por ela apresentados. Para tal, tornou-se essencial definir e estruturar cuidadosamente a lógica de negócio subjacente.
 
-Após discussões 
+Após várias sessões de discussão com os professores envolvidos, foi possível clarificar o domínio do problema e estabelecer uma visão mais sólida sobre a solução pretendida. Ao longo dos meses, essa visão foi sendo progressivamente aperfeiçoada, permitindo alinhar melhor os requisitos com os objetivos do projeto.
 
 \begin{figure}    
     \centering
-    %\includegraphics[width=\pagewidth]{capitulos/cap3-analisedoproblema/assets/entity-diagram/cd.png}
+    \includegraphics[width=\linewidth]{capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png}
     \caption{Diagrama de classes da lógica de negócio do Blended4Future 1}
-    \label{fig:cd}
+    \label{fig:dd}
 \end{figure}
 
 
+A figura \ref{fig:dd} refere-se ao diagrama finalizado que foi definido.
+
 \section{Engenharia de requisitos}
 
-Durantes os primeiros dois sprints foi estabelecido um \textit{backlog} de \textit{user stories} que refletia as funcionalidades necessárias
+A Engenharia de Requisitos é uma área da Engenharia de Software que se dedica à identificação, análise, especificação, validação e gestão das necessidades e expectativas das partes interessadas relativamente a um sistema, com o objetivo de transformar essas necessidades, muitas vezes vagas ou incompletas, em requisitos claros, compreensíveis e verificáveis.
 
+Esta secção dedica-se à apresentação dos requisitos estabelecidos para o sistema no arranque do projeto. 
+Para uma melhor organização, estes requisitos foram divididos em dois grupos distintos: funcionais, que descrevem as operações fundamentais que a aplicação deve garantir, e não funcionais, que representam as condições e restrições que asseguram o correto desempenho dessas operações.
 
-\subsection{User Flow Chart}
 
 \subsection{Requisitos funcionais}
+\label{subsection:requisitos_funcionais}
 
-\subsubsection{Casos de uso}
+Durantes os primeiros dois sprints, em conjunto dos professores, foi estabelecido um \textit{backlog} de \textit{user stories} que refletia a experiência desejada dos atores. 
+
+A tabela \ref{tab:req-funcionais} reflete esta decisão.
+\subsubsection{Diagram de \textit{User Flow}}
+
+Um Diagrama de \textit{User Flow} é uma representação visual que descreve o caminho que um utilizador percorre dentro de um sistema ou aplicação para atingir um objetivo específico. Para uma melhor experiência de desenvolvimento, um destes foi elaborado. Este pode ser encontrado no anexo \ref{app:userflowchart}.    
 
 \subsection{Requisitos não Funcionais}
 
-incluir tambem a necessidade de CI/CD Pipelines
+\subsubsection{FURPS}
+Para organizar e clarificar os requisitos do sistema, recorreu-se ao modelo \textbf{FURPS}, que permite classificar os requisitos em cinco categorias: 
+
+\paragraph{Functionality (Funcionalidade)}
+\begin{itemize}
+    \item Funcionalidades de backoffice e frontoffice asseguradas com a respetiva autenticação.
+\end{itemize}
+
+\paragraph{Usability (Usabilidade)}
+\begin{itemize}
+    \item Interface intuitiva e consistente, que siga as normas de design.
+    \item Navegação simples, permitindo localizar facilmente projetos e conteúdos.
+    \item Feedback visual claro sobre ações realizadas (erros, confirmações).
+\end{itemize}
+
+\paragraph{Reliability (Confiabilidade)}
+\begin{itemize}
+    \item Garantir que o programa se mantém ativo e disponivel, mesmo na presença de erros e outras adversidades.
+    \item Assegurar que novas versões são disponibilizadas sem prejudicar a persistência de informação na base de dados.
+\end{itemize}
+
+\paragraph{Performance (Desempenho)}
+\begin{itemize}
+    \item Resposta rápida da interface mesmo com múltiplos utilizadores.
+\end{itemize}
+
+\paragraph{Supportability (Suportabilidade)}
+\begin{itemize}
+    \item Código modular e documentado para facilitar manutenção futura.
+    \item Facilita a adição de novas funcionalidades ou integração com outras ferramentas.
+\end{itemize}
+
+
+Algumas destes requisitos foram considerados como casos de uso do programa e adicionados à tabela referida no ponto \ref{subsection:requisitos_funcionais} de forma a facilitar o processo de desenvolvimento. A tabela \ref{tab:req-nao-funcionais} subscreve esta decisão.
+
+\input{capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex}
+
+\input{capitulos/cap3-analisedoproblema/tabelas/requisitos-n-func/requisitos-n-func.tex}
 
 
 \section{Arquitetura do sistema}
