@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.23)  24 AUG 2025 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.23)  25 AUG 2025 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1356,7 +1356,7 @@ Package lscapeenhanced Info: \landscape patched to make \textheight change optio
 \@lscapeenhanced@textheight=\skip100
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)))
+))) (frontmatter/glossary.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
@@ -1365,25 +1365,25 @@ Package babel Info: 'portuguese' activates 'portuges' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 63.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count593
@@ -1404,8 +1404,37 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count599
-Package tocbasic Info: setting babel extension for `lol' on input line 61.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
+Package tocbasic Info: setting babel extension for `lol' on input line 63.
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs
+
+Package glossaries Warning: entry `RTS' has already been defined in the preamble (if you have moved the definition there from the document environment, delete main.glsdefs) on input line 27.
+
+
+Package glossaries Warning: entry `Docker' has already been defined in the preamble (if you have moved the definition there from the document environment, delete main.glsdefs) on input line 55.
+
+
+c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs:83: Package glossaries Error: name key required in \newglossaryentry for entry `label'.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 }
+      %
+You haven't specified the entry name
+
+
+c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.glsdefs:83: Package glossaries Error: description key required in \newglossaryentry for entry `label'.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 }
+      %
+You haven't specified the entry description
+
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1446,24 +1475,24 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating portuguese \dissertationdisclamer on input line 61.
-Package scrbase Info: activating portuguese \advisorlabel on input line 61.
-Package scrbase Info: activating portuguese \coadvisorlabel on input line 61.
-Package scrbase Info: activating portuguese \supervisorlabel on input line 61.
-Package scrbase Info: activating portuguese \cosupervisorlabel on input line 61.
-Package scrbase Info: activating portuguese \evallabel on input line 61.
-Package scrbase Info: activating portuguese \presidentlabel on input line 61.
-Package scrbase Info: activating portuguese \memberslabel on input line 61.
-Package scrbase Info: activating portuguese \statementlabel on input line 61.
-Package scrbase Info: activating portuguese \statementtext on input line 61.
-Package scrbase Info: activating portuguese \dedicationlabel on input line 61.
-Package scrbase Info: activating portuguese \abslabel on input line 61.
-Package scrbase Info: activating portuguese \keywordslabel on input line 61.
-Package scrbase Info: activating portuguese \abslabelotherlang on input line 61.
-Package scrbase Info: activating portuguese \abbrevname on input line 61.
-Package scrbase Info: activating portuguese \constantsname on input line 61.
-Package scrbase Info: activating portuguese \symbolsname on input line 61.
-Package scrbase Info: activating portuguese \acknowledgementlabel on input line 61.
+Package scrbase Info: activating portuguese \dissertationdisclamer on input line 63.
+Package scrbase Info: activating portuguese \advisorlabel on input line 63.
+Package scrbase Info: activating portuguese \coadvisorlabel on input line 63.
+Package scrbase Info: activating portuguese \supervisorlabel on input line 63.
+Package scrbase Info: activating portuguese \cosupervisorlabel on input line 63.
+Package scrbase Info: activating portuguese \evallabel on input line 63.
+Package scrbase Info: activating portuguese \presidentlabel on input line 63.
+Package scrbase Info: activating portuguese \memberslabel on input line 63.
+Package scrbase Info: activating portuguese \statementlabel on input line 63.
+Package scrbase Info: activating portuguese \statementtext on input line 63.
+Package scrbase Info: activating portuguese \dedicationlabel on input line 63.
+Package scrbase Info: activating portuguese \abslabel on input line 63.
+Package scrbase Info: activating portuguese \keywordslabel on input line 63.
+Package scrbase Info: activating portuguese \abslabelotherlang on input line 63.
+Package scrbase Info: activating portuguese \abbrevname on input line 63.
+Package scrbase Info: activating portuguese \constantsname on input line 63.
+Package scrbase Info: activating portuguese \symbolsname on input line 63.
+Package scrbase Info: activating portuguese \acknowledgementlabel on input line 63.
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package biblatex Info: Trying to load language 'portuguese'...
@@ -1479,19 +1508,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.bbl)
-Package biblatex Info: Reference section=0 on input line 61.
-Package biblatex Info: Reference segment=0 on input line 61.
-Package hyperref Info: Link coloring OFF on input line 61.
+Package biblatex Info: Reference section=0 on input line 63.
+Package biblatex Info: Reference segment=0 on input line 63.
+Package hyperref Info: Link coloring OFF on input line 63.
  (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out) (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
 
- (frontmatter/frontmatter.tex (frontmatter/glossary.tex
-\@gls@deffile=\write10
-\openout10 = `main.glsdefs'.
-
-)
-<.//frontmatter/assets/isep_logo.pdf, id=246, 8130.375pt x 993.7125pt>
+ (frontmatter/frontmatter.tex
+<.//frontmatter/assets/isep_logo.pdf, id=258, 8130.375pt x 993.7125pt>
 File: .//frontmatter/assets/isep_logo.pdf Graphic file (type pdf)
 <use .//frontmatter/assets/isep_logo.pdf>
 Package pdftex.def Info: .//frontmatter/assets/isep_logo.pdf  used on input line 12.
@@ -1584,27 +1609,27 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
 ]
 
 LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 73.
+(Font)              using `T1/cmbr/b/n' instead on input line 75.
 
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 74.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 76.
 )
-\tf@toc=\write11
-\openout11 = `main.toc'.
+\tf@toc=\write10
+\openout10 = `main.toc'.
 
 
 
 [5] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof)
-\tf@lof=\write12
-\openout12 = `main.lof'.
+\tf@lof=\write11
+\openout11 = `main.lof'.
 
 
 
 [6
 
 ] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot)
-\tf@lot=\write13
-\openout13 = `main.lot'.
+\tf@lot=\write12
+\openout12 = `main.lot'.
 
 
 
@@ -1612,6 +1637,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <10.95> not available
 
 ]
 No file main.acr.
+No file main.gls.
 
 
 [8
@@ -1681,12 +1707,12 @@ LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 )
 
 [3]
-<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=406, 1154.51324pt x 649.2255pt>
+<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=425, 1154.51324pt x 649.2255pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png  used on input line 98.
 (pdftex.def)             Requested size: 423.9459pt x 238.3968pt.
-<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=408, 970.22475pt x 380.622pt>
+<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=427, 970.22475pt x 380.622pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png  used on input line 104.
@@ -1713,47 +1739,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <14.4> not available
 
 ]
 Cap\'{\i }tulo 3.
-<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=447, 981.6675pt x 872.25874pt>
+<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=466, 981.6675pt x 872.25874pt>
 File: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png  used on input line 14.
-(pdftex.def)             Requested size: 423.9459pt x 376.68771pt.
-
-
-[10
-
-]
-
-[11 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)>] (capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
-
-[12] [13
-
-]
-
-[14]) (capitulos/cap3-analisedoproblema/tabelas/requisitos-n-func/requisitos-n-func.tex
-
-[15
-
-
-])) (capitulos/cap4-implementacao/implementacao.tex
-
-[16
-
-]
-Cap\'{\i }tulo 4.
-
-LaTeX Warning: Citation 'run-a-self-hosted-agent-in-docker' on page 17 undefined on input line 25.
-
-
-Overfull \hbox (23.90546pt too wide) in paragraph at lines 25--26
-[]\T1/cmbr/m/n/10.95 A Mi-cro-soft ofe-rece fer-ra-men-tas para aju-dar neste pro-cesso [[]].
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 33.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 33.
-<capitulos/cap4-implementacao/assets/devops-agent.png, id=491, 949.74825pt x 218.61674pt>
-File: capitulos/cap4-implementacao/assets/devops-agent.png Graphic file (type png)
-<use capitulos/cap4-implementacao/assets/devops-agent.png>
-Package pdftex.def Info: capitulos/cap4-implementacao/assets/devo
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png  used on 

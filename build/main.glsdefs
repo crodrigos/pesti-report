@@ -1,0 +1,84 @@
+\glsdefs@newdocentry{RTS}%
+{%
+name={\acronymfont {\glsentryshort {RTS}}},%
+sort={RTS},%
+type={acronym},%
+first={RTS},%
+firstplural={RTSs},%
+text={RTS},%
+plural={RTSs},%
+description={Real-Time System},%
+descriptionplural={Real-Time System},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Real-Time System},%
+longplural={Real-Time Systems},%
+short={RTS},%
+shortplural={RTSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Docker}%
+{%
+name={docker},%
+sort={docker},%
+type={main},%
+first={docker},%
+firstplural={dockers},%
+text={docker},%
+plural={dockers},%
+description={uma plataforma para construir e disponbilizar aplicações a partir de containers},%
+descriptionplural={uma plataforma para construir e disponbilizar aplicações a partir de containers},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{label}%
+{%
+name={\PackageError {glossaries}{name key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry name}},%
+sort={\PackageError {glossaries}{name key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry name}},%
+type={main},%
+first={\protect \GenericError  {(glossaries)                }{Package glossaries Error: name key required in \newglossaryentry for entry `label'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}},%
+firstplural={\protect \GenericError  {(glossaries)                }{Package glossaries Error: name key required in \newglossaryentry for entry `label'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}s},%
+text={\protect \GenericError  {(glossaries)                }{Package glossaries Error: name key required in \newglossaryentry for entry `label'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}},%
+plural={\protect \GenericError  {(glossaries)                }{Package glossaries Error: name key required in \newglossaryentry for entry `label'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}s},%
+description={\PackageError {glossaries} {description key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry description}},%
+descriptionplural={\PackageError {glossaries} {description key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry description}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

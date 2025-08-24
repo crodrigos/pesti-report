@@ -58,6 +58,8 @@ headsepline, % Uncomment to get a line under the header
 \hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
 
+\input{frontmatter/glossary.tex}
+
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -92,13 +94,7 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
-\begin{appendices}
-
-\input{appendices/a-userflowchart/appendix-a.tex}
-\input{appendices/b-pipeline-start.sh/appendix-b.tex}
-\input{appendices/c-pipeline-agent-dockerfile/appendix-c.tex}
-
-\end{appendices}
+\input{frontmatter/appendix.tex}
 %----------------------------------------------------------------------------------------
 
 \end{document}

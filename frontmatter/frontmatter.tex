@@ -1,5 +1,5 @@
 % we include the glossary here (frontmatter is included with \input, so this command is as if it was in main.tex)
-\input{frontmatter/glossary}
+
 
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
 
@@ -68,6 +68,8 @@ The optional Acknowledgment goes here\ldots Below is an example of a humorous ac
 
 \listoftables % Prints the list of tables
 
+
+
 \iflanguage{portuguese}{
 \renewcommand{\listalgorithmname}{Lista de Algor\'itmos}
 }
@@ -118,9 +120,8 @@ The optional Acknowledgment goes here\ldots Below is an example of a humorous ac
 \renewcommand{\listacronymname}{Lista de Acr\'onimos}
 }
 
-%Use GLS
-\glsresetall
-\printglossary[title=\listacronymname,type=\acronymtype,style=long]
+\printglossary[type=\acronymtype]
+\printglossary
 
 %----------------------------------------------------------------------------------------
 %	DONE
