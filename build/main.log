@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.23)  23 AUG 2025 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.23)  24 AUG 2025 18:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -959,7 +959,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count462
@@ -1067,36 +1067,31 @@ File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip22
 \c@smartand=\count538
 )
-Package biblatex Info: Trying to load bibliography style 'authoryear-comp'...
-Package biblatex Info: ... file 'authoryear-comp.bbx' found.
- (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear-comp.bbx
-File: authoryear-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
- (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear.bbx
-File: authoryear.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count539
 \c@bbx:relatedtotal=\count540
-)))
-Package biblatex Info: Trying to load citation style 'authoryear-comp'...
-Package biblatex Info: ... file 'authoryear-comp.cbx' found.
- (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear-comp.cbx
-File: authoryear-comp.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
@@ -1364,7 +1359,10 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (main.aux)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 16.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -1385,8 +1383,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
-Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 61.
 Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 61.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1486,7 +1482,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 61.
 Package biblatex Info: Reference segment=0 on input line 61.
 Package hyperref Info: Link coloring OFF on input line 61.
- (main.out) (main.out)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out) (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
 
@@ -1495,7 +1491,7 @@ Package hyperref Info: Link coloring OFF on input line 61.
 \openout10 = `main.glsdefs'.
 
 )
-<.//frontmatter/assets/isep_logo.pdf, id=6, 8130.375pt x 993.7125pt>
+<.//frontmatter/assets/isep_logo.pdf, id=246, 8130.375pt x 993.7125pt>
 File: .//frontmatter/assets/isep_logo.pdf Graphic file (type pdf)
 <use .//frontmatter/assets/isep_logo.pdf>
 Package pdftex.def Info: .//frontmatter/assets/isep_logo.pdf  used on input line 12.
@@ -1578,40 +1574,45 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.95> not available
 
 [3
 
-]
-No file main.toc.
-\tf@toc=\write11
-\openout11 = `main.toc'.
-
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.toc
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 39.
 
 
 [4
 
 ]
-No file main.lof.
+
+LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
+(Font)              using `T1/cmbr/b/n' instead on input line 73.
+
+LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <10.95> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 74.
+)
+\tf@toc=\write11
+\openout11 = `main.toc'.
+
+
+
+[5] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof)
 \tf@lof=\write12
 \openout12 = `main.lof'.
 
 
 
-[5
+[6
 
-]
-No file main.lot.
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot)
 \tf@lot=\write13
 \openout13 = `main.lot'.
 
 
 
-[6
+[7
 
 ]
 No file main.acr.
 
-
-[7
-
-]
 
 [8
 
@@ -1624,11 +1625,10 @@ Overfull \hbox (7.3534pt too wide) in paragraph at lines 8--9
 []\T1/cmbr/m/n/10.95 Ao longo deste ca-pÌ-tulo, ser· des-crito o con-texto em que o pro-jeto foi con-ce-bido, identificando-
  []
 
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 19.
 
 
 [1
+
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 57.
@@ -1680,23 +1680,13 @@ LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 
 )
 
-LaTeX Warning: Reference `tab:organizacao_sprints' on page 3 undefined on input line 82.
-
-
-
 [3]
-
-LaTeX Warning: Reference `fig:devops-homepage' on page 4 undefined on input line 93.
-
-
-LaTeX Warning: Reference `fig:devops-boards' on page 4 undefined on input line 93.
-
-<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=97, 1154.51324pt x 649.2255pt>
+<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=406, 1154.51324pt x 649.2255pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png  used on input line 98.
 (pdftex.def)             Requested size: 423.9459pt x 238.3968pt.
-<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=99, 970.22475pt x 380.622pt>
+<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=408, 970.22475pt x 380.622pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png  used on input line 104.
@@ -1707,10 +1697,6 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
 
 [4 <./capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>] (capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex)
 
-LaTeX Warning: Reference `tab:tecnologias-mais-utilizadas' on page 5 undefined on input line 128.
-
-
-
 [5 <./capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>]
 
 [6]) (capitulos/cap2-estadodaarte/estadodaarte.tex
@@ -1719,59 +1705,32 @@ LaTeX Warning: Reference `tab:tecnologias-mais-utilizadas' on page 5 undefined o
 
 [8]
 Cap\'{\i }tulo 2.
-
-LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 4.
-
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <14.4> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 8.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 4.
 ) (capitulos/cap3-analisedoproblema/analisedoproblema.tex
 
 [9
 
 ]
 Cap\'{\i }tulo 3.
-<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=157, 981.6675pt x 872.25874pt>
+<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=447, 981.6675pt x 872.25874pt>
 File: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png>
 Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png  used on input line 14.
 (pdftex.def)             Requested size: 423.9459pt x 376.68771pt.
-
-LaTeX Warning: Reference `fig:dd' on page 10 undefined on input line 20.
-
-
-LaTeX Warning: Reference `tab:req-funcionais' on page 10 undefined on input line 35.
-
-LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 36.
-
-LaTeX Warning: Reference `app:userflowchart' on page 10 undefined on input line 38.
-
 
 
 [10
 
 ]
 
-[11 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)>]
-
-LaTeX Warning: Reference `subsection:requisitos_funcionais' on page 12 undefined on input line 75.
-
-
-LaTeX Warning: Reference `tab:req-nao-funcionais' on page 12 undefined on input line 75.
-
-(capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
+[11 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)>] (capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
 
 [12] [13
 
 ]
 
 [14]) (capitulos/cap3-analisedoproblema/tabelas/requisitos-n-func/requisitos-n-func.tex
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 3.2 on input line 26.
-
-
 
 [15
 
@@ -1782,86 +1741,19 @@ Package longtable Warning: Column widths have changed
 
 ]
 Cap\'{\i }tulo 4.
-) (capitulos/conclus√£o/conclus√£o.tex
 
-[17
-
-]
-Cap\'{\i }tulo 5.
-)
-
-LaTeX Warning: Empty bibliography on input line 88.
-
-(appendices/a-userflowchart/appendix-a.tex
-
-[18
-
-]
-Ap\^endice A.
-LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <24.88> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 3.
-
-pdfTeX warning (ext1): too small image resolution ignored
+LaTeX Warning: Citation 'run-a-self-hosted-agent-in-docker' on page 17 undefined on input line 25.
 
 
-pdfTeX warning: pdflatex: arithmetic: number too big
-<appendices/a-userflowchart/BlendEd.png, id=229, 9965.23pt x 0.0pt>
-File: appendices/a-userflowchart/BlendEd.png Graphic file (type png)
-<use appendices/a-userflowchart/BlendEd.png>
-Package pdftex.def Info: appendices/a-userflowchart/BlendEd.png  used on input line 8.
-(pdftex.def)             Requested size: 127.18506pt x 0.0pt.
-)
+Overfull \hbox (23.90546pt too wide) in paragraph at lines 25--26
+[]\T1/cmbr/m/n/10.95 A Mi-cro-soft ofe-rece fer-ra-men-tas para aju-dar neste pro-cesso [[]].
+ []
 
-[19
-
- <./appendices/a-userflowchart/BlendEd.png>]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-(c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2020/03/25>
- ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  33E064522CB5274B58ED0FC0D04C5B64;8768.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 61975 strings out of 468149
- 1488651 string characters out of 5431082
- 2463247 words of memory out of 5000000
- 89603 multiletter control sequences out of 15000+600000
- 646275 words of font info for 77 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 101i,20n,131p,2534b,1692s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebtl10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
-Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (27 pages, 2306580 bytes).
-PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 33.
+<capitulos/cap4-implementacao/assets/devops-agent.png, id=491, 949.74825pt x 218.61674pt>
+File: capitulos/cap4-implementacao/assets/devops-agent.png Graphic file (type png)
+<use capitulos/cap4-implementacao/assets/devops-agent.png>
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/devo
