@@ -4,9 +4,11 @@
 
 Este capitulo demonstrará a implementação de certas funcionalidades baseada na arquitetura apresentada anteriormente. Estas irão modulos de frontend, backend e as pipelines de deployment necessárias. 
 
+\input{capitulos/cap4-implementacao/seccoes/backend.tex}
+
 \subsection{Frontend}
 
-\subsection{Backend}
+
 
 \subsection{Controlo de Versões}
 
@@ -67,7 +69,7 @@ Nesta secção demonstra-se a \textit{pipeline} criada e os respetivos passos po
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png}
+    \includegraphics[width=0.3\linewidth]{capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png}
     \caption{Diagrama de atividade representante da Pipeline de construção de uma nova versão}
     \label{fig:pipeline-ad}
 \end{figure}
@@ -75,19 +77,15 @@ Nesta secção demonstra-se a \textit{pipeline} criada e os respetivos passos po
 
 Na figura \ref{fig:pipeline-ad}, é possível ver o um diagrama de atividade que descreve cada passo feito por este trabalho.
 
-\begin{figure}
-    \begin{lstlisting}
-        trigger:
-            branches:
-                include:
-                    - main
-    \end{lstlisting}
-    \caption{Trigger - Pipeline}
-    \label{fig:pipeline-trigger}
-\end{figure}
+\begin{lstlisting}[caption={Trigger - Pipeline},label={lst:pipeline-trigger}]
+trigger:
+    branches:
+        include:
+            - main
+\end{lstlisting}
 
 
-A figura \ref{fig:pipeline-trigger}, descreve o gatilho (em inglês, \textit{trigger}) de ativação da pipeline. Neste caso qualquer \textit{commit} no \textit{branch} "main" irá ativar os trabalhos definidos.
+A listagem \ref{lst:pipeline-trigger}, descreve o gatilho (em inglês, \textit{trigger}) de ativação da pipeline. Neste caso qualquer \textit{commit} no \textit{branch} "main" irá ativar os trabalhos definidos.
 
 É importante enaltecer que existem variáveis que foram definidas externamente através do Azure DevOps e que são utilizadas ao longo da pipeline. Estas são:
 
@@ -97,7 +95,7 @@ A figura \ref{fig:pipeline-trigger}, descreve o gatilho (em inglês, \textit{tri
     \item \textbf{VMBUILDPATH}: Caminho para o qual a \gls{Build} do projeto irá ser colada em.
 \end{itemize}
 
-Finalmente, cada passo segue o conceito apresentado na figura \ref{fig:pipeline-ad}. Especial atenção para o uso de \lstinline|SSH@0|\cite{docs-SSH@0}, esta é uma task pre disponbilizada para estabelecer uma conexção SSH a uma màquina alvo. A chave está definida como segredo e é importado no início do ficheiro quando ocorre uma referência ao grupo de variaveis "ssh".
+Finalmente, cada passo segue o conceito apresentado na figura \ref{fig:pipeline-ad}. Especial atenção para o uso de \lstinline|SSH@0|\cite{docs-SSH0}, esta é uma task pre disponbilizada para estabelecer uma conexção SSH a uma màquina alvo. A chave está definida como segredo e é importado no início do ficheiro quando ocorre uma referência ao grupo de variaveis "ssh".
 
 \section{Testes}
 

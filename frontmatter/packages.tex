@@ -1,15 +1,75 @@
-\usepackage{tikz} % Required for creating graphics programmatically (can be removed if not used)
-%\usetikzlibrary{arrows} % Required for fancy arrows in TiKZ graphics (can be removed if not used)
+% =========================
+%   Encoding & Fonts
+% =========================
+\usepackage[utf8]{inputenc}   % Input encoding
+\usepackage[T1]{fontenc}      % Output encoding (better hyphenation, accented chars)
+\usepackage{lmodern}          % Latin Modern font
+\usepackage{inconsolata}      % Monospaced font (good for code)
 
-\usepackage{pgfplots} % Required for drawing high--quality function plots (can be removed if not used)
+% =========================
+%   Colors
+% =========================
+\usepackage{xcolor}           % Extended color support
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+
+% =========================
+%   Graphics & Figures
+% =========================
+\usepackage{graphicx}         % For including images
+\usepackage{tikz}             % For programmatic graphics
+% \usetikzlibrary{arrows}     % Uncomment if you need arrow styles
+\usepackage{pgfplots}         % For plots
 \pgfplotsset{compat=newest}
 
-\usepackage{listings}
-\usepackage{fancyvrb} % Important: allows listings to break across pages
-\usepackage{xcolor}   % For coloring
-\usepackage{caption}  % Optional: better captions
+% =========================
+%   Tables
+% =========================
+\usepackage{booktabs}         % Professional table rules
+\usepackage{tabularx}         % Tables with variable-width columns
+\usepackage{makecell}         % Line breaks inside cells
+\usepackage{multirow}         % Multirow cells
+\usepackage{tabularray}       % Modern table package
+\usepackage{longtable}        % Tables across pages
+\usepackage{pdflscape}        % Landscape pages
+\usepackage{geometry}         % Page geometry
 
-% YAML language support
+% =========================
+%   Code Listings
+% =========================
+\usepackage{listings}
+\usepackage{fancyvrb}         % Makes listings more flexible
+\usepackage{caption}          % Better captions
+
+% Global Java style (adjust as needed)
+\lstset{
+    language=Java,
+    basicstyle=\ttfamily\small,
+    showspaces=false,
+    showtabs=false,
+    breaklines=true,
+    showstringspaces=false,
+    breakatwhitespace=true,
+    commentstyle=\color{pgreen},
+    keywordstyle=\color{pblue},
+    stringstyle=\color{pred},
+    moredelim=[il][\textcolor{pgrey}]{$$},
+    moredelim=[is][\textcolor{pgrey}]{\%\%}{\%\%},
+    numbers=left,
+    stepnumber=1,
+    numbersep=10pt,
+    tabsize=4,
+    keepspaces=true,
+    breaklines=true,
+    frame=tb,
+    captionpos=b,
+    aboveskip=1em,
+    belowskip=1em
+}
+
+% YAML support
 \lstdefinelanguage{yaml}{
     morekeywords={true,false,null,yes,no},
     sensitive=true,
@@ -20,55 +80,20 @@
     literate={:}{{\color{black}:}}{1},
 }
 
-% Global listing settings
-\lstset{
-    language=yaml,
-    basicstyle=\ttfamily\small,
-    keywordstyle=\color{blue},
-    commentstyle=\color{gray},
-    stringstyle=\color{orange},
-    numbers=left,
-    numberstyle=\tiny\color{gray},
-    stepnumber=1,
-    numbersep=10pt,
-    tabsize=4,
-    keepspaces=true,
-    breaklines=true,
-    breakatwhitespace=false,
-    breakautoindent=true,
-    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
-    prebreak=\space,
-    breakindent=10pt,
-    showstringspaces=false,
-    frame=tb,  % ⬅️ Use this instead of `single` to allow page breaks
-    inputpath=, % Remove path from file name in caption
-    captionpos=b,
-    aboveskip=1em,
-    belowskip=1em,
-    title=\lstname % Only show the file name, not the path
-}
+% =========================
+%   Bibliography & References
+% =========================
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{bibliography.bib}
 
+% =========================
+%   Glossaries & Acronyms
+% =========================
+\usepackage[acronym]{glossaries}
+\makeglossaries
 
-\usepackage{lmodern}
-
-\usepackage{graphicx} % Load Images
-\usepackage{framed}
-
-\usepackage[style=numeric,backend=biber]{biblatex} 
-\addbibresource{mainbibliography.bib} % The filename of the bibliography
-
-\usepackage[acronym]{glossaries} % Load glossaries package
-\makeglossaries % build the glossary
-
-% Tudo para tabelas
-\usepackage{booktabs}
-\usepackage{tabularx}
-\usepackage{makecell}
-\usepackage{multirow}
-\usepackage{tabularray}
-\usepackage{pdflscape}
-
-\usepackage[utf8]{inputenc}
-\usepackage{pdflscape}
-\usepackage{longtable}
-\usepackage{geometry} 
+% =========================
+%   Miscellaneous
+% =========================
+\usepackage{framed}           % Framed environments
+\usepackage{bookmark}

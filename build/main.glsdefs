@@ -26,15 +26,127 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{API}%
+{%
+name={\acronymfont {\glsentryshort {API}}},%
+sort={API},%
+type={acronym},%
+first={API},%
+firstplural={APIs},%
+text={API},%
+plural={APIs},%
+description={Application Programming Interface},%
+descriptionplural={Application Programming Interface},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Programming Interface},%
+longplural={Application Programming Interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{JPA}%
+{%
+name={\acronymfont {\glsentryshort {JPA}}},%
+sort={JPA},%
+type={acronym},%
+first={JPA},%
+firstplural={JPAs},%
+text={JPA},%
+plural={JPAs},%
+description={Java Persistence API},%
+descriptionplural={Java Persistence API},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Java Persistence API},%
+longplural={Java Persistence APIs},%
+short={JPA},%
+shortplural={JPAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ORM}%
+{%
+name={\acronymfont {\glsentryshort {ORM}}},%
+sort={ORM},%
+type={acronym},%
+first={ORM},%
+firstplural={ORMs},%
+text={ORM},%
+plural={ORMs},%
+description={Object/Relational Mapping},%
+descriptionplural={Object/Relational Mapping},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Object/Relational Mapping},%
+longplural={Object/Relational Mappings},%
+short={ORM},%
+shortplural={ORMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Build}%
+{%
+name={\textit {build}},%
+sort={\textit {build}},%
+type={main},%
+first={\protect \textit  {build}},%
+firstplural={\protect \textit  {build}s},%
+text={\protect \textit  {build}},%
+plural={\protect \textit  {build}s},%
+description={a transformação final de codigo de maior nivel para código legível pela máquina},%
+descriptionplural={a transformação final de codigo de maior nivel para código legível pela máquina},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{Docker}%
 {%
-name={docker},%
-sort={docker},%
+name={\textit {docker}},%
+sort={\textit {docker}},%
 type={main},%
-first={docker},%
-firstplural={dockers},%
-text={docker},%
-plural={dockers},%
+first={\protect \textit  {docker}},%
+firstplural={\protect \textit  {docker}s},%
+text={\protect \textit  {docker}},%
+plural={\protect \textit  {docker}s},%
 description={uma plataforma para construir e disponbilizar aplicações a partir de containers},%
 descriptionplural={uma plataforma para construir e disponbilizar aplicações a partir de containers},%
 symbol={\relax },%
@@ -54,17 +166,73 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{label}%
+\glsdefs@newdocentry{Image}%
 {%
-name={\PackageError {glossaries}{name key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry name}},%
-sort={\PackageError {glossaries}{name key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry name}},%
+name={\textit {image}},%
+sort={\textit {image}},%
 type={main},%
-first={\protect \GenericError  {(glossaries)                }{Package glossaries Error: name key required in \newglossaryentry for entry `label'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}},%
-firstplural={\protect \GenericError  {(glossaries)                }{Package glossaries Error: name key required in \newglossaryentry for entry `label'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}s},%
-text={\protect \GenericError  {(glossaries)                }{Package glossaries Error: name key required in \newglossaryentry for entry `label'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}},%
-plural={\protect \GenericError  {(glossaries)                }{Package glossaries Error: name key required in \newglossaryentry for entry `label'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}s},%
-description={\PackageError {glossaries} {description key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry description}},%
-descriptionplural={\PackageError {glossaries} {description key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry description}},%
+first={\protect \textit  {image}},%
+firstplural={\protect \textit  {image}s},%
+text={\protect \textit  {image}},%
+plural={\protect \textit  {image}s},%
+description={unidade de software que junta código, depêndencias e kernel de sistem em um só ficheiro. Em português, Imagem.},%
+descriptionplural={unidade de software que junta código, depêndencias e kernel de sistem em um só ficheiro. Em português, Imagem.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Container}%
+{%
+name={\textit {container}},%
+sort={\textit {container}},%
+type={main},%
+first={\protect \textit  {container}},%
+firstplural={\protect \textit  {container}s},%
+text={\protect \textit  {container}},%
+plural={\protect \textit  {container}s},%
+description={unidade de software \gls {image}, em execução},%
+descriptionplural={unidade de software \gls {image}, em execução},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Hibernate}%
+{%
+name={\textit {Hibernate}},%
+sort={\textit {Hibernate}},%
+type={main},%
+first={\protect \textit  {Hibernate}},%
+firstplural={\protect \textit  {Hibernate}s},%
+text={\protect \textit  {Hibernate}},%
+plural={\protect \textit  {Hibernate}s},%
+description={\textit {Framework} Java responsável pelo mapeamento de um objeto de domínio para uma base de dados relacional },%
+descriptionplural={\textit {Framework} Java responsável pelo mapeamento de um objeto de domínio para uma base de dados relacional },%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

@@ -41,11 +41,6 @@ headsepline, % Uncomment to get a line under the header
 
 %\cosupervisor{Dr. Jack \textsc{Smith}} % Your co-advisors's name, this is used in the title page, print it elsewhere with \cosupname (comment, if no co-supervisor)
 
-% if committeepresident is defined, will add the thesis committee to the front page
-%\committeepresident{Dr. Jonny Smith, Professor, DEI/ISEP} % Name of the president of the evaluation committee, print it elsewhere with \presidentname
-
-%\committeemembers{Dr. Jaimie Smith, Professor, DEI/ISEP\\Dr. Jones Smith, Professor, DEI/ISEP\\Dr. Jagger Smith, Professor, DEI/ISEP} % Name of the evaluation committee members (up to four), print it elsewhere with \committee
-
 \keywords{Frontend, Backend, Software Architecture, } % Please define up to 6 keywords that better describe your work, print it elsewhere with \keywordnames
 
 \university{\href{http://www.isep.ipp.pt}{University Name}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
@@ -58,7 +53,7 @@ headsepline, % Uncomment to get a line under the header
 \hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
 
-\input{frontmatter/glossary.tex}
+
 
 \begin{document}
 
@@ -67,7 +62,7 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 
 % Include the frontmatter of your thesis here
-\input{frontmatter/frontmatter}
+\input{frontmatter/frontmatter.tex}
 
 %----------------------------------------------------------------------------------------
 %	MAIN BODY
