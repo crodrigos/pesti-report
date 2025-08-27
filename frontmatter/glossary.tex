@@ -1,10 +1,15 @@
-%All acronyms must be written in this file.
+% PLACE THIS IN PREAMBLE PLS!!!!
+
+%All acronyms must be written in this file. 
+\makeglossaries
+
 \newacronym{RTS}{RTS}{Real-Time System}
 
 \newacronym{API}{API}{Application Programming Interface}
 \newacronym{JPA}{JPA}{Java Persistence API}
 \newacronym{ORM}{ORM}{Object/Relational Mapping}
-
+\newacronym{IoC}{IoC}{Inversion of Control}
+\newacronym{DI}{DI}{Dependency Injection}
 
 \newglossaryentry{Build}{
     name=\textit{build},
@@ -21,6 +26,11 @@
     description={unidade de software que junta código, depêndencias e kernel de sistem em um só ficheiro. Em português, Imagem.}
 }
 
+\newglossaryentry{Spring}{
+    name=\textit{Spring},
+    description={framework Java}
+}
+
 \newglossaryentry{Container}{
     name=\textit{container},
     description={unidade de software \gls{image}, em execução}
@@ -30,3 +40,4 @@
     name=\textit{Hibernate},
     description={\textit{Framework} Java responsável pelo mapeamento de um objeto de domínio para uma base de dados relacional }
 }
+

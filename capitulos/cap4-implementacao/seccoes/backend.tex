@@ -4,15 +4,39 @@ O desenvolvimento do \textit{backend} constituiu uma das partes fundamentais do 
 
 Nesta secção irá se apresentar funcionalidades do backend no contexto da US3 (definida na tabela \ref{tab:req-funcionais}).
 
+
+
+
+
+
+
 \subsubsection{Spring}
+\label{sec:backend-Spring}
 
 A framework Spring apresentou à equipa uma alta curva de aprendizagem. Os vários conceitos e ferramentas nesta são bastante alienígenas a qualquer outra ferramenta antes utilizada pelos membros. Por tal foi necessário mais tempo para a aprender. Alguns dos conceitos-chave considerados incluem:
 
 \begin{itemize}
     \item \textbf{\textit{Spring Data}} é um agregado de módulos Spring que têm como função principal facilitar a programção de entidades e o seu respetivos acesso quando conectado a uma fonte de dados.
+
     \item \textbf{\textit{Spring Data JPA}} (ou só \textit{JPA}) é um dos módulos pertencente à coletânea Spring Data. O seu objetivo é facilitar a implementação de repositórios, reduzindo estes a interfaces Java, nas quais o Spring analisa o nome do método e implementa em \textit{runtime} o mesmo. 
+
     \item \textbf{\gls{Hibernate}} \cite{docs-hibernate} é uma framework Java e uma solução \ACRshort{ORM} que serve como implementação do \textit{JPA} para, logicamente, persistir a informação na respetiva base de dados.
+
+    \item \textbf{\ACRshort{IoC}} (\acrlong{IoC}, em português \textit{Inversão de Controlo}) é um princípio de engenharia de \textit{software} que transfere a responsabilidade pela criação e gestão dos objetos para uma \textit{framework} específica. No \textit{Spring}, esta funcionalidade é desempenhada pelo denominado \textit{\ACRshort{IoC} Container}.
+    
+    \item \textbf{\textit{Bean}} corresponde a uma instância de objeto gerida pelo \textit{\ACRshort{IoC} Container}. Cada \textit{Bean} é criado, configurado e mantido pelo próprio contentor, segundo a configuração definida.
+    
+    \item \textbf{\ACRshort{DI}} (\acrlong{DI}, em português \textit{Injecção de Dependências}) é um princípio amplamente utilizado no desenvolvimento de \textit{software} que visa reduzir o acoplamento entre classes. No contexto do \textit{Spring}, esta prática é suportada através do \textit{IoC Container}, que fornece e gere as instâncias necessárias sob a forma de \textit{Beans}.
+    
 \end{itemize}
+
+
+
+
+
+
+
+
 
 \subsubsection{Estrutura de pastas}
 
@@ -89,10 +113,22 @@ public class Project extends BaseEntity {
     \label{fig:classe-projeto}
 \end{figure}
 
-\subsubsection{\textit{BaseEntity}}
-\label{sec:base-entity}
 
-Como medida de segurança e de padronização, foi desenvolvida a classe \textit{BaseEntity} (ver listagem \ref{lst:base-entity}). Esta classe define dois identificadores: um interno e um externo. O identificador externo é utilizado na comunicação com o cliente, sendo retornado nos pedidos sob a forma de \textit{DTO}, enquanto o identificador interno é reservado para uso exclusivo do sistema.
+
+
+
+
+
+
+
+
+
+
+
+\subsubsection{\textit{BaseEntity}}
+\label{sec:backend-base-entity}
+
+Como medida de segurança e de padronização, foi desenvolvida a classe \textit{BaseEntity} (ver listagem \ref{lst:backend-base-entity}). Esta classe define dois identificadores: um interno e um externo. O identificador externo é utilizado na comunicação com o cliente, sendo retornado nos pedidos sob a forma de \textit{DTO}, enquanto o identificador interno é reservado para uso exclusivo do sistema.
 
 Tal como o próprio nome indica, a \textit{BaseEntity} foi concebida para servir como \textit{superclasse} de todas as entidades persistentes.
 
@@ -111,20 +147,10 @@ A implementação da \textit{BaseEntity} envolve várias decisões de \textit{de
 @Getter
 public abstract class BaseEntity {
 
-    /**
-     * This field is the internal identifier for the entity.
-     * It is used for database operations and should not be exposed in API responses.
-     * @summary iid = Internal Identifier
-     */
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID iid;
 
-    /**
-     * This field is the external identifier for the entity.
-     * This is the one that should be used in API responses and requests.
-     * @summary eid = External Identifier
-     */
     @Column(name="eid", unique = true, nullable = false)
     private UUID externalId;
 
@@ -173,6 +199,14 @@ public abstract class BaseEntity {
 }
 
 \end{lstlisting}
+
+
+
+
+
+
+
+
 
 
 
@@ -246,8 +280,179 @@ A listagem \ref{lst:class-project-description} demonstra uma implementação de 
 
 Importante também seria referir a necessidade de um conversor, uma classe que informa o \gls{Hibernate} como deve mapear o objeto do programa para a base de dados e vice-versa.
 
+
+
+
+
+
+
 \subsubsection{Repositórios}
+
+Como referido na secção \ref{sec:backend-Spring}, o modulo Spring Data \ACRshort{JPA}, permite a implementação de repositórios em \textit{runtime}.
+
+Tendo em conta a implementação de \lstinline|BaseEntity| e a necessidade de diferenciação entre identificadores internos e externos, foi implementada a interface \lstinline|BaseRepository| (ver listagem \ref{lst:interface-base-repository}). 
+
+Na referida interface o uso de \lstinline|@NoRepositoryBean| informa o \ACRshort{IoC} \textit{Container} para não guardar uma instância deste repositório, pois por norma todos os \lstinline|JpaRepository| são guardados automaticamente. É ainda adicionada a função \lstinline|findByExternalId|, esta procura automaticamente por todas a instâncias que o correspondem ao nome do atributo \lstinline|externalId|. Esta segue uma nomenclatura especifica do Spring \cite{docs-spring-repository}.
+
+\begin{lstlisting}[language=Java,caption={Inteface BaseRepository}, label={lst:interface-base-repository}]
+@NoRepositoryBean
+public interface BaseRepository<T extends BaseEntity> extends JpaRepository<T, UUID> {
+    Optional<T> findByExternalId(UUID internalId);
+}
+\end{lstlisting}
+
+Graças ao \gls{Spring} é possível então fazer implementações de repositórios muito facilmente, como exemplificado na listagem \ref{lst:interface-project-repository}
+
+\begin{lstlisting}[language=Java, caption={interface \textit{ProjectRepository}}, label={lst:interface-project-repository}]
+    public interface ProjectRepository extends BaseRepository<Project> {}
+\end{lstlisting}
+
+
+
+
 
 
 
 \subsubsection{Controladores e prevenção de erros}
+
+Na eventualidade da ocorrência de erros, que estes sejam de negócio ou de sistema torna-se necessária implementar um sistema que os consiga detetar e retornar num formata predefinido, algo que o \gls{Spring} não faz por base. 
+
+O \gls{Spring} disponibiliza \lstinline|@RestControllerAdvice| que permite a implementação de rotas ou ferramentas de deteção de erros em todas as classes anotadas com \lstinline|@RestController|.
+
+Na listagem \ref{lst:class-AppExceptionController} entende-se o elemento base que permite capturar erros internos ou de negócio e retorná-los num formato predefinido (ver listagem \ref{lst:class-Error}). Em prática a anotação \lstinline|@ExceptionHandler(AppException.class)| faz com que a qualquer ponto de execução do programa, no caso de ser lançada uma exceção do tipo \lstinline|AppException| a esta se redirecione para a função \lstinline|handleAppException|. Na listagem \ref{lst:class-ProjectController} e \ref{lst:exception-AppException} mostra-se, respetivamente, exemplo do uso desta exceções e propria exceção \lstinline|AppException|.
+
+\begin{lstlisting}[language=Java, caption={Class \textit{AppExceptionController}}, label={lst:class-AppExceptionController}]
+@Slf4j
+@RestControllerAdvice
+@RequiredArgsConstructor
+public class AppExceptionController {
+
+    // Everytime an app exception is thrown, this method will be called
+    // It will log the error and return a ResponseEntity with the error details
+    @ResponseBody
+    @ExceptionHandler(AppException.class)
+    public ResponseEntity<?> handleAppException(AppException e, HttpServletRequest request) {
+        log.error("App Exception occurred: {}", e.getMessage(), e);
+        return createResponseError(e, request.getRequestURI());
+    }
+
+    private ResponseEntity<ErrorResponse> createResponseError(AppException e, String path) {
+        Error err = new Error(
+                e.getMessage(),
+                e.getStatus().value(),
+                path,
+                Instant.now(),
+                e.getData()
+        );
+
+        ErrorResponse errorResponse = ErrorResponse.fromError(err);
+
+        return new ResponseEntity<>(errorResponse,new HttpHeaders(), e.getStatus());
+    }
+
+}
+\end{lstlisting}
+
+\begin{lstlisting}[language=Java, caption={Class \textit{Error}}, label={lst:class-Error}]
+@Value
+@AllArgsConstructor(access = PUBLIC)
+public class Error {
+    String message;
+    int status;
+    String path;
+    Instant timestamp;
+    Map<String, Object> data;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[language=Java, caption={Class \textit{ProjectController}}, label={lst:class-ProjectController}]
+@RestController
+@RequestMapping("/api/project")
+public class ProjectController {
+
+
+    private final IProjectService service;
+
+    public ProjectController(IProjectService IProjectService) {
+        this.service = IProjectService;
+    }
+
+    @GetMapping("")
+    public List<ProjectDTO> getAllProjects() {
+        return service.getProjects();
+    }
+
+    @GetMapping("/{id}")
+    public ProjectDTO getProjectById(UUID id) {
+        try {
+            return service.getProject(id);
+        } catch (NoSuchElementException e) {
+            throw new AppException(e, HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @PostMapping("")
+    public ProjectDTO addProject(@RequestBody AddProjectDTO project) {
+        try {
+            return service.addProject(project);
+        } catch (NoSuchElementException e) {
+            throw new AppException(e, HttpStatus.NOT_FOUND);
+        } catch (FormDataException e) {
+            throw new AppException(e, HttpStatus.BAD_REQUEST, e.getErrors());
+        }
+    }
+
+    @PutMapping("/{id}")
+    public ProjectDTO updateProject(@PathVariable UUID id, @RequestBody @Valid AddProjectDTO project) {
+        try {
+            return service.updateProject(id, project);
+        } catch (NoSuchElementException e) {
+            throw new AppException(e, HttpStatus.NOT_FOUND);
+        } catch (FormDataException e) {
+            throw new AppException(e, HttpStatus.BAD_REQUEST, e.getErrors());
+        }
+    }
+
+    @DeleteMapping("/{id}")
+    public ProjectDTO deleteProject(@PathVariable UUID id) {
+        try {
+            return service.deleteProject(id);
+        } catch (NoSuchElementException e) {
+            throw new AppException(e, HttpStatus.NOT_FOUND);
+        }
+    }
+}
+\end{lstlisting}
+
+\begin{lstlisting}[language=Java, caption={Exceção \textit{AppException}}, label={AppException}]
+@Getter
+public class AppException extends RuntimeException{
+
+    private final HttpStatus status;
+    private Map<String, Object> data;
+
+    public AppException(String message, HttpStatus status, Map<String, Object> data) {
+        super(message);
+        this.status = status;
+        this.data = data;
+    }
+
+    public AppException(Exception e, HttpStatus status, Map<String, Object> data) {
+        super(e.getMessage());
+        this.status = status;
+        this.data = data;
+    }
+
+    public AppException(Exception e, HttpStatus status) {
+        super(e.getMessage());
+        this.status = status;
+        this.data = new HashMap<>();
+    }
+
+    public AppException(String message, HttpStatus status) {
+        super(message);
+        this.status = status;
+        this.data = new HashMap<>();
+    }
+}
+\end{lstlisting}
