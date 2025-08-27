@@ -113,6 +113,18 @@
       \verb https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/ssh-v0?view=azure-pipelines
       \endverb
     \endentry
+    \entry{docs-spring-repository}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeltitlesource}{title}
+      \field{title}{Working with Spring Data Repositories}
+      \verb{urlraw}
+      \verb https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
+      \endverb
+      \verb{url}
+      \verb https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
