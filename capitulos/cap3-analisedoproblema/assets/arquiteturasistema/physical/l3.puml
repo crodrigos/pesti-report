@@ -1,0 +1,33 @@
+@startuml physical_l3
+
+package Blended4Future {
+
+    interface tcp_int as "Port: 80 (TCP)"
+    node vtm as "Ubuntu Virtual Machine" {
+
+        interface nginx_backend as "'/api'"
+        interface nginx_frontend as "'/'"
+
+        node nginx as "Nginx Proxy Server" {
+            node frontend_docker as "Frontend Docker Image"
+            interface frontend_docker_int as "Port: 3000"
+            
+            interface backend_docker_int as "Port: 4000"
+            node backend_docker as "Backend Docker Image"
+
+            frontend_docker -d- frontend_docker_int
+            backend_docker -d- backend_docker_int
+
+            frontend_docker_int -[dotted]- nginx_frontend
+            backend_docker_int -[dotted]- nginx_backend
+        }
+        
+        nginx_backend -- tcp_int
+        nginx_frontend -- tcp_int
+        
+    }
+    vtm -[hidden]- tcp_int
+
+}
+
+@enduml

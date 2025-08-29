@@ -1,0 +1,11 @@
+@startuml physical_l1
+
+package Blended4Future {
+
+    node vtm as "Ubuntu Virtual Machine"
+    interface tcp_int as "Port: 80 (TCP)"
+    vtm -r- tcp_int
+
+}
+
+@enduml

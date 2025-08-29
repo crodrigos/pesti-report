@@ -1,0 +1,24 @@
+@startuml physical_l2
+
+package Blended4Future {
+
+    interface tcp_int as "Port: 80 (TCP)"
+    node vtm as "Ubuntu Virtual Machine" {
+
+        node nginx as "Nginx Proxy Server"
+        interface nginx_backend as "'/api'"
+        interface nginx_frontend as "'/'"
+
+        nginx_backend -l- nginx
+        nginx_frontend -l- nginx 
+
+        nginx_backend -[hidden]d- nginx_frontend
+
+        nginx_backend -[norank]- tcp_int
+        nginx_frontend -[norank]- tcp_int
+    }
+    vtm -d[hidden]- tcp_int
+
+}
+
+@enduml
