@@ -7,15 +7,15 @@
 
 
 
-\subsection{Nivel 1}
+\subsection{Nível 1}
 
-\subsubsection{Diagrama Logico}
+\subsubsection{Diagrama Lógico}
 
 \subsubsection{Diagrama de Implementação}
 
 \subsubsection{Diagrama Físico} 
 
-A figura \ref{fig:diagram-lvl1-physical} demonstra o diagrama de físico de nível 1.
+A figura \ref{fig:diagram-lvl1-physical} demonstra o diagrama de físico de nível 1. Utiliza-se o \textit{port} 80 pois este é por norma utilizado em chamadas \Acrshort{HTTP} por este um protocolo baseado em \ACRshort{TCP}
 
 \begin{figure}[h!tbp]
     \centering
@@ -28,15 +28,16 @@ A figura \ref{fig:diagram-lvl1-physical} demonstra o diagrama de físico de nív
 
 
 
-\subsection{Nivel 2}
+\subsection{Nível 2}
 
-\subsubsection{Diagrama Logico}
+\subsubsection{Diagrama Lógico}
 
 \subsubsection{Diagrama de Implementação}
 
-A figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nível 2.
-
 \subsubsection{Diagrama Físico} 
+
+A figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nível 2. Neste entende-se a função do servidor \gls{NGINX} como a de criação de duas rotas para \textit{Backend} e \textit{Frontend}, respetivamente \textit{'/api'} e \textit{'/'}.
+
 \begin{figure}[h!tbp]
     \centering
     \includegraphics[width=0.6\linewidth]{capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png}
@@ -45,14 +46,14 @@ A figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nív
 \end{figure}
 
 
-\subsection{Nivel 3}
+\subsection{Nível 3}
 
-\subsubsection{Diagrama Logico}
+\subsubsection{Diagrama Lógico}
 
 \subsubsection{Diagrama de Implementação}
 
 \subsubsection{Diagrama Físico} 
-A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nível 3 
+A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nível 3. Com este é possível verificar o mapeamento das duas rotas criadas pelo servidor \textit{proxy} \gls{NGINX} para os PORTS 3000 e 4000, escolhidos, pois são memoráveis. Foi feita ainda a escolha de encapsular as aplicações \textit{Backend} e \textit{Frontend} em imagens \gls{Docker} garantindo assim o seu funcionamento independentemente do \textit{hardware} escolhido.
 
 \begin{figure}[h!tbp]
     \centering
@@ -65,15 +66,17 @@ A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nív
 
 
 
-\subsection{Nivel 4 - Código}
+\subsection{Nível 4}
 
-\subsubsection{Diagrama Logico}
+\subsubsection{Diagrama Lógico}
 
 \subsubsection{Diagrama de Implementação}
 
 \subsubsection{Diagrama Físico} 
 
-A figura \ref{fig:diagram-lvl4-physical} demonstra o diagrama de físico de nível 4.
+A figura \ref{fig:diagram-lvl4-physical} demonstra o diagrama de físico de nível 4. Dento das respetivas imagens \gls{Docker} é possível as aplicações  \textit{Backend} e \textit{Frontend} encapsuladas. No contexto do \gls{Docker} é necessário fazer um mapeamento dos \textit{ports} utilizados do ambiente interno (Imagem) para o externo (Máquina Virtual), por isso é possível ver o mapeamento dos ports, respetivamente, internos e externos, 8080 e 4000, no \textit{Backend} e 3000 e 3000 no \textit{Frontend}.
+
+Em nota, é possível incluir a base de dados na imagem graças à funcionalidade \textit{Volumes} do Docker e esta pode persistir diretamente no \textit{hardware} da máquina virtual.
 
 \begin{figure}[h!tbp]
     \centering

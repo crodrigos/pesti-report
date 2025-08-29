@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  29 AUG 2025 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  29 AUG 2025 18:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1385,13 +1385,34 @@ Package glossaries Info: Writing glossary file main.glo on input line 5.
 \openout8 = `main.acn'.
 
 Package glossaries Info: Writing glossary file main.acn on input line 5.
+
+
+frontmatter/glossary.tex:19: Package xkeyval Error: `descrition' undefined in families `glossentry'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 }
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+frontmatter/glossary.tex:19: Package glossaries Error: description key required in \newglossaryentry for entry `NGINX'.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 }
+      
+You haven't specified the entry description
+
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
-Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 18.
-)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -1412,6 +1433,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 59.
 Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 59.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1598,47 +1621,45 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.95> not available
 
 [3
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.toc
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 28.
-
-
-[4
-
 ]
-
-LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 83.
-
-LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 84.
-)
+No file main.toc.
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
 
 
-[5] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof)
+[4
+
+]
+No file main.lof.
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
 
 
-[6
+[5
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot)
+]
+No file main.lot.
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
 
 
-[7
+[6
 
-] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lol)
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lol
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 2.
+)
 \tf@lol=\write12
 \openout12 = `main.lol'.
 
 
+
+[7
+
+]
 
 [8
 
@@ -1649,7 +1670,6 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <20.74> not available
 
 
 [1
-
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 57.
@@ -1701,13 +1721,23 @@ LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 
 )
 
+LaTeX Warning: Reference `tab:organizacao_sprints' on page 3 undefined on input line 82.
+
+
+
 [3]
-<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=281, 1154.51324pt x 649.2255pt>
+
+LaTeX Warning: Reference `fig:devops-homepage' on page 4 undefined on input line 93.
+
+
+LaTeX Warning: Reference `fig:devops-boards' on page 4 undefined on input line 93.
+
+<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=114, 1154.51324pt x 649.2255pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png  used on input line 98.
 (pdftex.def)             Requested size: 423.9459pt x 238.3968pt.
-<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=283, 970.22475pt x 380.622pt>
+<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=116, 970.22475pt x 380.622pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png  used on input line 104.
@@ -1718,32 +1748,58 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
 
 [4 <./capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>] (capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex)
 
+LaTeX Warning: Reference `tab:tecnologias-mais-utilizadas' on page 5 undefined on input line 128.
+
+
+
 [5 <./capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>]
 
 [6]) (capitulos/cap2-estadodaarte/estadodaarte.tex
 
 [7]
 Cap\'{\i }tulo 2.
+
+LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
+(Font)              using `T1/cmbr/b/n' instead on input line 4.
+
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <14.4> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 4.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 8.
 ) (capitulos/cap3-analisedoproblema/analisedoproblema.tex
 
 [8
 
 ]
 Cap\'{\i }tulo 3.
-<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=318, 903.375pt x 913.4125pt>
+<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=161, 903.375pt x 913.4125pt>
 File: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png>
 Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png  used on input line 14.
 (pdftex.def)             Requested size: 423.9459pt x 428.66281pt.
+
+LaTeX Warning: Reference `fig:dd' on page 9 undefined on input line 20.
+
+
+LaTeX Warning: Reference `tab:req-funcionais' on page 9 undefined on input line 35.
+
+LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <10.95> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 36.
+
+LaTeX Warning: Reference `app:userflowchart' on page 9 undefined on input line 38.
+
 
 
 [9
 
 ]
 
-[10 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)>] (capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
+[10 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)>]
+
+LaTeX Warning: Reference `subsection:requisitos_funcionais' on page 11 undefined on input line 75.
+
+
+LaTeX Warning: Reference `tab:req-nao-funcionais' on page 11 undefined on input line 75.
+
+(capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
 
 [11] [12
 
@@ -1751,42 +1807,69 @@ Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram/
 
 [13]) (capitulos/cap3-analisedoproblema/tabelas/requisitos-n-func/requisitos-n-func.tex
 
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3.2 on input line 26.
+
+
+
 [14
 
 
 ]) (capitulos/cap3-analisedoproblema/arquitetura.tex
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png, id=355, 305.14pt x 112.42pt>
+
+LaTeX Warning: Reference `fig:diagram-lvl1-physical' on page 15 undefined on input line 18.
+
+
+Package glossaries-extra Warning: Base acronym command \Acrshort should not be used with new abbreviation definitions. Use \Glsxtrshort instead on input line 18.
+
+
+Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 18.
+
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png, id=202, 305.14pt x 112.42pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png>
 Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png  used on input line 22.
 (pdftex.def)             Requested size: 211.97295pt x 78.09822pt.
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png, id=357, 473.77pt x 317.185pt>
+
+LaTeX Warning: Reference `fig:diagram-lvl2-physical' on page 15 undefined on input line 39.
+
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png, id=203, 473.77pt x 317.185pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png  used on input line 42.
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png  used on input line 43.
 (pdftex.def)             Requested size: 254.37012pt x 170.29968pt.
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png, id=359, 593.21625pt x 588.1975pt>
-File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png  used on input line 59.
-(pdftex.def)             Requested size: 296.76083pt x 294.25958pt.
+
+LaTeX Warning: Reference `fig:diagram-lvl3-physical' on page 15 undefined on input line 56.
+
 
 
 [15
 
  <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png (PNG copy)>]
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png, id=365, 843.15pt x 597.23125pt>
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png, id=220, 593.21625pt x 588.1975pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png  used on input line 60.
+(pdftex.def)             Requested size: 296.76083pt x 294.25958pt.
+
+
+LaTeX Warning: Reference `fig:diagram-lvl4-physical' on page 16 undefined on input line 77.
+
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png, id=221, 843.15pt x 597.23125pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png  used on input line 80.
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png  used on input line 83.
 (pdftex.def)             Requested size: 423.9459pt x 300.3008pt.
-)) (capitulos/cap4-implementacao/implementacao.tex
 
-[16 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png (PNG copy)>]
+
+[16 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png (PNG copy)>])) (capitulos/cap4-implementacao/implementacao.tex
 
 [17 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png (PNG copy)>]
 Cap\'{\i }tulo 4.
 (capitulos/cap4-implementacao/seccoes/backend.tex
+
+LaTeX Warning: Reference `tab:req-funcionais' on page 18 undefined on input line 5.
+
 
 Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 23.
 
@@ -1813,11 +1896,17 @@ Package glossaries-extra Warning: Base acronym command \ACRshort should not be u
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be used with new abbreviation definitions. Use \glsxtrlong instead on input line 29.
 
-<capitulos/cap4-implementacao/assets/fold-struct-backend.png, id=383, 242.40562pt x 310.15875pt>
+
+LaTeX Warning: Reference `fig:folder-struct-backend' on page 19 undefined on input line 43.
+
+<capitulos/cap4-implementacao/assets/fold-struct-backend.png, id=252, 242.40562pt x 310.15875pt>
 File: capitulos/cap4-implementacao/assets/fold-struct-backend.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/fold-struct-backend.png>
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/fold-struct-backend.png  used on input line 47.
 (pdftex.def)             Requested size: 211.97295pt x 271.23206pt.
+
+LaTeX Warning: Reference `fig:classe-projeto' on page 19 undefined on input line 54.
+
 
 Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 59.
 
@@ -1838,23 +1927,51 @@ Overfull \hbox (32.4005pt too wide) in paragraph at lines 140--141
  []
 
 
+LaTeX Warning: Reference `sec:backend-value-objects' on page 20 undefined on input line 142.
+
+
 
 [20]
 
 [21]
 
+LaTeX Warning: Reference `lst:interface-value-object' on page 22 undefined on input line 219.
+
+
+
 [22]
 
 [23]
 
+LaTeX Warning: Reference `lst:class-project-description' on page 24 undefined on input line 279.
+
+
+LaTeX Warning: Reference `sec:backend-Spring' on page 24 undefined on input line 291.
+
+
 Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 291.
+
+
+LaTeX Warning: Reference `lst:interface-base-repository' on page 24 undefined on input line 293.
 
 
 Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 295.
 
 
+LaTeX Warning: Reference `lst:interface-project-repository' on page 24 undefined on input line 304.
+
+
 
 [24]
+
+LaTeX Warning: Reference `lst:class-AppExceptionController' on page 25 undefined on input line 322.
+
+
+LaTeX Warning: Reference `lst:class-Error' on page 25 undefined on input line 322.
+
+
+LaTeX Warning: Reference `lst:class-ProjectController' on page 25 undefined on input line 322.
+
 
 LaTeX Warning: Reference `lst:exception-AppException' on page 25 undefined on input line 322.
 
@@ -1865,7 +1982,19 @@ LaTeX Warning: Reference `lst:exception-AppException' on page 25 undefined on in
 [26])
 
 [27]
-<capitulos/cap4-implementacao/assets/devops-agent.png, id=710, 949.74825pt x 218.61674pt>
+
+LaTeX Warning: Reference `app:pipeline-start.sh' on page 28 undefined on input line 33.
+
+
+LaTeX Warning: Reference `app:dockerfile-pipeline-agent' on page 28 undefined on input line 33.
+
+
+LaTeX Warning: Reference `fig:start-docker-agent' on page 28 undefined on input line 35.
+
+
+LaTeX Warning: Reference `fig:agent-devops' on page 28 undefined on input line 56.
+
+<capitulos/cap4-implementacao/assets/devops-agent.png, id=573, 949.74825pt x 218.61674pt>
 File: capitulos/cap4-implementacao/assets/devops-agent.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/devops-agent.png>
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/devops-agent.png  used on input line 59.
@@ -1873,14 +2002,27 @@ Package pdftex.def Info: capitulos/cap4-implementacao/assets/devops-agent.png  u
 
 
 [28]
-<capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png, id=725, 264.99pt x 555.07375pt>
+
+LaTeX Warning: Reference `app:pipeline-yaml' on page 29 undefined on input line 68.
+
+<capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png, id=592, 264.99pt x 555.07375pt>
 File: capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png>
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png  used on input line 72.
 (pdftex.def)             Requested size: 127.18506pt x 266.41542pt.
 
+LaTeX Warning: Reference `fig:pipeline-ad' on page 29 undefined on input line 78.
 
-[29 <./capitulos/cap4-implementacao/assets/devops-agent.png> <./capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png (PNG copy)>]) (capitulos/conclusão/conclusão.tex
+
+
+[29 <./capitulos/cap4-implementacao/assets/devops-agent.png> <./capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png (PNG copy)>]
+
+LaTeX Warning: Reference `lst:pipeline-trigger' on page 30 undefined on input line 88.
+
+
+LaTeX Warning: Reference `fig:pipeline-ad' on page 30 undefined on input line 98.
+
+) (capitulos/conclusão/conclusão.tex
 
 [30]
 Cap\'{\i }tulo 5.
@@ -1934,7 +2076,11 @@ This document will not have a glossary.
 
 
 
-[38] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
+[38]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+(c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1946,22 +2092,30 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66792 strings out of 468149
- 1583926 string characters out of 5431082
- 2818877 words of memory out of 5000000
- 93910 multiletter control sequences out of 15000+600000
+ 66889 strings out of 468149
+ 1585058 string characters out of 5431082
+ 2816920 words of memory out of 5000000
+ 94013 multiletter control sequences out of 15000+600000
  646890 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,20n,131p,2534b,2868s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (46 pages, 748663 bytes).
+Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (46 pages, 720270 bytes).
 PDF statistics:
- 1847 PDF objects out of 2073 (max. 8388607)
+ 1715 PDF objects out of 1728 (max. 8388607)
  567 named destinations out of 1000 (max. 500000)
  636 words of extra memory for PDF output out of 10000 (max. 10000000)
 
