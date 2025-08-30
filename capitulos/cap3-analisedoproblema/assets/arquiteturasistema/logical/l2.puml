@@ -1,0 +1,28 @@
+@startuml logical_l2
+
+[null]
+remove null
+
+interface int_guest as "Guest Web Page"
+interface int_user as "User Web Page" 
+interface int_admin as "Admin Web Page"
+label service_auth as "Authentication API"
+
+component b4f as "Blended4Future" {
+
+    component "Frontend" as frontend
+    
+    component "Backend" as backend 
+    interface "Backend API" as api_backend
+
+    backend -u- api_backend 
+
+    frontend -[norank]-( service_auth
+    frontend -d-( api_backend
+
+    frontend -u- int_admin
+    frontend -u- int_guest
+    frontend -u- int_user
+}
+
+@enduml

@@ -34,7 +34,7 @@ A Microsoft oferece ferramentas para ajudar neste processo \cite{run-a-self-host
 
 Após a criação do agente basta iniciar o \textit{container Docker}, tendo em atenção à indicação das variaveis de ambiente necessárias. A figura \ref{fig:start-docker-agent} demonstra isso mesmo, com censura a qualquer informação sensivel à organização.
 
-\begin{figure}
+\begin{figure}[h!tbp]
     
 
 \begin{lstlisting}
@@ -55,7 +55,7 @@ Após a criação do agente basta iniciar o \textit{container Docker}, tendo em 
 
 Logo após, é possivél ver o agente disponível no Azure DevOps (Figura \ref{fig:agent-devops}). 
 
-\begin{figure}
+\begin{figure}[h!tbp]
 \includegraphics[width=\linewidth]{capitulos/cap4-implementacao/assets/devops-agent.png}
 \caption{Agente disponbilizado no Azure DevOps}
 \label{fig:agent-devops}
@@ -67,7 +67,7 @@ O conceito de trabalho (em inglês, \textit{Job}) é de extrema importância no 
 
 Nesta secção demonstra-se a \textit{pipeline} criada e os respetivos passos por ela tomados, utilizando como exemplo a definida para o módulo frontend. A versão completa deste ficheiro poderá ser encontrada no appêndice \ref{app:pipeline-yaml}. 
 
-\begin{figure}
+\begin{figure}[h!tbp]
     \centering
     \includegraphics[width=0.3\linewidth]{capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png}
     \caption{Diagrama de atividade representante da Pipeline de construção de uma nova versão}

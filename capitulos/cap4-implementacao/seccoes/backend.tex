@@ -42,7 +42,7 @@ A framework Spring apresentou à equipa uma alta curva de aprendizagem. Os vári
 
 A estrutura de pastas do backend foi definida para enaltecer a função de cada ficheiro e/ou classe em cada uma, como pode ser observado na figura \ref{fig:folder-struct-backend}.
 
-\begin{figure}
+\begin{figure}[h!tbp]
     \centering
     \includegraphics[width=0.5\linewidth]{capitulos/cap4-implementacao/assets/fold-struct-backend.png}
     \caption{Estrutura de pastas do backend}
@@ -51,7 +51,7 @@ A estrutura de pastas do backend foi definida para enaltecer a função de cada 
 
 \subsubsection{Entidades e relações}
 
-Para o caso de uso a ser considerado, a entidade de maior importância será \textit{Project}. Esta encontra-se representada na figura \ref{fig:classe-projeto}.
+Para o caso de uso a ser considerado, a entidade de maior importância será \textit{Project}. Esta encontra-se representada na figura \ref{lst:classe-projeto}.
 
 Em nota, interessante enaltecer o uso das respetivas anotações:
 
@@ -69,12 +69,7 @@ Em nota, interessante enaltecer o uso das respetivas anotações:
 
 \end{itemize}
 
-
-\begin{figure}
-    \centering
-    
-    \begin{lstlisting}[language=Java]
-
+\begin{lstlisting}[language=Java, caption={Classe \textit{Project}}, label={lst:class-project}]
 @Entity
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -106,12 +101,7 @@ public class Project extends BaseEntity {
     @ManyToOne
     private CourseEdition courseEdition;
 }
-
-    \end{lstlisting}
-
-    \caption{Classe \textit{Project}}
-    \label{fig:classe-projeto}
-\end{figure}
+\end{lstlisting}
 
 
 

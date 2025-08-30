@@ -1,0 +1,37 @@
+@startuml logical_l3
+
+[null]
+remove null
+
+interface int_guest as "Guest Web Page"
+interface int_user as "User Web Page" 
+interface int_admin as "Admin Web Page"
+label service_auth as "Authentication API"
+
+component b4f as "Blended4Future" {
+
+    component "Frontend" as frontend {
+        component app_react as "React Application"
+    }
+    
+    component "Backend" as backend {
+        component app_spring as "Spring Application"
+        component db as "MySQL Database"
+        interface api_db as "DB API"
+        db - api_db
+
+        app_spring --( api_db
+    }
+    interface "Backend API" as api_backend
+
+    app_spring -u- api_backend 
+
+    app_react -[norank]-( service_auth
+    app_react -d-( api_backend
+
+    app_react -u- int_admin
+    app_react -u- int_guest
+    app_react -u- int_user
+}
+
+@enduml

@@ -1,0 +1,20 @@
+@startuml logical_l1
+
+[null]
+remove null
+
+component b4f as "Blended4Future" {
+
+}
+
+interface int_guest as "Guest Web Page"
+interface int_user as "User Web Page" 
+interface int_admin as "Admin Web Page"
+label service_keycloak as "Authentication API"
+
+b4f -u-( service_keycloak
+b4f -d- int_admin
+b4f -d- int_guest
+b4f -d- int_user
+
+@enduml
