@@ -1,0 +1,15 @@
+@startuml implementation_l2
+
+package "Blended4Future" as b4f {
+
+    package "Controller" as controller 
+         
+    package "Service" as service
+
+    package "Repository" as repository
+
+}
+
+
+
+@enduml

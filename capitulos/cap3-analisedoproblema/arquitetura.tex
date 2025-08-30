@@ -7,9 +7,11 @@
 
 
 
-\subsection{Nível 1}
+\subsection{Nível 1 - Contexto}
 
 \subsubsection{Diagrama Lógico}
+
+Na figura \ref{fig:diagram-lvl1-logical} encontra-se o diagrama lógico de nível. Este mostra os componentes desta arquitetura com um alto nível de abstração. Apenas é possível ver a exposição de 3 tipos de página \textit{web} para vários tipos de utilizadores: não registado, registado e administradores.   
 
 \begin{figure}[h!tbp]
     \centering
@@ -17,8 +19,6 @@
     \caption{Diagrama Lógico de Nível 1}
     \label{fig:diagram-lvl1-logical}
 \end{figure}
-
-\subsubsection{Diagrama de Implementação}
 
 \subsubsection{Diagrama Físico} 
 
@@ -38,6 +38,9 @@ A figura \ref{fig:diagram-lvl1-physical} demonstra o diagrama de físico de nív
 \subsection{Nível 2}
 
 \subsubsection{Diagrama Lógico}
+
+Na figura \ref{fig:diagram-lvl2-logical} é possivel ver um o anteriormente desmontrado na figura \ref{fig:diagram-lvl1-logical} com um menor nivel de abstração.
+A este somam-se os conceitos de \textit{Frontend} e \textit{Backend}.
 
 \begin{figure}[h!tbp]
     \centering
@@ -65,6 +68,8 @@ A figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nív
 \subsection{Nível 3}
 
 \subsubsection{Diagrama Lógico}
+
+Com um nivel menor de abstração, a figura \ref{fig:diagram-lvl3-logical} apresenta aprofunda os modulos de \textit{Backend} e \textit{Frontend}. O primeiro é responsável pela logica de negócio e persistencia e, por tal, é detentor de uma aplicação Spring e de uma base de dados relacional \textit{MySQL}.
 
 \begin{figure}[h!tbp]
     \centering
