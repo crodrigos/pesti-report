@@ -20,13 +20,13 @@ A framework Spring apresentou à equipa uma alta curva de aprendizagem. Os vári
 
     \item \textbf{\textit{Spring Data JPA}} (ou só \textit{JPA}) é um dos módulos pertencente à coletânea Spring Data. O seu objetivo é facilitar a implementação de repositórios, reduzindo estes a interfaces Java, nas quais o Spring analisa o nome do método e implementa em \textit{runtime} o mesmo. 
 
-    \item \textbf{\gls{Hibernate}} \cite{docs-hibernate} é uma framework Java e uma solução \ACRshort{ORM} que serve como implementação do \textit{JPA} para, logicamente, persistir a informação na respetiva base de dados.
+    \item \textbf{\gls{Hibernate}} \cite{docs-hibernate} é uma framework Java e uma solução \GLSxtrshort{ORM} que serve como implementação do \textit{JPA} para, logicamente, persistir a informação na respetiva base de dados.
 
-    \item \textbf{\ACRshort{IoC}} (\acrlong{IoC}, em português \textit{Inversão de Controlo}) é um princípio de engenharia de \textit{software} que transfere a responsabilidade pela criação e gestão dos objetos para uma \textit{framework} específica. No \textit{Spring}, esta funcionalidade é desempenhada pelo denominado \textit{\ACRshort{IoC} Container}.
+    \item \textbf{\GLSxtrshort{IoC}} (\acrlong{IoC}, em português \textit{Inversão de Controlo}) é um princípio de engenharia de \textit{software} que transfere a responsabilidade pela criação e gestão dos objetos para uma \textit{framework} específica. No \textit{Spring}, esta funcionalidade é desempenhada pelo denominado \textit{\GLSxtrshort{IoC} Container}.
     
-    \item \textbf{\textit{Bean}} corresponde a uma instância de objeto gerida pelo \textit{\ACRshort{IoC} Container}. Cada \textit{Bean} é criado, configurado e mantido pelo próprio contentor, segundo a configuração definida.
+    \item \textbf{\textit{Bean}} corresponde a uma instância de objeto gerida pelo \textit{\GLSxtrshort{IoC} Container}. Cada \textit{Bean} é criado, configurado e mantido pelo próprio contentor, segundo a configuração definida.
     
-    \item \textbf{\ACRshort{DI}} (\acrlong{DI}, em português \textit{Injecção de Dependências}) é um princípio amplamente utilizado no desenvolvimento de \textit{software} que visa reduzir o acoplamento entre classes. No contexto do \textit{Spring}, esta prática é suportada através do \textit{IoC Container}, que fornece e gere as instâncias necessárias sob a forma de \textit{Beans}.
+    \item \textbf{\GLSxtrshort{DI}} (\acrlong{DI}, em português \textit{Injecção de Dependências}) é um princípio amplamente utilizado no desenvolvimento de \textit{software} que visa reduzir o acoplamento entre classes. No contexto do \textit{Spring}, esta prática é suportada através do \textit{IoC Container}, que fornece e gere as instâncias necessárias sob a forma de \textit{Beans}.
     
 \end{itemize}
 
@@ -56,7 +56,7 @@ Para o caso de uso a ser considerado, a entidade de maior importância será \te
 Em nota, interessante enaltecer o uso das respetivas anotações:
 
 \begin{itemize}
-    \item \textbf{\textit{@Entity}} informa o \ACRshort{JPA}/\gls{Hibernate} que esta é uma entidade que deve ser persistida. Para tal deve conter um argumento anotado \lstinline|@Id|.
+    \item \textbf{\textit{@Entity}} informa o \GLSxtrshort{JPA}/\gls{Hibernate} que esta é uma entidade que deve ser persistida. Para tal deve conter um argumento anotado \lstinline|@Id|.
     \item \textbf{\textit{@Data}}\cite{docs-annotation-data} serve como substituto para as anotações \lstinline|@ToString|, \lstinline|@EqualsAndHashCode|, \lstinline|@Getter|, \lstinline|@Setter| e \lstinline|@RequiredArgsConstructor| que, respetivamente: 
     
     \begin{itemize}
@@ -278,11 +278,11 @@ Importante também seria referir a necessidade de um conversor, uma classe que i
 
 \subsubsection{Repositórios}
 
-Como referido na secção \ref{sec:backend-Spring}, o modulo Spring Data \ACRshort{JPA}, permite a implementação de repositórios em \textit{runtime}.
+Como referido na secção \ref{sec:backend-Spring}, o modulo Spring Data \GLSxtrshort{JPA}, permite a implementação de repositórios em \textit{runtime}.
 
 Tendo em conta a implementação de \lstinline|BaseEntity| e a necessidade de diferenciação entre identificadores internos e externos, foi implementada a interface \lstinline|BaseRepository| (ver listagem \ref{lst:interface-base-repository}). 
 
-Na referida interface o uso de \lstinline|@NoRepositoryBean| informa o \ACRshort{IoC} \textit{Container} para não guardar uma instância deste repositório, pois por norma todos os \lstinline|JpaRepository| são guardados automaticamente. É ainda adicionada a função \lstinline|findByExternalId|, esta procura automaticamente por todas a instâncias que o correspondem ao nome do atributo \lstinline|externalId|. Esta segue uma nomenclatura especifica do Spring \cite{docs-spring-repository}.
+Na referida interface o uso de \lstinline|@NoRepositoryBean| informa o \GLSxtrshort{IoC} \textit{Container} para não guardar uma instância deste repositório, pois por norma todos os \lstinline|JpaRepository| são guardados automaticamente. É ainda adicionada a função \lstinline|findByExternalId|, esta procura automaticamente por todas a instâncias que o correspondem ao nome do atributo \lstinline|externalId|. Esta segue uma nomenclatura especifica do Spring \cite{docs-spring-repository}.
 
 \begin{lstlisting}[language=Java,caption={Inteface BaseRepository}, label={lst:interface-base-repository}]
 @NoRepositoryBean
@@ -445,4 +445,86 @@ public class AppException extends RuntimeException{
         this.data = new HashMap<>();
     }
 }
+\end{lstlisting}
+
+
+
+
+
+
+
+\subsubsection{Serviços}
+
+O padrão de \textit{software} \textit{Service} entende a concentração da de toda a lógica de negócio numa só camada do sistema. A listagem \ref{lst:method-create-new-project-class-ProjectService} apresenta a implementação do método \lstinline|addProject| nesta mesma camada.
+
+A notação \lstinline|@Service| permite ao \GLSxtrshort{IoC} \textit{container} identificar esta classe como serviço e guardá-la como \textit{Bean}. Já a notação \lstinline|@Slf4j| cria uma ferramenta utilizada para manter registo de qualquer ação no programa. 
+
+\begin{lstlisting}[language=Java, caption={Implementação do metodo para criação de um novo projeto}, label={lst:method-create-new-project-class-ProjectService}]
+@Service
+@Slf4j
+public class ProjectService implements IProjectService{
+    |\Suppressnumber|
+    ... 
+    |\Reactivatenumber|
+    @Override
+    public ProjectDTO addProject(AddProjectDTO project) throws FormDataException {
+
+        HashMap<String,Object> errors = checkIdAttributeAddDTO(project);
+
+        ProjectName name = new ProjectName(project.name());
+        ProjectDescription description = new ProjectDescription(project.description());
+
+        errors.putAll(
+            Project.isBusinessDataValid(
+                    new ArrayList<>(List.of(name, description))
+            )
+        );
+        if (!errors.isEmpty()) {
+            throw new FormDataException("Project data is not valid", errors);
+        }
+
+        Company company = project.companyId() == null ? 
+            companyRepository.findByExternalId(project.companyId()).get() : null;
+
+        CompanyRepresentative companyRepresentative =
+            project.companyRepresentativeId()==null ? 
+            companyRepresentativeRepository.findByExternalId(
+                project.companyRepresentativeId()
+            ).get() : null;
+        
+        List<Student> students = project.studentIds() == null ? 
+                List.of() : 
+                project.studentIds().stream()
+                .map(studentRepository::findByExternalId)
+                .filter(Optional::isPresent)
+                .map(Optional::get)
+                .toList();
+
+        CourseEdition courseEdition = 
+            project.courseEditionId() == null ? 
+            courseEditionRepository.findByExternalId(
+                project.courseEditionId()
+            ).get() : null;
+
+        Project newProject = new Project();
+
+        newProject.setName(name);
+        newProject.setDescription(description);
+        newProject.setCompany(company);
+        newProject.setCompanyRepresentative(companyRepresentative);
+        newProject.setStudents(new HashSet<>(students));
+        newProject.setCourseEdition(courseEdition);
+
+        Project savedProject = projectRepository.save(newProject);
+        log.info(
+            "Project with eid {} created successfully", 
+            savedProject.getExternalId()
+        );
+        return new ProjectMapper().toDTO(savedProject);
+    }
+    |\Suppressnumber|
+    ...
+    |\Reactivatenumber|
+}
+
 \end{lstlisting}

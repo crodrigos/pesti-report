@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  29 AUG 2025 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  1 SEP 2025 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,7 +9,7 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
 (tmdei-style.cls
 Document Class: tmdei-style 
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
@@ -21,8 +21,8 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 Package: xparse 2024-08-16 L3 Experimental document command parser
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\bk11.clo
-File: bk11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count277
 \c@chapter=\count278
@@ -1343,11 +1343,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip99
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 87.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 87.
-Package hyperref Info: Option `colorlinks' set `false' on input line 87.
-Package hyperref Info: Option `unicode' set `true' on input line 87.
-Package hyperref Info: Option `breaklinks' set `true' on input line 87.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 102.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 102.
+Package hyperref Info: Option `colorlinks' set `false' on input line 102.
+Package hyperref Info: Option `unicode' set `true' on input line 102.
+Package hyperref Info: Option `breaklinks' set `true' on input line 102.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glossaries-extra.sty
 Package: glossaries-extra 2025/05/14 v1.7 (NLCT)
 
@@ -1385,34 +1385,11 @@ Package glossaries Info: Writing glossary file main.glo on input line 5.
 \openout8 = `main.acn'.
 
 Package glossaries Info: Writing glossary file main.acn on input line 5.
-
-
-frontmatter/glossary.tex:19: Package xkeyval Error: `descrition' undefined in families `glossentry'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-frontmatter/glossary.tex:19: Package glossaries Error: description key required in \newglossaryentry for entry `NGINX'.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 }
-      
-You haven't specified the entry description
-
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
+
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -1436,7 +1413,7 @@ LaTeX Font Info:    ... okay on input line 59.
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
 (babel)             Reported on input line 59.
 Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 59.
- (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count599
 \scratchdimen=\dimen414
@@ -1483,12 +1460,12 @@ Package caption Info: End \AtBeginDocument code.
 * \topmargin=-6.25914pt
 * \headheight=13.7pt
 * \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=116.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1497,6 +1474,16 @@ Package caption Info: End \AtBeginDocument code.
 * \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package scrlayer-scrpage Warning: Very small head height detected!
+(scrlayer-scrpage)                Using scrlayer-scrpage the head height
+(scrlayer-scrpage)                should be at least \baselineskip, which is
+(scrlayer-scrpage)                15.0pt currently.
+(scrlayer-scrpage)                But head height is currently 13.7pt only.
+(scrlayer-scrpage)                You may use
+(scrlayer-scrpage)                geometry option `head=15.0pt'
+(scrlayer-scrpage)                to avoid this warning.
 
 Package scrbase Info: activating portuguese \dissertationdisclamer on input line 59.
 Package scrbase Info: activating portuguese \advisorlabel on input line 59.
@@ -1545,9 +1532,9 @@ Package pdftex.def Info: .//frontmatter/assets/isep_logo.pdf  used on input line
 (pdftex.def)             Requested size: 361.34999pt x 44.1541pt.
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <24.88> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <17.28> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 15.
 
 frontmatter/frontmatter.tex:15: Extra \fi.
@@ -1575,9 +1562,9 @@ LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 30.
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 30.
+(Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 10.95pt on input line 30.
+(Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Trying to load font information for OT1+cmbr on input line 30.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ot1cmbr.fd
 File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
@@ -1595,18 +1582,20 @@ LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 30.
+(Font)              <12> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 30.
+(Font)              <10> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 30.
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <9> not available
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 30.
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 32.
 
 --------------------
@@ -1614,7 +1603,20 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.95> not available
 --------------------
 
 
-[2
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 15.0pt needed,
+(scrlayer-scrpage)                but only 13.7pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=15.0pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 38.
+
+
+Overfull \vbox (1.3pt too high) has occurred while \output is active []
+
+ [2
 
 
 {C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
@@ -1649,7 +1651,7 @@ No file main.lot.
 [6
 
 ] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lol
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <12> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 2.
 )
 \tf@lol=\write12
@@ -1665,26 +1667,37 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
 
 ]) (capitulos/cap1-introducao/introducao.tex
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <20.74> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 1.
 
 
 [1
 
 ]
+
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 50.
+[2]
 LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 57.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
-)
-
-Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 64.
-[2] (capitulos/cap1-introducao/tabelas/tab-organizacao-sprint.tex
-Overfull \vbox (62.40417pt too high) detected at line 48
+) (capitulos/cap1-introducao/tabelas/tab-organizacao-sprint.tex
+Overfull \vbox (98.33333pt too high) detected at line 48
  []
 
 
-Overfull \vbox (7.60419pt too high) detected at line 48
+Overfull \vbox (8.33333pt too high) detected at line 48
+ []
+
+
+Overfull \vbox (98.33333pt too high) detected at line 48
+ []
+
+
+Overfull \vbox (8.33333pt too high) detected at line 48
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 48--48
+[]\T1/cmbr/m/n/12 1. Do-cu-men-ta-Á„o ge-ral do
  []
 
 
@@ -1693,25 +1706,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []
 
 
-Overfull \vbox (62.40417pt too high) detected at line 48
+Overfull \vbox (98.33333pt too high) detected at line 48
  []
 
 
-Overfull \hbox (7.28165pt too wide) in paragraph at lines 48--48
+Overfull \hbox (7.97992pt too wide) in paragraph at lines 48--48
  []|[]| 
  []
 
 
-Overfull \vbox (7.60419pt too high) detected at line 48
+Overfull \vbox (8.33333pt too high) detected at line 48
  []
 
 
-Overfull \hbox (7.28165pt too wide) in paragraph at lines 48--48
+Overfull \hbox (7.97992pt too wide) in paragraph at lines 48--48
  []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 48--48
+Overfull \hbox (15.0088pt too wide) in alignment at lines 48--48
 [][][][][] 
  []
 
@@ -1732,307 +1745,382 @@ LaTeX Warning: Reference `fig:devops-homepage' on page 4 undefined on input line
 
 LaTeX Warning: Reference `fig:devops-boards' on page 4 undefined on input line 93.
 
-<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=114, 1154.51324pt x 649.2255pt>
+<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=115, 1154.51324pt x 649.2255pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png  used on input line 98.
 (pdftex.def)             Requested size: 423.9459pt x 238.3968pt.
-<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=116, 970.22475pt x 380.622pt>
+<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=117, 970.22475pt x 380.622pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png  used on input line 104.
 (pdftex.def)             Requested size: 423.9459pt x 166.31262pt.
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 105.
 
 
-[4 <./capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>] (capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex)
+[4]
 
-LaTeX Warning: Reference `tab:tecnologias-mais-utilizadas' on page 5 undefined on input line 128.
+[5 <./capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png> <./capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>] (capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex)
+
+LaTeX Warning: Reference `tab:tecnologias-mais-utilizadas' on page 6 undefined on input line 128.
 
 
 
-[5 <./capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>]
+[6]
 
-[6]) (capitulos/cap2-estadodaarte/estadodaarte.tex
+[7]) (capitulos/cap2-estadodaarte/estadodaarte.tex
 
-[7]
+[8]
 Cap\'{\i }tulo 2.
 
 LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 4.
+(Font)              using `T1/cmbr/b/n' instead on input line 8.
 
-LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <14.4> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 8.
-) (capitulos/cap3-analisedoproblema/analisedoproblema.tex
-
-[8
-
-]
-Cap\'{\i }tulo 3.
-<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=161, 903.375pt x 913.4125pt>
-File: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png  used on input line 14.
-(pdftex.def)             Requested size: 423.9459pt x 428.66281pt.
-
-LaTeX Warning: Reference `fig:dd' on page 9 undefined on input line 20.
-
-
-LaTeX Warning: Reference `tab:req-funcionais' on page 9 undefined on input line 35.
-
-LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 36.
-
-LaTeX Warning: Reference `app:userflowchart' on page 9 undefined on input line 38.
-
+<capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png, id=160, 1927.2pt x 916.42375pt>
+File: capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png Graphic file (type png)
+<use capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png>
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png  used on input line 20.
+(pdftex.def)             Requested size: 423.9459pt x 201.58588pt.
 
 
 [9
 
 ]
+<capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png, id=168, 368.37625pt x 572.1375pt>
+File: capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png Graphic file (type png)
+<use capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png>
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png  used on input line 29.
+(pdftex.def)             Requested size: 127.18506pt x 197.52733pt.
 
-[10 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)>]
 
-LaTeX Warning: Reference `subsection:requisitos_funcionais' on page 11 undefined on input line 75.
+[10 <./capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png> <./capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png>]
+<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-home-page.png, id=177, 1926.19624pt x 916.42375pt>
+File: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-home-page.png Graphic file (type png)
+<use capitulos/cap2-estadodaarte/assets/image/praxis/praxis-home-page.png>
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-home-page.png  used on input line 40.
+(pdftex.def)             Requested size: 423.9459pt x 201.69775pt.
+LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <17.28> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 45.
+) (capitulos/cap3-analisedoproblema/analisedoproblema.tex
+
+[11 <./capitulos/cap2-estadodaarte/assets/image/praxis/praxis-home-page.png>]
+Cap\'{\i }tulo 3.
+<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=187, 903.375pt x 913.4125pt>
+File: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png  used on input line 12.
+(pdftex.def)             Requested size: 423.9459pt x 428.66281pt.
+
+LaTeX Warning: Reference `fig:dd' on page 12 undefined on input line 18.
 
 
-LaTeX Warning: Reference `tab:req-nao-funcionais' on page 11 undefined on input line 75.
+LaTeX Warning: Reference `tab:req-funcionais' on page 12 undefined on input line 33.
 
-(capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
 
-[11] [12
+
+[12
 
 ]
 
-[13]) (capitulos/cap3-analisedoproblema/tabelas/requisitos-n-func/requisitos-n-func.tex
+[13 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)>]
+LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <12> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 34.
+
+
+LaTeX Warning: Reference `app:userflowchart' on page 14 undefined on input line 36.
+
+
+LaTeX Warning: Reference `subsection:requisitos_funcionais' on page 14 undefined on input line 73.
+
+
+LaTeX Warning: Reference `tab:req-nao-funcionais' on page 14 undefined on input line 73.
+
+(capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
+
+[14]
+
+[15] [16
+
+]
+
+[17]) (capitulos/cap3-analisedoproblema/tabelas/requisitos-n-func/requisitos-n-func.tex
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table 3.2 on input line 26.
 
 
 
-[14
+[18
 
 
 ]) (capitulos/cap3-analisedoproblema/arquitetura.tex
 
-LaTeX Warning: Reference `fig:diagram-lvl1-physical' on page 15 undefined on input line 18.
+LaTeX Warning: Reference `fig:diagram-lvl1-logical' on page 19 undefined on input line 14.
+
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png, id=232, 429.605pt x 273.02pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png  used on input line 18.
+(pdftex.def)             Requested size: 211.97295pt x 134.71414pt.
+
+LaTeX Warning: Reference `fig:diagram-lvl1-physical' on page 19 undefined on input line 25.
 
 
-Package glossaries-extra Warning: Base acronym command \Acrshort should not be used with new abbreviation definitions. Use \Glsxtrshort instead on input line 18.
+Package glossaries-extra Warning: Base acronym command \Acrshort should not be used with new abbreviation definitions. Use \Glsxtrshort instead on input line 25.
 
 
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 18.
+Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 25.
 
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png, id=202, 305.14pt x 112.42pt>
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png, id=233, 305.14pt x 112.42pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png  used on input line 22.
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png  used on input line 29.
 (pdftex.def)             Requested size: 211.97295pt x 78.09822pt.
 
-LaTeX Warning: Reference `fig:diagram-lvl2-physical' on page 15 undefined on input line 39.
+LaTeX Warning: Reference `fig:diagram-lvl2-logical' on page 19 undefined on input line 42.
 
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png, id=203, 473.77pt x 317.185pt>
+
+LaTeX Warning: Reference `fig:diagram-lvl1-logical' on page 19 undefined on input line 42.
+
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png, id=234, 599.23875pt x 404.51125pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png  used on input line 47.
+(pdftex.def)             Requested size: 296.76083pt x 200.32935pt.
+
+LaTeX Warning: Reference `fig:diagram-lvl2-physical' on page 19 undefined on input line 56.
+
+
+
+[19
+
+ <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png (PNG copy)>]
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png, id=248, 473.77pt x 317.185pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png  used on input line 43.
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png  used on input line 60.
 (pdftex.def)             Requested size: 254.37012pt x 170.29968pt.
 
-LaTeX Warning: Reference `fig:diagram-lvl3-physical' on page 15 undefined on input line 56.
+
+LaTeX Warning: Reference `fig:diagram-lvl3-logical' on page 20 undefined on input line 72.
+
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png, id=249, 599.23875pt x 573.14125pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png  used on input line 76.
+(pdftex.def)             Requested size: 339.158pt x 324.39386pt.
+
+LaTeX Warning: Reference `fig:diagram-lvl3-physical' on page 20 undefined on input line 85.
 
 
 
-[15
+[20 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png (PNG copy)>]
 
- <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png (PNG copy)>]
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png, id=220, 593.21625pt x 588.1975pt>
+[21 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png (PNG copy)>]
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png, id=265, 593.21625pt x 588.1975pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png  used on input line 60.
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png  used on input line 89.
 (pdftex.def)             Requested size: 296.76083pt x 294.25958pt.
 
 
-LaTeX Warning: Reference `fig:diagram-lvl4-physical' on page 16 undefined on input line 77.
+LaTeX Warning: Reference `fig:diagram-lvl4-physical' on page 22 undefined on input line 104.
 
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png, id=221, 843.15pt x 597.23125pt>
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png, id=266, 913.4125pt x 597.23125pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png  used on input line 83.
-(pdftex.def)             Requested size: 423.9459pt x 300.3008pt.
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png  used on input line 110.
+(pdftex.def)             Requested size: 423.9459pt x 277.19022pt.
+)) (capitulos/cap4-implementacao/implementacao.tex
 
+[22 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png (PNG copy)>]
 
-[16 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png (PNG copy)>])) (capitulos/cap4-implementacao/implementacao.tex
-
-[17 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png (PNG copy)>]
+[23 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png (PNG copy)>]
 Cap\'{\i }tulo 4.
 (capitulos/cap4-implementacao/seccoes/backend.tex
 
-LaTeX Warning: Reference `tab:req-funcionais' on page 18 undefined on input line 5.
+LaTeX Warning: Reference `tab:req-funcionais' on page 24 undefined on input line 5.
 
 
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 23.
-
-
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 25.
-
-
-Package glossaries-extra Warning: Base acronym command \acrlong should not be used with new abbreviation definitions. Use \glsxtrlong instead on input line 25.
-
-
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 25.
-
-
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 27.
+LaTeX Warning: Citation 'docs-hibernate' on page 24 undefined on input line 23.
 
 
 
-[18
+[24
 
 ]
 
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 29.
+Package glossaries-extra Warning: Base acronym command \acrlong should not be used with new abbreviation definitions. Use \glsxtrlong instead on input line 25.
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be used with new abbreviation definitions. Use \glsxtrlong instead on input line 29.
 
 
-LaTeX Warning: Reference `fig:folder-struct-backend' on page 19 undefined on input line 43.
+LaTeX Warning: Reference `fig:folder-struct-backend' on page 25 undefined on input line 43.
 
-<capitulos/cap4-implementacao/assets/fold-struct-backend.png, id=252, 242.40562pt x 310.15875pt>
+<capitulos/cap4-implementacao/assets/fold-struct-backend.png, id=292, 242.40562pt x 310.15875pt>
 File: capitulos/cap4-implementacao/assets/fold-struct-backend.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/fold-struct-backend.png>
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/fold-struct-backend.png  used on input line 47.
 (pdftex.def)             Requested size: 211.97295pt x 271.23206pt.
 
-LaTeX Warning: Reference `fig:classe-projeto' on page 19 undefined on input line 54.
+LaTeX Warning: Reference `lst:classe-projeto' on page 25 undefined on input line 54.
 
 
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 59.
 
+[25 <./capitulos/cap4-implementacao/assets/fold-struct-backend.png>]
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 10.0pt on input line 59.
 
-LaTeX Warning: Reference `sec:base-entity' on page 19 undefined on input line 64.
+
+LaTeX Warning: Citation 'docs-annotation-data' on page 26 undefined on input line 60.
 
 
-
-[19 <./capitulos/cap4-implementacao/assets/fold-struct-backend.png>]
-
-LaTeX Warning: Reference `lst:backend-base-entity' on page 20 undefined on input line 131.
-
-
-Overfull \hbox (32.4005pt too wide) in paragraph at lines 140--141
-\T1/cmbr/m/n/10.95 texto da per-sis-tÍn-cia. Com-ple-men-tar-mente, [][][][][][][][][][]
+Overfull \hbox (19.97424pt too wide) in paragraph at lines 60--61
+[]\T1/cmbr/bx/n/12 @Data\T1/cmbr/m/n/12 [[]] serve como subs-ti-tuto para as ano-ta-Áıes [][][],
  []
 
 
-LaTeX Warning: Reference `sec:backend-value-objects' on page 20 undefined on input line 142.
+LaTeX Warning: Reference `sec:base-entity' on page 26 undefined on input line 64.
 
 
 
-[20]
+[26]
 
-[21]
-
-LaTeX Warning: Reference `lst:interface-value-object' on page 22 undefined on input line 219.
+LaTeX Warning: Reference `lst:backend-base-entity' on page 27 undefined on input line 121.
 
 
-
-[22]
-
-[23]
-
-LaTeX Warning: Reference `lst:class-project-description' on page 24 undefined on input line 279.
+Overfull \hbox (72.05923pt too wide) in paragraph at lines 130--131
+\T1/cmbr/m/n/12 con-texto da per-sis-tÍn-cia. Com-ple-men-tar-mente, [][][][][][][][][][]
+ []
 
 
-LaTeX Warning: Reference `sec:backend-Spring' on page 24 undefined on input line 291.
+LaTeX Warning: Reference `sec:backend-value-objects' on page 27 undefined on input line 132.
 
 
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 291.
-
-
-LaTeX Warning: Reference `lst:interface-base-repository' on page 24 undefined on input line 293.
-
-
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 295.
-
-
-LaTeX Warning: Reference `lst:interface-project-repository' on page 24 undefined on input line 304.
-
-
-
-[24]
-
-LaTeX Warning: Reference `lst:class-AppExceptionController' on page 25 undefined on input line 322.
-
-
-LaTeX Warning: Reference `lst:class-Error' on page 25 undefined on input line 322.
-
-
-LaTeX Warning: Reference `lst:class-ProjectController' on page 25 undefined on input line 322.
-
-
-LaTeX Warning: Reference `lst:exception-AppException' on page 25 undefined on input line 322.
-
-
-
-[25]
-
-[26])
 
 [27]
 
-LaTeX Warning: Reference `app:pipeline-start.sh' on page 28 undefined on input line 33.
+[28]
+
+LaTeX Warning: Reference `lst:interface-value-object' on page 29 undefined on input line 209.
 
 
-LaTeX Warning: Reference `app:dockerfile-pipeline-agent' on page 28 undefined on input line 33.
+
+[29]
+
+LaTeX Warning: Reference `lst:class-project-description' on page 30 undefined on input line 269.
 
 
-LaTeX Warning: Reference `fig:start-docker-agent' on page 28 undefined on input line 35.
+LaTeX Warning: Reference `sec:backend-Spring' on page 30 undefined on input line 281.
 
 
-LaTeX Warning: Reference `fig:agent-devops' on page 28 undefined on input line 56.
+LaTeX Warning: Reference `lst:interface-base-repository' on page 30 undefined on input line 283.
 
-<capitulos/cap4-implementacao/assets/devops-agent.png, id=573, 949.74825pt x 218.61674pt>
+
+LaTeX Warning: Citation 'docs-spring-repository' on page 30 undefined on input line 285.
+
+
+Overfull \hbox (44.59538pt too wide) in paragraph at lines 285--286
+\T1/cmbr/m/n/12 buto [][][]. Esta se-gue uma no-men-cla-tura es-pe-ci-fica do Spring [[]]. 
+ []
+
+
+LaTeX Warning: Reference `lst:interface-project-repository' on page 30 undefined on input line 294.
+
+
+
+[30]
+
+LaTeX Warning: Reference `lst:class-AppExceptionController' on page 31 undefined on input line 312.
+
+
+LaTeX Warning: Reference `lst:class-Error' on page 31 undefined on input line 312.
+
+
+LaTeX Warning: Reference `lst:class-ProjectController' on page 31 undefined on input line 312.
+
+
+LaTeX Warning: Reference `lst:exception-AppException' on page 31 undefined on input line 312.
+
+
+
+[31]
+
+[32]
+
+[33]
+
+LaTeX Warning: Reference `lst:method-create-new-project-class-ProjectService' on page 34 undefined on input line 458.
+
+
+
+[34])
+
+[35]
+
+LaTeX Warning: Citation 'run-a-self-hosted-agent-in-docker' on page 36 undefined on input line 33.
+
+
+LaTeX Warning: Reference `app:pipeline-start.sh' on page 36 undefined on input line 33.
+
+
+LaTeX Warning: Reference `app:dockerfile-pipeline-agent' on page 36 undefined on input line 33.
+
+
+Overfull \hbox (66.85085pt too wide) in paragraph at lines 33--34
+[]\T1/cmbr/m/n/12 A Mi-cro-soft ofe-rece fer-ra-men-tas para aju-dar neste pro-cesso [[]].
+ []
+
+
+LaTeX Warning: Reference `fig:start-docker-agent' on page 36 undefined on input line 35.
+
+
+LaTeX Warning: Reference `fig:agent-devops' on page 36 undefined on input line 56.
+
+<capitulos/cap4-implementacao/assets/devops-agent.png, id=680, 949.74825pt x 218.61674pt>
 File: capitulos/cap4-implementacao/assets/devops-agent.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/devops-agent.png>
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/devops-agent.png  used on input line 59.
 (pdftex.def)             Requested size: 423.9459pt x 97.58603pt.
 
+LaTeX Warning: Reference `app:pipeline-yaml' on page 36 undefined on input line 68.
 
-[28]
 
-LaTeX Warning: Reference `app:pipeline-yaml' on page 29 undefined on input line 68.
 
-<capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png, id=592, 264.99pt x 555.07375pt>
+[36]
+<capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png, id=690, 264.99pt x 555.07375pt>
 File: capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png>
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png  used on input line 72.
 (pdftex.def)             Requested size: 127.18506pt x 266.41542pt.
 
-LaTeX Warning: Reference `fig:pipeline-ad' on page 29 undefined on input line 78.
+
+LaTeX Warning: Reference `fig:pipeline-ad' on page 37 undefined on input line 78.
+
+
+LaTeX Warning: Reference `lst:pipeline-trigger' on page 37 undefined on input line 88.
+
+
+LaTeX Warning: Reference `fig:pipeline-ad' on page 37 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'docs-SSH0' on page 37 undefined on input line 98.
 
 
 
-[29 <./capitulos/cap4-implementacao/assets/devops-agent.png> <./capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png (PNG copy)>]
+[37 <./capitulos/cap4-implementacao/assets/devops-agent.png>]) (capitulos/conclus√£o/conclus√£o.tex
 
-LaTeX Warning: Reference `lst:pipeline-trigger' on page 30 undefined on input line 88.
-
-
-LaTeX Warning: Reference `fig:pipeline-ad' on page 30 undefined on input line 98.
-
-) (capitulos/conclus√£o/conclus√£o.tex
-
-[30]
+[38 <./capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png (PNG copy)>]
 Cap\'{\i }tulo 5.
 )
 
-[31
+LaTeX Warning: Empty bibliography on input line 86.
 
-] (frontmatter/appendix.tex (appendices/a-userflowchart/appendix-a.tex
+(frontmatter/appendix.tex (appendices/a-userflowchart/appendix-a.tex
 
-[32
+[39
 
 ]
 Ap\^endice A.
@@ -2040,29 +2128,239 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <24.88> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 3.
 ) (appendices/b-pipeline-start.sh/appendix-b.tex
 
-[33
+[40
 
 ]
 Ap\^endice B.
-) (appendices/c-pipeline-agent-dockerfile/appendix-c.tex
+(appendices/b-pipeline-start.sh/start.sh
+Overfull \hbox (46.05867pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
 
-[34
+
+
+[41
 
 ]
+Overfull \hbox (70.05891pt too wide) in paragraph at lines 64--66
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+appendices/b-pipeline-start.sh/start.sh:68: Missing $ inserted.
+<inserted text> 
+                $
+l.68 ...{AZP_AGENT_PACKAGE_LATEST_URL}" -o "${AZP_
+                                                  AGENT_PACKAGE_LATEST_URL}"...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:68: Extra }, or forgotten $.
+l.68 ..._URL}" -o "${AZP_AGENT_PACKAGE_LATEST_URL}
+                                                  " == "null" ]; then
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:69: Misplaced alignment tab character &.
+l.69   echo 1>&
+               2 "error: could not determine a matching Azure Pipelines agent"
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+appendices/b-pipeline-start.sh/start.sh:70: Misplaced alignment tab character &.
+l.70   echo 1>&
+               2 "check that account "${AZP_URL}" is correct and the token i...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+appendices/b-pipeline-start.sh/start.sh:70: Missing $ inserted.
+<inserted text> 
+                $
+l.70   echo 1>&2 "check that account "${AZP_
+                                            URL}" is correct and the token i...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:70: Extra }, or forgotten $.
+l.70   echo 1>&2 "check that account "${AZP_URL}
+                                                " is correct and the token i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:76: Missing $ inserted.
+<inserted text> 
+                $
+l.76 curl -LsS "${AZP_
+                      AGENT_PACKAGE_LATEST_URL}" | tar -xz & wait $!
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:76: Extra }, or forgotten $.
+l.76 curl -LsS "${AZP_AGENT_PACKAGE_LATEST_URL}
+                                               " | tar -xz & wait $!
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:76: Misplaced alignment tab character &.
+l.76 ...AZP_AGENT_PACKAGE_LATEST_URL}" | tar -xz &
+                                                   wait $!
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+appendices/b-pipeline-start.sh/start.sh:84: Missing $ inserted.
+<inserted text> 
+                $
+l.84 print_
+           header "3. Configuring Azure Pipelines agent..."
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:86: You can't use `macro parameter character #' in math mode.
+l.86 #
+       Despite it saying "PAT", it can be the token through the service prin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+appendices/b-pipeline-start.sh/start.sh:88: Missing $ inserted.
+<inserted text> 
+                $
+l.88   --agent "${AZP_
+                      AGENT_NAME:-$(hostname)}" \
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:92: Missing $ inserted.
+<inserted text> 
+                $
+l.92   --pool "${AZP_
+                     POOL:-Default}" \
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:92: Extra }, or forgotten $.
+l.92   --pool "${AZP_POOL:-Default}
+                                   " \
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:93: Missing $ inserted.
+<inserted text> 
+                $
+l.93   --work "${AZP_
+                     WORK:-_work}" \
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:93: Extra }, or forgotten $.
+l.93   --work "${AZP_WORK:-_work}
+                                 " \
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:95: Misplaced alignment tab character &.
+l.95   --acceptTeeEula &
+                         wait $!
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+appendices/b-pipeline-start.sh/start.sh:97: Missing $ inserted.
+<inserted text> 
+                $
+l.97 print_
+           header "4. Running Azure Pipelines agent..."
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:101: You can't use `macro parameter character #' in math mode.
+l.101 #
+        To be aware of TERM and INT signals call ./run.sh
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+appendices/b-pipeline-start.sh/start.sh:102: You can't use `macro parameter character #' in math mode.
+l.102 #
+        Running it with the --once flag at the end will shut down the agent ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+appendices/b-pipeline-start.sh/start.sh:103: Misplaced alignment tab character &.
+<argument> \csname system@active"\endcsname &
+                                             
+l.103 ./run.sh "$@" &
+                      wait $!
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
+appendices/b-pipeline-start.sh/appendix-b.tex:4: Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...ng{appendices/b-pipeline-start.sh/start.sh}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (315.71808pt too wide) in paragraph at lines 66--4
+\OT1/cmbr/m/n/10 2"\OML/cmbrm/m/it/10 checkthataccount\OT1/cmbr/m/n/10 "$\T1/zi4/m/n/10 AZP$[]\OML/cmbrm/m/it/10 RL\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 iscorrectandthetokenisvalidforthataccount\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 exit\OT1/cmbr/m/n/10 1\OML/cmbrm/m/it/10 fiprint[]eader\OT1/cmbr/m/n/10 "2\OML/cmbrm/m/it/10 :DownloadingandextractingAzurePipelinesagent:::\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 curl \OMS/cmbrs/m/n/10 ^^@ 
+ []
+
+
+Overfull \hbox (251.44197pt too wide) in paragraph at lines 66--4
+\T1/zi4/m/n/10 143"TERMprint$[]\OML/cmbrm/m/it/10 eader\OT1/cmbr/m/n/10 "3\OML/cmbrm/m/it/10 :ConfiguringAzurePipelinesagent:::\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 Despiteitsaying\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 PAT\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 ; itcanbethetokenthroughtheserviceprincipal:=config:sh \OMS/cmbrs/m/n/10 ^^@ 
+ []
+
+) (appendices/c-pipeline-agent-dockerfile/appendix-c.tex
+
+[42]
 Ap\^endice C.
 (appendices/c-pipeline-agent-dockerfile/dockerfile)) (appendices/d-pipeline-yaml/appendix-d.tex
 
-[35
+[43
 
 ]
 Ap\^endice D.
-(appendices/d-pipeline-yaml/pipline.yaml
-
-[36
-
-])
-
-[37]))
+))
 
 Package glossaries Warning: Ignoring attempt to run command `makeindex -s main.ist -t main.glg -o main.gls main.glo' on input line 96.
 
@@ -2076,7 +2374,9 @@ This document will not have a glossary.
 
 
 
-[38]
+[44
+
+]
 
 Package longtable Warning: Table widths have changed. Rerun LaTeX.
 
@@ -2105,17 +2405,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66889 strings out of 468149
- 1585058 string characters out of 5431082
- 2816920 words of memory out of 5000000
- 94013 multiletter control sequences out of 15000+600000
- 646890 words of font info for 79 fonts, out of 8000000 for 9000
+ 67025 strings out of 468149
+ 1588603 string characters out of 5431082
+ 2816873 words of memory out of 5000000
+ 94113 multiletter control sequences out of 15000+600000
+ 647042 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,20n,131p,2534b,2868s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1244\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi540\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr9.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (46 pages, 720270 bytes).
+ 101i,20n,131p,2534b,2802s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi525\cmbrmi8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrmi10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi525\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr17.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1037\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
+Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (52 pages, 1020293 bytes).
 PDF statistics:
- 1715 PDF objects out of 1728 (max. 8388607)
- 567 named destinations out of 1000 (max. 500000)
- 636 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1850 PDF objects out of 2073 (max. 8388607)
+ 609 named destinations out of 1000 (max. 500000)
+ 658 words of extra memory for PDF output out of 10000 (max. 10000000)
 

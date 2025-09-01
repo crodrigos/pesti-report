@@ -40,13 +40,27 @@
 %   Code Listings
 % =========================
 \usepackage{listings}
+\let\origthelstnumber\thelstnumber
+\makeatletter
+\newcommand*\Suppressnumber{%
+  \lst@AddToHook{OnNewLine}{%
+    \let\thelstnumber\relax%
+     \advance\c@lstnumber-\@ne\relax%
+    }%
+}
+
+\newcommand*\Reactivatenumber{%
+  \lst@AddToHook{OnNewLine}{%
+   \let\thelstnumber\origthelstnumber%
+   \advance\c@lstnumber\@ne\relax}%
+}
 \usepackage{fancyvrb}         % Makes listings more flexible
 \usepackage{caption}          % Better captions
 
 % Global Java style (adjust as needed)
 \lstset{
     language=Java,
-    basicstyle=\ttfamily\small,
+    basicstyle=\ttfamily\footnotesize,
     showspaces=false,
     showtabs=false,
     breaklines=true,
@@ -66,7 +80,8 @@
     frame=tb,
     captionpos=b,
     aboveskip=1em,
-    belowskip=1em
+    belowskip=1em,
+    escapeinside=||
 }
 
 % YAML support
