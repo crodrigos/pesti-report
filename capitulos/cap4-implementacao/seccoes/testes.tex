@@ -1,0 +1,67 @@
+\section{Testes}
+
+A prática de testes é fundamental para assegurar o correto funcionamento de qualquer programa, permitindo verificar se o código implementado cumpre as especificações definidas. Esta secção pretende apresentar e detalhar os diferentes tipos de testes que foram realizados ao longo do projeto e as tecnologias utilizadas para este.
+
+\subsection{Testes Unitários}
+
+Os testes unitários constituem uma prática essencial no desenvolvimento de \textit{software}, cujo principal objetivo é garantir que cada unidade de código se comporta conforme esperado. Esta abordagem permite a deteção precoce de erros, aumenta a fiabilidade do \textit{software} e facilita a manutenção e evolução do sistema. Para a execução destes testes, deu-se prioridade à utilização do \textit{JUnit}, em conjunto com as ferramentas disponibilizadas pelo \gls{Spring}.
+
+\begin{lstlisting}[language=Java, label={lst:class-CompanyTest}, caption={Class \textit{CompanyTest} - Exemplificação de testes Unitários}]
+@DataJpaTest()
+class CompanyTest {
+
+    @Autowired
+    private TestEntityManager entityManager;
+
+    @Autowired
+    private CompanyRepository companyRepository;
+
+    @Test
+    void shouldPersistAndLoadCompanyWithValueObjects() {
+        Company company = new Company();
+        company.setName(new CompanyName("OpenAI"));
+        company.setDescription(new CompanyDescription("Artificial Intelligence Research"));
+
+        entityManager.persist(company);
+        entityManager.flush();
+        entityManager.clear();
+
+        Optional<Company> found = companyRepository.findById(company.getIid());
+
+        assertThat(found.isEmpty()).isFalse();
+        assertThat(found.get().equals(company));
+    }
+    |\Suppressnumber|
+    ...
+    |\Reactivatenumber|
+}
+\end{lstlisting}
+
+\subsection{Testes de Implementação}
+
+Para os testes de implementação, deu-se especial ênfase à utilização da ferramenta Postman, a qual proporciona um ambiente colaborativo e estruturado para a testagem de \gls{API}.
+
+A figure \ref{lst:postman-post-company} apresenta o script pós-teste executado pelo postman para verificar a resposta ao pedido do tipo POST para "/company". 
+
+\begin{lstlisting}[style=Javascript, label={lst:postman-post-company}, caption={Script de test da rota POST /company}]
+pm.test("Status code is 201", function () {
+    pm.response.to.have.status(201);
+});
+
+pm.test("Response has correct company data", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name.value).to.eql("OpenAI");
+    pm.expect(jsonData.description.value).to.eql("Artificial Intelligence Research");
+    pm.expect(jsonData.id).to.exist;
+})
+
+const companyId = pm.response.json().id;
+await pm.sendRequest({
+    url: `${pm.environment.get("localhost")}/company/${companyId}`,
+    method: 'DELETE',
+    header: {
+        'Content-Type': 'application/json'
+    }
+});
+\end{lstlisting}
+

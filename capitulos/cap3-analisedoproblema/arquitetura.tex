@@ -1,11 +1,9 @@
 \section{Arquitetura do sistema}
 
 
-\subsection{Desenho do sistema}
+\subsection{Solução}
 
-
-
-
+No desenvolvimento desta solução, revela-se fundamental a organização do sistema em dois módulos distintos: um módulo responsável pela gestão da lógica de negócio, encarregada da execução das regras, validações e persistência de dados (\textit{Backend}); e um módulo de apresentação, dedicada à visualização e interação com a informação (\textit{Frontend}).
 
 \subsection{Nível 1 - Contexto}
 
@@ -49,8 +47,6 @@ A este somam-se os conceitos de \textit{Frontend} e \textit{Backend}.
     \label{fig:diagram-lvl2-logical}
 \end{figure}
 
-\subsubsection{Diagrama de Implementação}
-
 \subsubsection{Diagrama Físico} 
 
 A figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nível 2. Neste entende-se a função do servidor \gls{NGINX} como a de criação de duas rotas para \textit{Backend} e \textit{Frontend}, respetivamente \textit{'/api'} e \textit{'/'}.
@@ -78,9 +74,6 @@ Com um nivel menor de abstração, a figura \ref{fig:diagram-lvl3-logical} apres
     \label{fig:diagram-lvl3-logical}
 \end{figure}
 
-
-\subsubsection{Diagrama de Implementação}
-
 \subsubsection{Diagrama Físico} 
 A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nível 3. Com este é possível verificar o mapeamento das duas rotas criadas pelo servidor \textit{proxy} \gls{NGINX} para os PORTS 3000 e 4000, escolhidos, pois são memoráveis. Foi feita ainda a escolha de encapsular as aplicações \textit{Backend} e \textit{Frontend} em imagens \gls{Docker} garantindo assim o seu funcionamento independentemente do \textit{hardware} escolhido.
 
@@ -97,8 +90,6 @@ A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nív
 
 \subsection{Nível 4}
 
-\subsubsection{Diagrama de Implementação}
-
 \subsubsection{Diagrama Físico} 
 
 A figura \ref{fig:diagram-lvl4-physical} demonstra o diagrama de físico de nível 4. Dento das respetivas imagens \gls{Docker} é possível as aplicações  \textit{Backend} e \textit{Frontend} encapsuladas. No contexto do \gls{Docker} é necessário fazer um mapeamento dos \textit{ports} utilizados do ambiente interno (Imagem) para o externo (Máquina Virtual), por isso é possível ver o mapeamento dos ports, respetivamente, internos e externos, 8080 e 4000, no \textit{Backend} e 3000 e 3000 no \textit{Frontend}.
@@ -111,7 +102,3 @@ Em nota, é possível incluir a base de dados na imagem graças à funcionalidad
     \caption{Diagrama Físico de Nível 4}
     \label{fig:diagram-lvl4-physical}
 \end{figure}
-
-
-
-\subsection{Padrões utilizados}

@@ -85,14 +85,25 @@
 }
 
 % YAML support
-\lstdefinelanguage{yaml}{
-    morekeywords={true,false,null,yes,no},
-    sensitive=true,
-    morecomment=[l]{\#},
-    morestring=[b]',
-    morestring=[b]",
-    alsoletter={-},
-    literate={:}{{\color{black}:}}{1},
+\lstdefinestyle{Javascript}{
+    language=JavaScript,
+    basicstyle=\ttfamily\small,             % monospaced font
+    keywordstyle=\color{blue}\bfseries,     % keywords
+    commentstyle=\color{gray}\itshape,      % comments
+    stringstyle=\color{orange},             % strings
+    numberstyle=\tiny\color{gray},          % line numbers
+    numbers=left,                           % show line numbers on the left
+    stepnumber=1,
+    numbersep=10pt,
+    tabsize=2,
+    breaklines=true,                        % automatic line breaking
+    breakatwhitespace=false,
+    showstringspaces=false,
+    frame=tb,                               % top and bottom frame
+    captionpos=b,
+    aboveskip=1em,
+    belowskip=1em,
+    morekeywords={let,const,var,function,return,if,else,for,while,do,switch,case,break,continue,new,try,catch,finally,throw,typeof,instanceof,this,class,extends,super,import,export,default,async,await}, % additional JS keywords
 }
 
 % =========================
