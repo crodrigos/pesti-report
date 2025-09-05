@@ -1,11 +1,3 @@
-\glossaryentry{RTS?\glossentry{RTS}|setentrycounter[]{page}"\glsnumberformat}{ix}
-\glossaryentry{API?\glossentry{API}|setentrycounter[]{page}"\glsnumberformat}{ix}
-\glossaryentry{JPA?\glossentry{JPA}|setentrycounter[]{page}"\glsnumberformat}{ix}
-\glossaryentry{ORM?\glossentry{ORM}|setentrycounter[]{page}"\glsnumberformat}{ix}
-\glossaryentry{IoC?\glossentry{IoC}|setentrycounter[]{page}"\glsnumberformat}{ix}
-\glossaryentry{DI?\glossentry{DI}|setentrycounter[]{page}"\glsnumberformat}{ix}
-\glossaryentry{HTTP?\glossentry{HTTP}|setentrycounter[]{page}"\glsnumberformat}{ix}
-\glossaryentry{TCP?\glossentry{TCP}|setentrycounter[]{page}"\glsnumberformat}{ix}
 \glossaryentry{HTTP?\glossentry{HTTP}|setentrycounter[]{page}"\glsnumberformat}{24}
 \glossaryentry{TCP?\glossentry{TCP}|setentrycounter[]{page}"\glsnumberformat}{24}
 \glossaryentry{ORM?\glossentry{ORM}|setentrycounter[]{page}"\glsnumberformat}{30}
