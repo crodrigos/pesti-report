@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  3 SEP 2025 02:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  5 SEP 2025 02:28
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**"c:/Users/carlo/Documents/Universidade/2425/Relatorio Pesti/main.tex"
+(c:/Users/carlo/Documents/Universidade/2425/Relatorio Pesti/main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
 (tmdei-style.cls
@@ -11,20 +12,14 @@ Document Class: tmdei-style
 (etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-07-19 L3 programming layer (loader) 
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
 File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
@@ -41,43 +36,30 @@ File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/07/13 v25.11 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
+Package: babel 2025/07/13 v25.11 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count286
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2045.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2047.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2049.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2050.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2051.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2053.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
 \U@D=\dimen149
 \l@unhyphenated=\language79
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count287
 
@@ -85,51 +67,32 @@ on input line 2078.
 * Local config file bblopts.cfg used
 *
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portugue
-se.ldf
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portuguese.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel
--portuguese.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-portuguese.tex
 Package babel Info: Importing font and identification data for portuguese
 (babel)             from babel-pt.ini. Reported on input line 12.
 )
 Package babel Info: Making " an active character on input line 143.
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2025/06/04 v3.45 KOMA-Script package (file load hooks)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2025/06/04 v3.45 KOMA-Script package (using LaTeX hooks)
-
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2025/06/04 v3.45 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 370.
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/scrhack\scrhack.sty
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/scrhack\scrhack.sty
 Package: scrhack 2024-09-04 v3.42 scrhack emulation package
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/setspaceenhanced\setspa
-ceenhanced.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/setspaceenhanced\setspaceenhanced.sty
 Package: setspaceenhanced 2024-11-12 v1.04 improved setspace package
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \LTleft=\skip51
 \LTright=\skip52
@@ -147,8 +110,7 @@ Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \c@LT@tables=\count291
 \c@LT@chunks=\count292
 \LT@p@ftn=\toks18
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count293
 \l__siunitx_number_exponent_fixed_int=\count294
@@ -164,19 +126,11 @@ Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_angle_marker_box=\box58
 \l__siunitx_angle_unit_box=\box59
 \l__siunitx_compound_count_int=\count303
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
-ns.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
- (CN)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
@@ -186,8 +140,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen152
@@ -205,8 +158,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \l__siunitx_unit_tmp_int=\count304
 \l__siunitx_unit_position_int=\count305
 \l__siunitx_unit_total_int=\count306
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen157
 \ar@mcellbox=\box66
@@ -215,35 +167,28 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \extratabsurround=\skip55
 \backup@length=\skip56
 \ar@cellbox=\box67
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -278,11 +223,9 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -316,8 +259,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@reset=\count311
 \csq@gtype=\count312
@@ -326,14 +268,12 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@maxlvl=\count315
 \csq@tshold=\count316
 \csq@ltx@everypar=\toks23
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
@@ -402,16 +342,11 @@ LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 64.
 LaTeX Font Info:    Redeclaring math symbol \varphi on input line 65.
 LaTeX Info: Redefining \LaTeX on input line 129.
 LaTeX Info: Redefining \LaTeXe on input line 139.
-LaTeX Font Info:    Trying to load font information for T1+cmbr on input line 1
-44.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\t1cmbr.fd
+LaTeX Font Info:    Trying to load font information for T1+cmbr on input line 144.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\t1cmbr.fd
 File: t1cmbr.fd 2005/04/13 v8.1 (WaS)
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
-y
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count317
@@ -419,32 +354,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box68
 \@float@everytoks=\toks25
 \@floatcapt=\box69
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/floatbytocbasic\floatby
-tocbasic.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/floatbytocbasic\floatbytocbasic.sty
 Package: floatbytocbasic 2023-08-16 v1.0 improved float package using tocbasic
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
-y
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2025/06/04 v3.45 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip57
 \scr@dte@tocline@numbox=\box70
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 Package tocbasic Info: setting babel extension for `loa' on input line 95.
 \@float@every@algorithm=\toks26
 \c@algorithm=\count318
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
-ode.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
-cx.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -473,75 +399,54 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 \lst@newlines=\count330
 \lst@lineno=\count331
 \lst@maxwidth=\dimen177
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 \c@lstnumber=\count332
 \lst@skipnumbers=\count333
 \lst@framebox=\box72
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossar
-ies.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
 Package: glossaries 2025/05/14 v4.7 (NLCT)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks28
 \XKV@tempa@toks=\toks29
 )
 \XKV@depth=\count334
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2025/04/03 v2.09 (NLCT)
 \@glsmfirst=\toks30
 \@glsmrest=\toks31
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
-ex)
-Package tracklang Info: Tracking dialect `portuguese' (language `portuges') on 
-input line 53.
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
-ty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)
+Package tracklang Info: Tracking dialect `portuguese' (language `portuges') on input line 53.
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-portuges\glo
-ssaries-portuges.ldf
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-portuges\glossaries-portuges.ldf
 File: glossaries-portuges.ldf 2014/11/23 v1.0
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-portuges\glo
-ssaries-portuges-utf8.ldf))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.
-sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-portuges\glossaries-portuges-utf8.ldf)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
 Package: datatool-base 2025/04/25 v3.4.1 (NLCT)
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip61
+
 For additional information on amsmath, use the `?' option.
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen178
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count335
@@ -591,9 +496,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-l3fp.
-def
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-l3fp.def
 File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
 )
 \@dtl@toks=\toks36
@@ -601,9 +504,7 @@ File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
 \dtl@tmplength=\skip64
 \l__datatool_measure_box=\box75
 \dtl@sortresult=\count348
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.
-ldf
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
 )
 \@dtl@datatype=\count349
@@ -631,8 +532,7 @@ File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
 \@dtl@foreach@level=\count369
 
 
-Package tracklang Warning: No `datatool' support for dialect `portuguese'  on i
-nput line 9908.
+Package tracklang Warning: No `datatool' support for dialect `portuguese'  on input line 9908.
 
 \dtl@codeA=\count370
 \dtl@codeB=\count371
@@ -646,28 +546,18 @@ nput line 9908.
 \glslabeltok=\toks39
 \glsshorttok=\toks40
 \glslongtok=\toks41
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-hypernav.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
 Package: glossary-hypernav 2025/05/14 v4.7 (NLCT)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-list.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
 Package: glossary-list 2025/05/14 v4.7 (NLCT)
 \glslistdottedwidth=\skip66
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-long.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
 Package: glossary-long 2025/05/14 v4.7 (NLCT)
 \glsdescwidth=\skip67
 \glspagelistwidth=\skip68
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-super.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
 Package: glossary-super 2025/05/14 v4.7 (NLCT)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabul
-ar.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
 \c@tracingst=\count373
 \ST@wd=\dimen190
@@ -684,9 +574,7 @@ Package: supertabular 2024/07/20 v4.2c the supertabular environment
 \ST@toadd=\dimen198
 \ST@dimen=\dimen199
 \ST@pbox=\box76
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-tree.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
 Package: glossary-tree 2025/05/14 v4.7 (NLCT)
 \l__glossaries_tree_max_known_level_int=\count374
 \l__glossaries_tree_offset_dim=\dimen256
@@ -700,11 +588,9 @@ Package: glossary-tree 2025/05/14 v4.7 (NLCT)
 \l__glossaries_tree_namesymbolwidth_padding_dim=\dimen264
 \l__glossaries_tree_level_int=\count375
 \glstreeindent=\skip72
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen265
 \captionmargin=\dimen266
@@ -721,8 +607,7 @@ Package caption Info: Standard document class detected.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
@@ -733,8 +618,7 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@ppsaveapp=\count380
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count381
@@ -749,27 +633,15 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen279
 \Gm@layoutvoffset=\dimen280
 \Gm@dimlist=\toks42
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
-rpage.sty
-Package: scrlayer-scrpage 2025/06/04 v3.45 KOMA-Script package (end user interf
-ace for scrlayer)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.st
-y
-Package: scrlayer 2025/06/04 v3.45 KOMA-Script package (defining layers and pag
-e styles)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
-y
-Package: scrkbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2025/06/04 v3.45 KOMA-Script package (end user interface for scrlayer)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.sty
+Package: scrlayer 2025/06/04 v3.45 KOMA-Script package (defining layers and page styles)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
 )
 \footheight=\skip73
-Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
-9.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2179.
 )
 Package scrbase Info: Unknown processing state.
 (scrbase)             Processing option `markcase=used'
@@ -777,56 +649,30 @@ Package scrbase Info: Unknown processing state.
 (scrbase)             `KOMA' doesn't set
 (scrbase)             a valid state. This will be interpreted
 (scrbase)             as \FamilyKeyStateProcessed on input line 649.
-)) (frontmatter/packages.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+)) (frontmatter/packages.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata
-.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata.sty
 Package: inconsolata 2019/05/17 v1.12
- `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+ `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 \zifour@ocount=\count384
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks43
 \pgfutil@tempdima=\dimen281
 \pgfutil@tempdimb=\dimen282
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box77
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks44
 \pgfkeys@temptoks=\toks45
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-libraryfiltered.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks46
 ))
 \pgf@x=\dimen283
@@ -849,76 +695,32 @@ libraryfiltered.code.tex
 \t@pgf@tokb=\toks48
 \t@pgf@tokc=\toks49
 \pgf@sys@id@count=\count389
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-)))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
+))) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count390
 \pgfsyssoftpath@bigbuffer@items=\count391
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-e.code.tex
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
-code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
-r.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen293
 \pgfmath@count=\count392
 \pgfmath@box=\box78
 \pgfmath@toks=\toks50
 \pgfmath@stack@operand=\toks51
 \pgfmath@stack@operation=\toks52
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.integerarithmetics.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
-code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
-.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count393
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
-tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epoints.code.tex
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen294
 \pgf@picmaxx=\dimen295
@@ -934,130 +736,75 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen305
 \pgf@zx=\dimen306
 \pgf@zy=\dimen307
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathconstruct.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen308
 \pgf@path@lasty=\dimen309
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathusage.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen310
 \pgf@shorten@start@additional=\dimen311
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-escopes.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box79
 \pgf@hbox=\box80
 \pgf@layerbox@main=\box81
 \pgf@picture@serial@count=\count394
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-egraphicstate.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen312
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransformations.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen313
 \pgf@pt@y=\dimen314
 \pgf@pt@temp=\dimen315
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-equick.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eobjects.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathprocessing.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-earrows.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen316
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eshade.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen317
 \pgf@sys@shading@range@num=\count395
 \pgf@shadingcount=\count396
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eimage.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eexternal.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box82
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-elayers.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransparency.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epatterns.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-erdf.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-shapes.code.tex
+))) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box83
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-plot.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-0-65.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen318
 \pgf@nodesepend=\dimen319
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-1-18.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
-y
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
-ty
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
-code.tex
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen320
 \pgffor@skip=\dimen321
 \pgffor@stack=\toks53
 \pgffor@toks=\toks54
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplothandlers.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count397
 \pgfplotmarksize=\dimen322
@@ -1078,110 +825,37 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count399
 \tikznumberofcurrentchild=\count400
 \tikz@fig@count=\count401
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-matrix.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count402
 \pgfmatrixcurrentcolumn=\count403
 \pgf@matrix@numberofcolumns=\count404
 )
 \tikz@expandcount=\count405
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
-ision.tex)
+))) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
-e.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
-.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks55
 \t@pgfplots@tokb=\toks56
 \t@pgfplots@tokc=\toks57
 \pgfplots@tmpa=\dimen331
 \c@pgfplots@coordindex=\count406
 \c@pgfplots@scanlineindex=\count407
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
-sysgeneric.code.tex))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
-slibrary.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
-ib\pgfplotsoldpgfsupp_loader.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryfpu.code.tex)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks58
 \t@pgf@tokb=\toks59
 \t@pgf@tokc=\toks60
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
-ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sutil.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsliststructure.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsliststructureext.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsarray.code.tex
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count408
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsmatrix.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
-plotstableshared.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count409
 \t@pgfplotstable@a=\toks61
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsdeque.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sbinary.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sbinary.data.code.tex))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sutil.verb.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
-arypgfplots.surfshading.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count410
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
-rypgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-scolormap.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-scolor.code.tex))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
-kedplots.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
-handlers.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
-plothandler.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
-plotimage.code.tex)))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
-ling.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
-dprocessing.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
-orbars.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
-kers.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
-s.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
-hs.code.tex)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-decorations.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen332
 \pgfdecoratedremainingdistance=\dimen333
 \pgfdecoratedinputsegmentcompleteddistance=\dimen334
@@ -1192,17 +866,7 @@ decorations.code.tex
 \pgfdecorationsegmentlength=\dimen338
 )
 \tikz@lib@dec@box=\box88
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.pathreplacing.code.tex))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
-rarypgfplots.contourlua.code.tex)
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count412
 \pgfplots@xmin@reg=\dimen339
 \pgfplots@xmax@reg=\dimen340
@@ -1210,16 +874,11 @@ rarypgfplots.contourlua.code.tex)
 \pgfplots@ymax@reg=\dimen342
 \pgfplots@zmin@reg=\dimen343
 \pgfplots@zmax@reg=\dimen344
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryplotmarks.code.tex
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplotmarks.code.tex
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+))) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen345
 \TX@old@table=\dimen346
@@ -1228,26 +887,20 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen349
 \TX@cols=\count413
 \TX@ftn=\toks62
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen350
 \c@nlinenum=\count414
 \TeXr@lab=\toks63
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip74
 \multirow@cntb=\count415
 \multirow@dima=\skip75
 \bigstrutjot=\dimen351
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.s
-ty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.sty
 Package: tabularray 2025-03-11 v2025A Typeset tabulars and arrays with LaTeX3
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.s
-ty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
 \l__tblr_a_int=\count416
@@ -1370,28 +1023,19 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 \l__tblr_last_cell_table_dp_dim=\dimen404
 \l__tblr_last_vline_wd_dim=\dimen405
 \l__tblr_tikz_node_box=\box116
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
-etadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/lscapeenhanced\lscapeen
-hanced.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/lscapeenhanced\lscapeenhanced.sty
 Package: lscapeenhanced 2024-04-16 v1.0 improved lscape package
-Package lscapeenhanced Info: \landscape patched to make \textheight change opti
-onal on input line 72.
+Package lscapeenhanced Info: \landscape patched to make \textheight change optional on input line 72.
 \@lscapeenhanced@textheight=\skip76
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \FV@CodeLineNo=\count454
 \FV@InFile=\read4
@@ -1399,18 +1043,14 @@ Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \c@FancyVerbLine=\count455
 \FV@StepNumber=\count456
 \FV@OutFile=\write4
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count457
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1473,8 +1113,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@mincompwidth=\count503
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -1565,8 +1204,7 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip98
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
@@ -1589,24 +1227,18 @@ File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
-x
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
 File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
-bx
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count581
 \c@bbx:relatedtotal=\count582
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cb
-x
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
 File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -1622,8 +1254,7 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1632,39 +1263,26 @@ Package biblatex Info: ... and expl3
 (biblatex)             2025-07-19 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
-.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count583
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
-ty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen406
 \Hy@linkcounter=\count584
@@ -1692,14 +1310,10 @@ Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count587
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen407
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count588
 \Field@Width=\dimen408
@@ -1716,22 +1330,16 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 \c@Hfootnote=\count591
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count592
 \c@bookmark@seq@number=\count593
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip99
 )
@@ -1740,41 +1348,32 @@ Package hyperref Info: Option `hypertexnames' set `false' on input line 113.
 Package hyperref Info: Option `colorlinks' set `false' on input line 113.
 Package hyperref Info: Option `unicode' set `true' on input line 113.
 Package hyperref Info: Option `breaklinks' set `true' on input line 113.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glossa
-ries-extra.sty
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glossaries-extra.sty
 Package: glossaries-extra 2025/05/14 v1.7 (NLCT)
 
 
-Package glossaries Warning: automake=true deprecated. Use automake=delayed for 
-a delayed write on input line 966.
+Package glossaries Warning: automake=true deprecated. Use automake=delayed for a delayed write on input line 966.
 
 \@glsxtr@leveloffset=\count594
 \glsxtrresourcecount=\count595
 \@glsxtrnewgls@inner=\count596
 \glsshortpltok=\toks64
 \glslongpltok=\toks65
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glossa
-ries-extra-abbrstyles.def
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glossaries-extra-abbrstyles.def
 File: glossaries-extra-abbrstyles.def 2025/05/14 v1.7 (NLCT)
 )
 \mglselementindex=\count597
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip100
 \fb@frw=\dimen410
 \fb@frh=\dimen411
 \FrameRule=\dimen412
 \FrameSep=\dimen413
-))
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+)) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
-File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
-)
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count598
 )) (frontmatter/glossary.tex
 \glswrite=\write6
@@ -1789,10 +1388,16 @@ Package glossaries Info: Writing glossary file main.acn on input line 5.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-
-(C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
 (babel)             Reported on input line 18.
+
+
+LaTeX Warning: Label `fig:frontend-student-page' multiply defined.
+
+
+LaTeX Warning: Label `fig:frontend-student-page' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1814,11 +1419,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
-Package translations Info: no dictionary file `translations-basic-dictionary-po
-rtuges.trsl' found. on input line 59.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 59.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count599
 \scratchdimen=\dimen414
@@ -1831,22 +1433,15 @@ ii
 \MPnumerator=\count603
 \makeMPintoPDFobject=\count604
 \everyMPtoPDFconversion=\toks67
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count605
 Package tocbasic Info: setting babel extension for `lol' on input line 59.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
-saries-dictionary-English.dict
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1897,13 +1492,11 @@ Package scrlayer-scrpage Warning: Very small head height detected!
 (scrlayer-scrpage)                geometry option `head=15.0pt'
 (scrlayer-scrpage)                to avoid this warning.
 
-Package scrbase Info: activating portuguese \dissertationdisclamer on input lin
-e 59.
+Package scrbase Info: activating portuguese \dissertationdisclamer on input line 59.
 Package scrbase Info: activating portuguese \advisorlabel on input line 59.
 Package scrbase Info: activating portuguese \coadvisorlabel on input line 59.
 Package scrbase Info: activating portuguese \supervisorlabel on input line 59.
-Package scrbase Info: activating portuguese \cosupervisorlabel on input line 59
-.
+Package scrbase Info: activating portuguese \cosupervisorlabel on input line 59.
 Package scrbase Info: activating portuguese \evallabel on input line 59.
 Package scrbase Info: activating portuguese \presidentlabel on input line 59.
 Package scrbase Info: activating portuguese \memberslabel on input line 59.
@@ -1912,25 +1505,19 @@ Package scrbase Info: activating portuguese \statementtext on input line 59.
 Package scrbase Info: activating portuguese \dedicationlabel on input line 59.
 Package scrbase Info: activating portuguese \abslabel on input line 59.
 Package scrbase Info: activating portuguese \keywordslabel on input line 59.
-Package scrbase Info: activating portuguese \abslabelotherlang on input line 59
-.
+Package scrbase Info: activating portuguese \abslabelotherlang on input line 59.
 Package scrbase Info: activating portuguese \abbrevname on input line 59.
 Package scrbase Info: activating portuguese \constantsname on input line 59.
 Package scrbase Info: activating portuguese \symbolsname on input line 59.
-Package scrbase Info: activating portuguese \acknowledgementlabel on input line
- 59.
+Package scrbase Info: activating portuguese \acknowledgementlabel on input line 59.
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package biblatex Info: Trying to load language 'portuguese'...
 Package biblatex Info: ... file 'portuguese.lbx' found.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese
-.lbx
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese.lbx
 File: portuguese.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1940,18 +1527,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-
-(C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.bbl)
+ (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.bbl)
 Package biblatex Info: Reference section=0 on input line 59.
 Package biblatex Info: Reference segment=0 on input line 59.
 Package hyperref Info: Link coloring OFF on input line 59.
-
-(frontmatter/frontmatter.tex
+ (frontmatter/frontmatter.tex
 <.//frontmatter/assets/isep_logo.pdf, id=6, 8130.375pt x 993.7125pt>
 File: .//frontmatter/assets/isep_logo.pdf Graphic file (type pdf)
 <use .//frontmatter/assets/isep_logo.pdf>
-Package pdftex.def Info: .//frontmatter/assets/isep_logo.pdf  used on input lin
-e 15.
+Package pdftex.def Info: .//frontmatter/assets/isep_logo.pdf  used on input line 15.
 (pdftex.def)             Requested size: 361.34999pt x 44.1541pt.
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <24.88> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 15.
@@ -1960,12 +1544,13 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <17.28> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 15.
 
-! Extra \fi.
+frontmatter/frontmatter.tex:15: Extra \fi.
 \maketitlepage ...r \end {center} \par \vfill \fi 
                                                   \par \begin {center} {\Lar...
 l.15 \maketitlepage
                    
-? 
+I'm ignoring this; it doesn't match any \if.
+
 
 
 [1
@@ -1975,13 +1560,11 @@ l.15 \maketitlepage
 
 
 
-{C:/Users/carlo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <.//frontmatt
-er/assets/isep_logo.pdf>]
+{C:/Users/carlo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <.//frontmatter/assets/isep_logo.pdf>]
 --------------------
  Resumo
 --------------------
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 30
-.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 30.
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
@@ -1989,28 +1572,20 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
 (Font)              scaled to size 12.0pt on input line 30.
-LaTeX Font Info:    Trying to load font information for OT1+cmbr on input line 
-30.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ot1cmbr.fd
+LaTeX Font Info:    Trying to load font information for OT1+cmbr on input line 30.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ot1cmbr.fd
 File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line
- 30.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\omlcmbrm.fd
+LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 30.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line
- 30.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\omscmbrs.fd
+LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 30.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-30.
-
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 30.
+ (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2043,8 +1618,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=15.0pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 3
-8.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 38.
 
 
 Overfull \vbox (1.3pt too high) has occurred while \output is active []
@@ -2052,12 +1626,11 @@ Overfull \vbox (1.3pt too high) has occurred while \output is active []
  [2
 
 
-{C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1
--0.enc}]
+{C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
 
 [3
 
-] (C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.toc
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.toc
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <12> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 29.
 
@@ -2067,10 +1640,10 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <12> not available
 ]
 
 LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 83.
+(Font)              using `T1/cmbr/b/n' instead on input line 86.
 
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <12> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 84.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 87.
 
 
 [5])
@@ -2079,7 +1652,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <12> not available
 
 
 
-[6] (C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof)
+[6] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lof)
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
@@ -2087,7 +1660,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <12> not available
 
 [7
 
-] (C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot)
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lot)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
@@ -2095,7 +1668,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <12> not available
 
 [8
 
-] (C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lol)
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.lol)
 \tf@lol=\write12
 \openout12 = `main.lol'.
 
@@ -2118,8 +1691,7 @@ Cap\'{\i }tulo 1.
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
 (babel)             Reported on input line 50.
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 
-57.
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 57.
  (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 ) (capitulos/cap1-introducao/tabelas/tab-organizacao-sprint.tex
@@ -2178,21 +1750,15 @@ LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 )
 
 [3]
-<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=320, 115
-4.51324pt x 649.2255pt>
-File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic
- file (type png)
+<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=338, 1154.51324pt x 649.2255pt>
+File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png>
-Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-h
-omepage.png  used on input line 98.
+Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png  used on input line 98.
 (pdftex.def)             Requested size: 423.9459pt x 238.3968pt.
-<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=322, 970.22
-475pt x 380.622pt>
-File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic fi
-le (type png)
+<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=340, 970.22475pt x 380.622pt>
+File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic file (type png)
 <use capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>
-Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-b
-oard.png  used on input line 104.
+Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png  used on input line 104.
 (pdftex.def)             Requested size: 423.9459pt x 166.31262pt.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 105.
@@ -2200,9 +1766,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
 
 [4]
 
-[5 <./capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png> <./cap
-itulos/cap1-introducao/imagens/ferramentas/devops-board.png>]
-(capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex)
+[5 <./capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png> <./capitulos/cap1-introducao/imagens/ferramentas/devops-board.png>] (capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex)
 
 [6]
 
@@ -2217,111 +1781,72 @@ Cap\'{\i }tulo 2.
 ]
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <17.28> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 16.
-<capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png, id=362, 1927.
-2pt x 916.42375pt>
-File: capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png Graphic f
-ile (type png)
+<capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png, id=380, 1927.2pt x 916.42375pt>
+File: capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png Graphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png>
-Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/esn/internshi
-p-org.png  used on input line 28.
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png  used on input line 28.
 (pdftex.def)             Requested size: 296.76083pt x 141.10732pt.
 
 
 [10 <./capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png>]
-<capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png, id=36
-9, 368.37625pt x 572.1375pt>
-File: capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png G
-raphic file (type png)
+<capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png, id=387, 368.37625pt x 572.1375pt>
+File: capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png Graphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png>
-Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/esn/erasmus-i
-ntern filters.png  used on input line 41.
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png  used on input line 41.
 (pdftex.def)             Requested size: 127.18506pt x 197.52733pt.
 
 Overfull \hbox (3.63747pt too wide) in paragraph at lines 48--49
-\T1/cmbr/m/n/12 A PRA-XIS uma fun-ção bas-tante se-me-lhante à de-sem-pe-nhada 
-pela \T1/cmbr/m/sl/12 Eras-mu-sIn-tern.org\T1/cmbr/m/n/12 ,
+\T1/cmbr/m/n/12 A PRA-XIS uma fun-ção bas-tante se-me-lhante à de-sem-pe-nhada pela \T1/cmbr/m/sl/12 Eras-mu-sIn-tern.org\T1/cmbr/m/n/12 ,
  []
 
 
 
-[11 <./capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png>
-]
-<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png, id=375, 1
-927.2pt x 916.42375pt>
-File: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png Graph
-ic file (type png)
+[11 <./capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png>]
+<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png, id=393, 1927.2pt x 916.42375pt>
+File: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png Graphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png>
-Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/praxis/praxis
--homepage.png  used on input line 56.
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png  used on input line 56.
 (pdftex.def)             Requested size: 381.54872pt x 181.42169pt.
-<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png, id=376, 192
-7.2pt x 916.42375pt>
-File: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png Graphic
- file (type png)
+<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png, id=394, 1927.2pt x 916.42375pt>
+File: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png Graphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png>
-Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/praxis/praxis
--search.png  used on input line 64.
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png  used on input line 64.
 (pdftex.def)             Requested size: 381.54872pt x 181.42169pt.
 
 
-[12 <./capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png> <./
-capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png>]
-<capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship-hom
-epage.png, id=383, 1927.2pt x 916.42375pt>
-File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internshi
-p-homepage.png Graphic file (type png)
-<use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship
--homepage.png>
-Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-interns
-hip/spain-internship-homepage.png  used on input line 74.
+[12 <./capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png> <./capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png>]
+<capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship-homepage.png, id=401, 1927.2pt x 916.42375pt>
+File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship-homepage.png Graphic file (type png)
+<use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship-homepage.png>
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship-homepage.png  used on input line 74.
 (pdftex.def)             Requested size: 381.54872pt x 181.42169pt.
-<capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png, id
-=384, 766.36313pt x 646.66594pt>
-File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.pn
-g Graphic file (type png)
-<use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png
->
-Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-interns
-hip/spain-search.png  used on input line 83.
+<capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png, id=402, 766.36313pt x 646.66594pt>
+File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png Graphic file (type png)
+<use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png>
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png  used on input line 83.
 (pdftex.def)             Requested size: 381.54872pt x 321.96062pt.
-<capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-list.p
-ng, id=385, 157.33781pt x 181.42781pt>
-File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-l
-ist.png Graphic file (type png)
-<use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-li
-st.png>
-Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-interns
-hip/spain-contact-list.png  used on input line 90.
+<capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-list.png, id=403, 157.33781pt x 181.42781pt>
+File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-list.png Graphic file (type png)
+<use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-list.png>
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-list.png  used on input line 90.
 (pdftex.def)             Requested size: 127.18506pt x 146.6595pt.
-<capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-partne
-rs.png, id=386, 784.43062pt x 589.4522pt>
-File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-p
-artners.png Graphic file (type png)
-<use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-pa
-rtners.png>
-Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-interns
-hip/spain-contact-partners.png  used on input line 97.
+<capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-partners.png, id=404, 784.43062pt x 589.4522pt>
+File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-partners.png Graphic file (type png)
+<use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-partners.png>
+Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-partners.png  used on input line 97.
 (pdftex.def)             Requested size: 296.76083pt x 222.99579pt.
-)
-(capitulos/cap3-analisedoproblema/analisedoproblema.tex
+) (capitulos/cap3-analisedoproblema/analisedoproblema.tex
 
-[13 <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internsh
-ip-homepage.png>]
+[13 <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship-homepage.png>]
 
-[14 <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.p
-ng> <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-
-list.png>]
+[14 <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png> <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-list.png>]
 
-[15 <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-
-partners.png>]
+[15 <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-partners.png>]
 Cap\'{\i }tulo 3.
-<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=404, 903.375
-pt x 913.4125pt>
-File: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png Graphic fil
-e (type png)
+<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=422, 903.375pt x 913.4125pt>
+File: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram
-/dd.png  used on input line 12.
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png  used on input line 12.
 (pdftex.def)             Requested size: 423.9459pt x 428.66281pt.
 
 
@@ -2329,9 +1854,7 @@ Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram
 
 ]
 
-[17 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)
->]
-(capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
+[17 <./capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png (PNG copy)>] (capitulos/cap3-analisedoproblema/tabelas/requisitos-func/requisitos-func.tex
 
 [18]
 
@@ -2339,111 +1862,70 @@ Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/domain-diagram
 
 ]
 
-[21])
-(capitulos/cap3-analisedoproblema/tabelas/requisitos-n-func/requisitos-n-func.t
-ex
+[21]) (capitulos/cap3-analisedoproblema/tabelas/requisitos-n-func/requisitos-n-func.tex
 
 [22
 
 
 ]) (capitulos/cap3-analisedoproblema/arquitetura.tex
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.
-png, id=445, 429.605pt x 273.02pt>
-File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logica
-l_l1.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical
-_l1.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
-tema/logical/logical_l1.png  used on input line 16.
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png, id=463, 429.605pt x 273.02pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png  used on input line 16.
 (pdftex.def)             Requested size: 211.97295pt x 134.71414pt.
 
 
-Package glossaries-extra Warning: Base acronym command \Acrshort should not be 
-used with new abbreviation definitions. Use \Glsxtrshort instead on input line 
-23.
+Package glossaries-extra Warning: Base acronym command \Acrshort should not be used with new abbreviation definitions. Use \Glsxtrshort instead on input line 23.
 
 
-Package glossaries-extra Warning: Base acronym command \ACRshort should not be 
-used with new abbreviation definitions. Use \GLSxtrshort instead on input line 
-23.
+Package glossaries-extra Warning: Base acronym command \ACRshort should not be used with new abbreviation definitions. Use \GLSxtrshort instead on input line 23.
 
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l
-1.png, id=447, 305.14pt x 112.42pt>
-File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physi
-cal_l1.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physic
-al_l1.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
-tema/physical/physical_l1.png  used on input line 27.
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png, id=465, 305.14pt x 112.42pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png  used on input line 27.
 (pdftex.def)             Requested size: 211.97295pt x 78.09822pt.
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.
-png, id=450, 599.23875pt x 404.51125pt>
-File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logica
-l_l2.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical
-_l2.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
-tema/logical/logical_l2.png  used on input line 45.
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png, id=468, 599.23875pt x 404.51125pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png  used on input line 45.
 (pdftex.def)             Requested size: 296.76083pt x 200.32935pt.
 
 
 [23
 
- <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_
-l1.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasistem
-a/physical/physical_l1.png (PNG copy)>]
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l
-2.png, id=456, 473.77pt x 317.185pt>
-File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physi
-cal_l2.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physic
-al_l2.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
-tema/physical/physical_l2.png  used on input line 56.
+ <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l1.png (PNG copy)>]
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png, id=474, 473.77pt x 317.185pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png  used on input line 56.
 (pdftex.def)             Requested size: 254.37012pt x 170.29968pt.
 
 
-[24 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logic
-al_l2.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasis
-tema/physical/physical_l2.png (PNG copy)>]
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.
-png, id=462, 599.23875pt x 573.14125pt>
-File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logica
-l_l3.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical
-_l3.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
-tema/logical/logical_l3.png  used on input line 72.
+[24 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l2.png (PNG copy)>]
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png, id=480, 599.23875pt x 573.14125pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png  used on input line 72.
 (pdftex.def)             Requested size: 339.158pt x 324.39386pt.
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l
-3.png, id=464, 593.21625pt x 588.1975pt>
-File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physi
-cal_l3.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physic
-al_l3.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
-tema/physical/physical_l3.png  used on input line 82.
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png, id=482, 593.21625pt x 588.1975pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png  used on input line 82.
 (pdftex.def)             Requested size: 296.76083pt x 294.25958pt.
 
 
-[25 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logic
-al_l3.png (PNG copy)>]
-<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l
-4.png, id=470, 913.4125pt x 597.23125pt>
-File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physi
-cal_l4.png Graphic file (type png)
-<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physic
-al_l4.png>
-Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
-tema/physical/physical_l4.png  used on input line 101.
+[25 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.png (PNG copy)>]
+<capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png, id=488, 913.4125pt x 597.23125pt>
+File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png Graphic file (type png)
+<use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png>
+Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png  used on input line 101.
 (pdftex.def)             Requested size: 423.9459pt x 277.19022pt.
 )) (capitulos/cap4-implementacao/implementacao.tex
 
-[26 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/phys
-ical_l3.png (PNG copy)>]
+[26 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l3.png (PNG copy)>]
 
-[27 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/phys
-ical_l4.png (PNG copy)>]
+[27 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l4.png (PNG copy)>]
 Cap\'{\i }tulo 4.
 (capitulos/cap4-implementacao/seccoes/backend.tex
 
@@ -2451,26 +1933,18 @@ Cap\'{\i }tulo 4.
 
 ]
 
-Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 25
-.
+Package glossaries-extra Warning: Base acronym command \acrlong should not be used with new abbreviation definitions. Use \glsxtrlong instead on input line 25.
 
 
-Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 29
-.
+Package glossaries-extra Warning: Base acronym command \acrlong should not be used with new abbreviation definitions. Use \glsxtrlong instead on input line 29.
 
-<capitulos/cap4-implementacao/assets/fold-struct-backend.png, id=487, 242.40562
-pt x 310.15875pt>
-File: capitulos/cap4-implementacao/assets/fold-struct-backend.png Graphic file 
-(type png)
+<capitulos/cap4-implementacao/assets/fold-struct-backend.png, id=505, 242.40562pt x 310.15875pt>
+File: capitulos/cap4-implementacao/assets/fold-struct-backend.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/fold-struct-backend.png>
-Package pdftex.def Info: capitulos/cap4-implementacao/assets/fold-struct-backen
-d.png  used on input line 47.
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/fold-struct-backend.png  used on input line 47.
 (pdftex.def)             Requested size: 211.97295pt x 271.23206pt.
 
-LaTeX Warning: Reference `lst:classe-projeto' on page 29 undefined on input lin
-e 54.
+LaTeX Warning: Reference `lst:classe-projeto' on page 29 undefined on input line 54.
 
 
 
@@ -2479,25 +1953,21 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 10.0pt on input line 59.
 
 Overfull \hbox (6.32286pt too wide) in paragraph at lines 60--61
-[]\T1/cmbr/bx/n/12 @Data\T1/cmbr/m/n/12 [[]1[]] serve como subs-ti-tuto para as
- ano-ta-ções [][][], [][][],
+[]\T1/cmbr/bx/n/12 @Data\T1/cmbr/m/n/12 [[]1[]] serve como subs-ti-tuto para as ano-ta-ções [][][], [][][],
  []
 
 
-LaTeX Warning: Reference `sec:base-entity' on page 30 undefined on input line 6
-4.
+LaTeX Warning: Reference `sec:base-entity' on page 30 undefined on input line 64.
 
 
 
 [30]
 
-LaTeX Warning: Reference `lst:backend-base-entity' on page 31 undefined on inpu
-t line 121.
+LaTeX Warning: Reference `lst:backend-base-entity' on page 31 undefined on input line 121.
 
 
 Overfull \hbox (72.05923pt too wide) in paragraph at lines 130--131
-\T1/cmbr/m/n/12 con-texto da per-sis-tên-cia. Com-ple-men-tar-mente, [][][][][]
-[][][][][]
+\T1/cmbr/m/n/12 con-texto da per-sis-tên-cia. Com-ple-men-tar-mente, [][][][][][][][][][]
  []
 
 
@@ -2510,8 +1980,7 @@ Overfull \hbox (72.05923pt too wide) in paragraph at lines 130--131
 
 [34]
 
-LaTeX Warning: Reference `lst:exception-AppException' on page 35 undefined on i
-nput line 312.
+LaTeX Warning: Reference `lst:exception-AppException' on page 35 undefined on input line 312.
 
 
 
@@ -2524,55 +1993,76 @@ nput line 312.
 [38]
 
 [39]
-<capitulos/cap4-implementacao/assets/swagger-homepage.png, id=882, 1216.545pt x
- 861.2175pt>
-File: capitulos/cap4-implementacao/assets/swagger-homepage.png Graphic file (ty
-pe png)
+<capitulos/cap4-implementacao/assets/swagger-homepage.png, id=900, 1216.545pt x 861.2175pt>
+File: capitulos/cap4-implementacao/assets/swagger-homepage.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/swagger-homepage.png>
-Package pdftex.def Info: capitulos/cap4-implementacao/assets/swagger-homepage.p
-ng  used on input line 539.
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/swagger-homepage.png  used on input line 539.
 (pdftex.def)             Requested size: 423.9459pt x 300.11653pt.
-) (capitulos/cap4-implementacao/seccoes/frontend.tex)
-(capitulos/cap4-implementacao/seccoes/deployments.tex
+) (capitulos/cap4-implementacao/seccoes/frontend.tex
 
 [40 <./capitulos/cap4-implementacao/assets/swagger-homepage.png>]
-<capitulos/cap4-implementacao/assets/devops-agent.png, id=893, 949.74825pt x 21
-8.61674pt>
-File: capitulos/cap4-implementacao/assets/devops-agent.png Graphic file (type p
-ng)
+<capitulos/cap4-implementacao/assets/frontend/blende-website1.png, id=906, 1445.4pt x 1333.23094pt>
+File: capitulos/cap4-implementacao/assets/frontend/blende-website1.png Graphic file (type png)
+<use capitulos/cap4-implementacao/assets/frontend/blende-website1.png>
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/frontend/blende-website1.png  used on input line 18.
+(pdftex.def)             Requested size: 296.76083pt x 273.72098pt.
+<capitulos/cap4-implementacao/assets/frontend/blende-website2.png, id=907, 1444.64719pt x 1358.07375pt>
+File: capitulos/cap4-implementacao/assets/frontend/blende-website2.png Graphic file (type png)
+<use capitulos/cap4-implementacao/assets/frontend/blende-website2.png>
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/frontend/blende-website2.png  used on input line 25.
+(pdftex.def)             Requested size: 296.76083pt x 278.96643pt.
+<capitulos/cap4-implementacao/assets/frontend/blende-website3.png, id=908, 1445.4pt x 933.4875pt>
+File: capitulos/cap4-implementacao/assets/frontend/blende-website3.png Graphic file (type png)
+<use capitulos/cap4-implementacao/assets/frontend/blende-website3.png>
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/frontend/blende-website3.png  used on input line 32.
+(pdftex.def)             Requested size: 296.76083pt x 191.65105pt.
+
+
+[41 <./capitulos/cap4-implementacao/assets/frontend/blende-website1.png>]
+
+[42 <./capitulos/cap4-implementacao/assets/frontend/blende-website2.png> <./capitulos/cap4-implementacao/assets/frontend/blende-website3.png>]
+Overfull \hbox (58.05879pt too wide) in paragraph at lines 48--49
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Reference `frontend-ProjectLibraryPage' on page 43 undefined on input line 68.
+
+<capitulos/cap4-implementacao/assets/frontend/blended-project-page.png, id=925, 1926.19624pt x 949.5475pt>
+File: capitulos/cap4-implementacao/assets/frontend/blended-project-page.png Graphic file (type png)
+<use capitulos/cap4-implementacao/assets/frontend/blended-project-page.png>
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/frontend/blended-project-page.png  used on input line 72.
+(pdftex.def)             Requested size: 423.9459pt x 208.98802pt.
+
+
+[43]) (capitulos/cap4-implementacao/seccoes/deployments.tex
+
+[44 <./capitulos/cap4-implementacao/assets/frontend/blended-project-page.png>]
+<capitulos/cap4-implementacao/assets/devops-agent.png, id=990, 949.74825pt x 218.61674pt>
+File: capitulos/cap4-implementacao/assets/devops-agent.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/devops-agent.png>
-Package pdftex.def Info: capitulos/cap4-implementacao/assets/devops-agent.png  
-used on input line 41.
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/devops-agent.png  used on input line 41.
 (pdftex.def)             Requested size: 423.9459pt x 97.58603pt.
-
-
-[41]
-<capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png, id=908, 264
-.99pt x 555.07375pt>
-File: capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png Graphic
- file (type png)
+<capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png, id=992, 264.99pt x 555.07375pt>
+File: capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png Graphic file (type png)
 <use capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png>
-Package pdftex.def Info: capitulos/cap4-implementacao/assets/pipeline-activity-
-diagram.png  used on input line 54.
+Package pdftex.def Info: capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png  used on input line 54.
 (pdftex.def)             Requested size: 127.18506pt x 266.41542pt.
 
 
-[42 <./capitulos/cap4-implementacao/assets/devops-agent.png> <./capitulos/cap4-
-implementacao/assets/pipeline-activity-diagram.png (PNG copy)>])
-(capitulos/cap4-implementacao/seccoes/testes.tex
+[45]
 
-[43]
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[46 <./capitulos/cap4-implementacao/assets/devops-agent.png> <./capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png (PNG copy)>]) (capitulos/cap4-implementacao/seccoes/testes.tex
+
+[47] (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
 File: lstlang2.sty 2024/09/23 1.10c listings language file
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-! Package Listings Error: Couldn't load requested language.
+capitulos/cap4-implementacao/seccoes/testes.tex:46: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -2580,9 +2070,12 @@ Type  H <return>  for immediate help.
                                                   
 l.46 ...on={Script de test da rota POST /company}]
                                                   
-? 
+The following languages weren't loadable:
+    ,javascript$
+This may cause errors in the sequel.
 
-! Package Listings Error: language javascript undefined.
+
+capitulos/cap4-implementacao/seccoes/testes.tex:46: Package Listings Error: language javascript undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -2590,30 +2083,33 @@ Type  H <return>  for immediate help.
                                                   
 l.46 ...on={Script de test da rota POST /company}]
                                                   
-? 
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 10.95pt on input line 46.
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
 (Font)              scaled to size 10.95pt on input line 47.
 
 
-[44])) (capitulos/conclusÃ£o/conclusÃ£o.tex
+[48])) (capitulos/conclusÃ£o/conclusÃ£o.tex
 
-[45]
+[49]
 Cap\'{\i }tulo 5.
-)
 
-[46
 
-]
+[50
+
+])
+
+[51]
 Overfull \hbox (0.9204pt too wide) in paragraph at lines 86--86
-[]\T1/cmbr/m/sl/12 Hibernate Do-cu-men-ta-tion\T1/cmbr/m/sc/12 . Com-mo-nhaus F
-oun-da-tion. url: []$\T1/zi4/m/n/12 https : / / hibernate .
+[]\T1/cmbr/m/sl/12 Hibernate Do-cu-men-ta-tion\T1/cmbr/m/sc/12 . Com-mo-nhaus Foun-da-tion. url: []$\T1/zi4/m/n/12 https : / / hibernate .
  []
 
 (frontmatter/appendix.tex (appendices/a-userflowchart/appendix-a.tex
 
-[47
+[52
 
 ]
 Ap\^endice A.
@@ -2621,21 +2117,19 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <24.88> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 3.
 ) (appendices/b-pipeline-start.sh/appendix-b.tex
 
-[48
+[53
 
 ]
 Ap\^endice B.
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
 File: lstlang2.sty 2024/09/23 1.10c listings language file
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-! Package Listings Error: Couldn't load requested language.
+appendices/b-pipeline-start.sh/appendix-b.tex:4: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -2643,9 +2137,12 @@ Type  H <return>  for immediate help.
                                                   
 l.4 ...l]{appendices/b-pipeline-start.sh/start.sh}
                                                   
-? 
+The following languages weren't loadable:
+    ,shell$
+This may cause errors in the sequel.
 
-! Package Listings Error: language shell undefined.
+
+appendices/b-pipeline-start.sh/appendix-b.tex:4: Package Listings Error: language shell undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -2653,18 +2150,18 @@ Type  H <return>  for immediate help.
                                                   
 l.4 ...l]{appendices/b-pipeline-start.sh/start.sh}
                                                   
-? 
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
 File: lstlang2.sty 2024/09/23 1.10c listings language file
-)
-(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+) (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-! Package Listings Error: Couldn't load requested language.
+appendices/b-pipeline-start.sh/appendix-b.tex:4: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -2672,9 +2169,12 @@ Type  H <return>  for immediate help.
                                                   
 l.4 ...l]{appendices/b-pipeline-start.sh/start.sh}
                                                   
-? 
+The following languages weren't loadable:
+    ,shell$
+This may cause errors in the sequel.
 
-! Package Listings Error: language shell undefined.
+
+appendices/b-pipeline-start.sh/appendix-b.tex:4: Package Listings Error: language shell undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -2682,176 +2182,243 @@ Type  H <return>  for immediate help.
                                                   
 l.4 ...l]{appendices/b-pipeline-start.sh/start.sh}
                                                   
-? 
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 (appendices/b-pipeline-start.sh/start.sh
 Overfull \hbox (46.05867pt too wide) in paragraph at lines 11--12
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 
-[49
+[54
 
 ]
 Overfull \hbox (70.05891pt too wide) in paragraph at lines 64--66
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-! Missing $ inserted.
+appendices/b-pipeline-start.sh/start.sh:68: Missing $ inserted.
 <inserted text> 
                 $
 l.68 ...{AZP_AGENT_PACKAGE_LATEST_URL}" -o "${AZP_
                                                   AGENT_PACKAGE_LATEST_URL}"...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-? 
-! Extra }, or forgotten $.
+appendices/b-pipeline-start.sh/start.sh:68: Extra }, or forgotten $.
 l.68 ..._URL}" -o "${AZP_AGENT_PACKAGE_LATEST_URL}
                                                   " == "null" ]; then
-? 
-! Misplaced alignment tab character &.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:69: Misplaced alignment tab character &.
 l.69   echo 1>&
                2 "error: could not determine a matching Azure Pipelines agent"
-? 
-! Misplaced alignment tab character &.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+appendices/b-pipeline-start.sh/start.sh:70: Misplaced alignment tab character &.
 l.70   echo 1>&
                2 "check that account "${AZP_URL}" is correct and the token i...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-? 
-! Missing $ inserted.
+appendices/b-pipeline-start.sh/start.sh:70: Missing $ inserted.
 <inserted text> 
                 $
 l.70   echo 1>&2 "check that account "${AZP_
                                             URL}" is correct and the token i...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-? 
-! Extra }, or forgotten $.
+appendices/b-pipeline-start.sh/start.sh:70: Extra }, or forgotten $.
 l.70   echo 1>&2 "check that account "${AZP_URL}
                                                 " is correct and the token i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-? 
-! Missing $ inserted.
+appendices/b-pipeline-start.sh/start.sh:76: Missing $ inserted.
 <inserted text> 
                 $
 l.76 curl -LsS "${AZP_
                       AGENT_PACKAGE_LATEST_URL}" | tar -xz & wait $!
-? 
-! Extra }, or forgotten $.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:76: Extra }, or forgotten $.
 l.76 curl -LsS "${AZP_AGENT_PACKAGE_LATEST_URL}
                                                " | tar -xz & wait $!
-? 
-! Misplaced alignment tab character &.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:76: Misplaced alignment tab character &.
 l.76 ...AZP_AGENT_PACKAGE_LATEST_URL}" | tar -xz &
                                                    wait $!
-? 
-! Missing $ inserted.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+appendices/b-pipeline-start.sh/start.sh:84: Missing $ inserted.
 <inserted text> 
                 $
 l.84 print_
            header "3. Configuring Azure Pipelines agent..."
-? 
-! You can't use `macro parameter character #' in math mode.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:86: You can't use `macro parameter character #' in math mode.
 l.86 #
        Despite it saying "PAT", it can be the token through the service prin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-? 
-! Missing $ inserted.
+appendices/b-pipeline-start.sh/start.sh:88: Missing $ inserted.
 <inserted text> 
                 $
 l.88   --agent "${AZP_
                       AGENT_NAME:-$(hostname)}" \
-? 
-! Missing $ inserted.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:92: Missing $ inserted.
 <inserted text> 
                 $
 l.92   --pool "${AZP_
                      POOL:-Default}" \
-? 
-! Extra }, or forgotten $.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:92: Extra }, or forgotten $.
 l.92   --pool "${AZP_POOL:-Default}
                                    " \
-? 
-! Missing $ inserted.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:93: Missing $ inserted.
 <inserted text> 
                 $
 l.93   --work "${AZP_
                      WORK:-_work}" \
-? 
-! Extra }, or forgotten $.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:93: Extra }, or forgotten $.
 l.93   --work "${AZP_WORK:-_work}
                                  " \
-? 
-! Misplaced alignment tab character &.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+appendices/b-pipeline-start.sh/start.sh:95: Misplaced alignment tab character &.
 l.95   --acceptTeeEula &
                          wait $!
-? 
-! Missing $ inserted.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+appendices/b-pipeline-start.sh/start.sh:97: Missing $ inserted.
 <inserted text> 
                 $
 l.97 print_
            header "4. Running Azure Pipelines agent..."
-? 
-! You can't use `macro parameter character #' in math mode.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+appendices/b-pipeline-start.sh/start.sh:101: You can't use `macro parameter character #' in math mode.
 l.101 #
         To be aware of TERM and INT signals call ./run.sh
-? 
-! You can't use `macro parameter character #' in math mode.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+appendices/b-pipeline-start.sh/start.sh:102: You can't use `macro parameter character #' in math mode.
 l.102 #
         Running it with the --once flag at the end will shut down the agent ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-? 
-! Misplaced alignment tab character &.
+appendices/b-pipeline-start.sh/start.sh:103: Misplaced alignment tab character &.
 <argument> \csname system@active"\endcsname &
                                              
 l.103 ./run.sh "$@" &
                       wait $!
-? 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 )
-! Missing $ inserted.
+appendices/b-pipeline-start.sh/appendix-b.tex:4: Missing $ inserted.
 <inserted text> 
                 $
 l.4 ...l]{appendices/b-pipeline-start.sh/start.sh}
                                                   
-? 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 
 Overfull \hbox (315.71808pt too wide) in paragraph at lines 66--4
-\OT1/cmbr/m/n/10 2"\OML/cmbrm/m/it/10 checkthataccount\OT1/cmbr/m/n/10 "$\T1/zi
-4/m/n/10 AZP$[]\OML/cmbrm/m/it/10 RL\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 iscorr
-ectandthetokenisvalidforthataccount\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 exit\OT
-1/cmbr/m/n/10 1\OML/cmbrm/m/it/10 fiprint[]eader\OT1/cmbr/m/n/10 "2\OML/cmbrm/m
-/it/10 :DownloadingandextractingAzurePipelinesagent:::\OT1/cmbr/m/n/10 "\OML/cm
-brm/m/it/10 curl \OMS/cmbrs/m/n/10 ^^@ 
+\OT1/cmbr/m/n/10 2"\OML/cmbrm/m/it/10 checkthataccount\OT1/cmbr/m/n/10 "$\T1/zi4/m/n/10 AZP$[]\OML/cmbrm/m/it/10 RL\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 iscorrectandthetokenisvalidforthataccount\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 exit\OT1/cmbr/m/n/10 1\OML/cmbrm/m/it/10 fiprint[]eader\OT1/cmbr/m/n/10 "2\OML/cmbrm/m/it/10 :DownloadingandextractingAzurePipelinesagent:::\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 curl \OMS/cmbrs/m/n/10 ^^@ 
  []
 
 
 Overfull \hbox (251.44197pt too wide) in paragraph at lines 66--4
-\T1/zi4/m/n/10 143"TERMprint$[]\OML/cmbrm/m/it/10 eader\OT1/cmbr/m/n/10 "3\OML/
-cmbrm/m/it/10 :ConfiguringAzurePipelinesagent:::\OT1/cmbr/m/n/10 "\OML/cmbrm/m/
-it/10 Despiteitsaying\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 PAT\OT1/cmbr/m/n/10 "
-\OML/cmbrm/m/it/10 ; itcanbethetokenthroughtheserviceprincipal:=config:sh \OMS/
-cmbrs/m/n/10 ^^@ 
+\T1/zi4/m/n/10 143"TERMprint$[]\OML/cmbrm/m/it/10 eader\OT1/cmbr/m/n/10 "3\OML/cmbrm/m/it/10 :ConfiguringAzurePipelinesagent:::\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 Despiteitsaying\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 PAT\OT1/cmbr/m/n/10 "\OML/cmbrm/m/it/10 ; itcanbethetokenthroughtheserviceprincipal:=config:sh \OMS/cmbrs/m/n/10 ^^@ 
  []
 
 ) (appendices/c-pipeline-agent-dockerfile/appendix-c.tex
 
-[50]
+[55]
 Ap\^endice C.
-(appendices/c-pipeline-agent-dockerfile/dockerfile))
-(appendices/d-pipeline-yaml/appendix-d.tex
+(appendices/c-pipeline-agent-dockerfile/dockerfile)) (appendices/d-pipeline-yaml/appendix-d.tex
 
-[51
+[56
 
 ]
 Ap\^endice D.
 ))
 
-Package glossaries Warning: Ignoring attempt to run command `makeindex -s main.
-ist -t main.glg -o main.gls main.glo' on input line 96.
+Package glossaries Warning: Ignoring attempt to run command `makeindex -s main.ist -t main.glg -o main.gls main.glo' on input line 96.
 
 
-Package glossaries Warning: Ignoring attempt to run command `makeindex -s main.
-ist -t main.alg -o main.acr main.acn' on input line 96.
+Package glossaries Warning: Ignoring attempt to run command `makeindex -s main.ist -t main.alg -o main.acr main.acn' on input line 96.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -2860,9 +2427,9 @@ This document will not have a glossary.
 
 
 
-[52
+[57
 
-] (C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
+] (c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2874,46 +2441,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67289 strings out of 468149
- 1598242 string characters out of 5431082
- 2820189 words of memory out of 5000000
- 94271 multiletter control sequences out of 15000+600000
+ 67427 strings out of 468149
+ 1601972 string characters out of 5431082
+ 2821501 words of memory out of 5000000
+ 94339 multiletter control sequences out of 15000+600000
  647663 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,20n,131p,2475b,2932s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\
-cmbr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright
-/dpi600\cmbrsy10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/publi
-c/cmbright/dpi525\cmbrmi8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljf
-our/public/cmbright/dpi600\cmbrmi10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fo
-nts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\
-Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\
-AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\tbmr10.pk> <C:\User
-s\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebmo10.pk> 
-<C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebb
-x10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dp
-i600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmb
-right/dpi525\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/pub
-lic/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/lj
-four/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\font
-s/pk/ljfour/public/cmbright/dpi720\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiK
-TeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr17.pk> <C:\Users\carlo\AppData\L
-ocal\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1037\ebbx10.pk> <C:\Users\carlo\
-AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\User
-s\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk>
-<C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/In
-consolata-zi4b.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/inconsolata/Inconsolata-zi4r.pfb>
-Output written on "C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\b
-uild\main.pdf" (62 pages, 5355532 bytes).
+ 101i,20n,131p,2534b,2932s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi525\cmbrmi8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrmi10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi657\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\tbmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebmo10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi525\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr8.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi720\ebmr10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\ebmr17.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1037\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi864\ebbx10.pk> <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi1493\ebbx10.pk><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
+Output written on "c:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.pdf" (67 pages, 7999612 bytes).
 PDF statistics:
- 2163 PDF objects out of 2487 (max. 8388607)
- 680 named destinations out of 1000 (max. 500000)
- 696 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2291 PDF objects out of 2487 (max. 8388607)
+ 748 named destinations out of 1000 (max. 500000)
+ 740 words of extra memory for PDF output out of 10000 (max. 10000000)
 
