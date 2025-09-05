@@ -1,63 +1,60 @@
-% =========================
+% ==================================================
 %   Encoding & Fonts
-% =========================
+% ==================================================
 \usepackage[utf8]{inputenc}   % Input encoding
-\usepackage[T1]{fontenc}      % Output encoding (better hyphenation, accented chars)
+\usepackage[T1]{fontenc}      % Output encoding (hyphenation, accented chars)
 \usepackage{lmodern}          % Latin Modern font
 \usepackage{inconsolata}      % Monospaced font (good for code)
 
-% =========================
+% ==================================================
 %   Colors
-% =========================
-\usepackage{xcolor}           % Extended color support
+% ==================================================
+\usepackage{xcolor}           
 \definecolor{pblue}{rgb}{0.13,0.13,1}
 \definecolor{pgreen}{rgb}{0,0.5,0}
 \definecolor{pred}{rgb}{0.9,0,0}
 \definecolor{pgrey}{rgb}{0.46,0.45,0.48}
 
-% =========================
+% ==================================================
 %   Graphics & Figures
-% =========================
+% ==================================================
 \usepackage{graphicx}         % For including images
 \usepackage{tikz}             % For programmatic graphics
 % \usetikzlibrary{arrows}     % Uncomment if you need arrow styles
 \usepackage{pgfplots}         % For plots
 \pgfplotsset{compat=newest}
+\usepackage{fvextra} % extensão de fancyvrb
 
-% =========================
+% ==================================================
 %   Tables
-% =========================
+% ==================================================
 \usepackage{booktabs}         % Professional table rules
 \usepackage{tabularx}         % Tables with variable-width columns
 \usepackage{makecell}         % Line breaks inside cells
+\renewcommand\theadfont{\bfseries\normalsize}
 \usepackage{multirow}         % Multirow cells
 \usepackage{tabularray}       % Modern table package
 \usepackage{longtable}        % Tables across pages
 \usepackage{pdflscape}        % Landscape pages
 \usepackage{geometry}         % Page geometry
+\usepackage{calc}             % For calculations in table widths
 
-% =========================
+% ==================================================
+%   Lists
+% ==================================================
+\usepackage{enumitem}
+\newcommand{\tablistcommand}{% eliminate vertical space before/after itemize
+  \leavevmode\par\vspace{-\baselineskip}
+}
+
+% ==================================================
 %   Code Listings
-% =========================
+% ==================================================
 \usepackage{listings}
-\let\origthelstnumber\thelstnumber
-\makeatletter
-\newcommand*\Suppressnumber{%
-  \lst@AddToHook{OnNewLine}{%
-    \let\thelstnumber\relax%
-     \advance\c@lstnumber-\@ne\relax%
-    }%
-}
-
-\newcommand*\Reactivatenumber{%
-  \lst@AddToHook{OnNewLine}{%
-   \let\thelstnumber\origthelstnumber%
-   \advance\c@lstnumber\@ne\relax}%
-}
 \usepackage{fancyvrb}         % Makes listings more flexible
 \usepackage{caption}          % Better captions
 
-% Global Java style (adjust as needed)
+% -- General Java style
 \lstset{
     language=Java,
     basicstyle=\ttfamily\footnotesize,
@@ -76,7 +73,6 @@
     numbersep=10pt,
     tabsize=4,
     keepspaces=true,
-    breaklines=true,
     frame=tb,
     captionpos=b,
     aboveskip=1em,
@@ -84,42 +80,170 @@
     escapeinside=||
 }
 
-% YAML support
-\lstdefinestyle{Javascript}{
-    language=JavaScript,
-    basicstyle=\ttfamily\small,             % monospaced font
-    keywordstyle=\color{blue}\bfseries,     % keywords
-    commentstyle=\color{gray}\itshape,      % comments
-    stringstyle=\color{orange},             % strings
-    numberstyle=\tiny\color{gray},          % line numbers
-    numbers=left,                           % show line numbers on the left
-    stepnumber=1,
-    numbersep=10pt,
-    tabsize=2,
-    breaklines=true,                        % automatic line breaking
-    breakatwhitespace=false,
+% -- Disable/enable line numbers in listings
+\let\origthelstnumber\thelstnumber
+\makeatletter
+\newcommand*\Suppressnumber{%
+  \lst@AddToHook{OnNewLine}{%
+    \let\thelstnumber\relax%
+    \advance\c@lstnumber-\@ne\relax%
+  }%
+}
+\newcommand*\Reactivatenumber{%
+  \lst@AddToHook{OnNewLine}{%
+    \let\thelstnumber\origthelstnumber%
+    \advance\c@lstnumber\@ne\relax
+  }%
+}
+\makeatother
+
+% -- Bash style
+% =========================
+% YAML literal
+% =========================
+\lstdefinestyle{yamlstyle}{
+    basicstyle=\ttfamily\footnotesize,
+    language=,
     showstringspaces=false,
-    frame=tb,                               % top and bottom frame
+    breaklines=true,
+    frame=tb,
+    numbers=left,
+    numbersep=10pt,
+    stepnumber=1,
+    tabsize=2,
+    keepspaces=true,
     captionpos=b,
-    aboveskip=1em,
-    belowskip=1em,
-    morekeywords={let,const,var,function,return,if,else,for,while,do,switch,case,break,continue,new,try,catch,finally,throw,typeof,instanceof,this,class,extends,super,import,export,default,async,await}, % additional JS keywords
+    escapeinside={}{},        % desativa escape de LaTeX
+    literate=*               % faz todos os caracteres literais
+             {á}{{á}}1
+             {é}{{é}}1
+             {í}{{í}}1
+             {ó}{{ó}}1
+             {ú}{{ú}}1
+             {Á}{{Á}}1
+             {É}{{É}}1
+             {Í}{{Í}}1
+             {Ó}{{Ó}}1
+             {Ú}{{Ú}}1
+             {à}{{à}}1
+             {À}{{À}}1
+             {ã}{{ã}}1
+             {Ã}{{Ã}}1
+             {õ}{{õ}}1
+             {Õ}{{Õ}}1
+             {ç}{{ç}}1
+             {Ç}{{Ç}}1
+             {~}{{\textasciitilde}}1
+             {^}{{\^}}1
+             {_}{{\_}}1
+             {:}{{:}}1
+             {|}{{|}}1
+             {*}{{*}}1
+             {>}{{>}}1
+             {-}{{-}}1
+             {+}{{+}}1
+             {<}{{<}}1
+             {=}{{=}}1
+             {&}{{&}}1
+             {@}{{@}}1
+             {\#}{{\#}}1
+             {$}{{$}}1
+             {\\}{{\textbackslash}}1
 }
 
 % =========================
-%   Bibliography & References
+% Bash literal
 % =========================
+\lstdefinestyle{bashstyle}{
+    basicstyle=\ttfamily\footnotesize,
+    language=,
+    showstringspaces=false,
+    breaklines=true,
+    frame=tb,
+    numbers=left,
+    numbersep=10pt,
+    stepnumber=1,
+    tabsize=2,
+    keepspaces=true,
+    captionpos=b,
+    escapeinside={}{},        % desativa escape de LaTeX
+    literate=*               % faz todos os caracteres literais
+             {á}{{á}}1
+             {é}{{é}}1
+             {í}{{í}}1
+             {ó}{{ó}}1
+             {ú}{{ú}}1
+             {Á}{{Á}}1
+             {É}{{É}}1
+             {Í}{{Í}}1
+             {Ó}{{Ó}}1
+             {Ú}{{Ú}}1
+             {à}{{à}}1
+             {À}{{À}}1
+             {ã}{{ã}}1
+             {Ã}{{Ã}}1
+             {õ}{{õ}}1
+             {Õ}{{Õ}}1
+             {ç}{{ç}}1
+             {Ç}{{Ç}}1
+             {~}{{\textasciitilde}}1
+             {^}{{\^}}1
+             {_}{{\_}}1
+             {:}{{:}}1
+             {|}{{|}}1
+             {*}{{*}}1
+             {>}{{>}}1
+             {-}{{-}}1
+             {+}{{+}}1
+             {<}{{<}}1
+             {=}{{=}}1
+             {&}{{&}}1
+             {@}{{@}}1
+             {\#}{{\#}}1
+             {$}{{$}}1
+             {\\}{{\textbackslash}}1
+             {(}{{(}}1
+             {)}{{)}}1
+}
+
+
+% -- JavaScript style
+\lstdefinestyle{Javascript}{
+    language=JavaScript,
+    basicstyle=\ttfamily\small,             
+    keywordstyle=\color{blue}\bfseries,     
+    commentstyle=\color{gray}\itshape,      
+    stringstyle=\color{orange},             
+    numberstyle=\tiny\color{gray},          
+    numbers=left,                           
+    stepnumber=1,
+    numbersep=10pt,
+    tabsize=2,
+    breaklines=true,                        
+    showstringspaces=false,
+    frame=tb,                               
+    captionpos=b,
+    aboveskip=1em,
+    belowskip=1em,
+    morekeywords={let,const,var,function,return,if,else,for,while,do,switch,case,break,continue,new,try,catch,finally,throw,typeof,instanceof,this,class,extends,super,import,export,default,async,await}
+}
+
+% ==================================================
+%   Bibliography & References
+% ==================================================
 \usepackage[backend=biber,style=numeric]{biblatex}
 \addbibresource{bibliography.bib}
 
-% =========================
+
+
+% ==================================================
 %   Glossaries & Acronyms
-% =========================
+% ==================================================
 \usepackage[acronym]{glossaries}
 \usepackage[automake=true]{glossaries-extra}
 
-% =========================
+% ==================================================
 %   Miscellaneous
-% =========================
+% ==================================================
 \usepackage{framed}           % Framed environments
-\usepackage{bookmark}
+\usepackage{bookmark}         % Better PDF bookmarks

@@ -51,7 +51,7 @@ A estrutura de pastas do backend foi definida para enaltecer a função de cada 
 
 \subsubsection{Entidades e relações}
 
-Para o caso de uso a ser considerado, a entidade de maior importância será \textit{Project}. Esta encontra-se representada na figura \ref{lst:classe-projeto}.
+Para o caso de uso a ser considerado, a entidade de maior importância será \textit{Project}. Esta encontra-se representada na figura \ref{lst:class-project}.
 
 Em nota, interessante enaltecer o uso das respetivas anotações:
 
@@ -61,7 +61,7 @@ Em nota, interessante enaltecer o uso das respetivas anotações:
     
     \begin{itemize}
         \item implementa o método \lstinline|toString()| incluindo todos os parâmetros não estáticos da classe;
-        \item implementa o método \lstinline|equals(Object object)| e \lstinline|hashCodeO()|. Uma definição (\lstinline|callSuper|) teve de ser subscrita, pois era desejado inclusão dos atributos da superclasse \lstinline|BaseEntity| neste método (ver secção \ref{sec:base-entity});
+        \item implementa o método \lstinline|equals(Object object)| e \lstinline|hashCodeO()|. Uma definição (\lstinline|callSuper|) teve de ser subscrita, pois era desejado inclusão dos atributos da superclasse \lstinline|BaseEntity| neste método (ver secção \ref{sec:backend-base-entity});
         \item implementa métodos \textit{getter} para todos os atributos privados
         \item implementa metodos \textit{setter} para todos os atributos privados
         \item implementa um construtor com um parâmetro por atributo não final da classe.
@@ -132,7 +132,7 @@ A implementação da \textit{BaseEntity} envolve várias decisões de \textit{de
     \item Verificou-se a necessidade de avaliar, de forma global, todos os atributos relacionados com a lógica de negócio, de modo a identificar e retornar eventuais erros existentes. Para esse fim, a função \lstinline|isBusinessDataValid()| analisa todos os \textit{Value Objects} (Ver secção \ref{sec:backend-value-objects}) da respetiva classe e devolve um \lstinline|HashMap| contendo a listagem dos erros detetados.
 \end{itemize}
 
-\begin{lstlisting}[language=Java,caption={Classe \textit{BaseEntity}},label={lst:base-entity}]
+\begin{lstlisting}[language=Java,caption={Classe \textit{BaseEntity}},label={lst:backend-base-entity}]
 @MappedSuperclass
 @Getter
 public abstract class BaseEntity {
@@ -309,9 +309,9 @@ Na eventualidade da ocorrência de erros, que estes sejam de negócio ou de sist
 
 O \gls{Spring} disponibiliza \lstinline|@RestControllerAdvice| que permite a implementação de rotas ou ferramentas de deteção de erros em todas as classes anotadas com \lstinline|@RestController|.
 
-Na listagem \ref{lst:class-AppExceptionController} entende-se o elemento base que permite capturar erros internos ou de negócio e retorná-los num formato predefinido (ver listagem \ref{lst:class-Error}). Em prática a anotação \lstinline|@ExceptionHandler(AppException.class)| faz com que a qualquer ponto de execução do programa, no caso de ser lançada uma exceção do tipo \lstinline|AppException| a esta se redirecione para a função \lstinline|handleAppException|. Na listagem \ref{lst:class-ProjectController} e \ref{lst:exception-AppException} mostra-se, respetivamente, exemplo do uso desta exceções e propria exceção \lstinline|AppException|.
+Na listagem \ref{lst:exception-AppException} entende-se o elemento base que permite capturar erros internos ou de negócio e retorná-los num formato predefinido (ver listagem \ref{lst:class-Error}). Em prática a anotação \lstinline|@ExceptionHandler(AppException.class)| faz com que a qualquer ponto de execução do programa, no caso de ser lançada uma exceção do tipo \lstinline|AppException| a esta se redirecione para a função \lstinline|handleAppException|. Na listagem \ref{lst:class-ProjectController} e \ref{lst:exception-AppException} mostra-se, respetivamente, exemplo do uso desta exceções e propria exceção \lstinline|AppException|.
 
-\begin{lstlisting}[language=Java, caption={Class \textit{AppExceptionController}}, label={lst:class-AppExceptionController}]
+\begin{lstlisting}[language=Java, caption={Class \textit{AppExceptionController}}, label=lst:exception-AppException]
 @Slf4j
 @RestControllerAdvice
 @RequiredArgsConstructor
@@ -354,6 +354,10 @@ public class Error {
     Map<String, Object> data;
 }
 \end{lstlisting}
+
+
+
+
 
 \begin{lstlisting}[language=Java, caption={Class \textit{ProjectController}}, label={lst:class-ProjectController}]
 @RestController
@@ -414,7 +418,7 @@ public class ProjectController {
 }
 \end{lstlisting}
 
-\begin{lstlisting}[language=Java, caption={Exceção \textit{AppException}}, label={AppException}]
+\begin{lstlisting}[language=Java, caption={Exceção \textit{AppException}}, label={lst:exception-AppException}]
 @Getter
 public class AppException extends RuntimeException{
 
@@ -455,7 +459,7 @@ public class AppException extends RuntimeException{
 
 \subsubsection{Serviços}
 
-O padrão de \textit{software} \textit{Service} entende a concentração da de toda a lógica de negócio numa só camada do sistema. A listagem \ref{lst:method-create-new-project-class-ProjectService} apresenta a implementação do método \lstinline|addProject| nesta mesma camada.
+O padrão de \textit{software} \textit{Service} entende a concentração de toda a lógica de negócio numa só camada do sistema. A listagem \ref{lst:method-create-new-project-class-ProjectService} apresenta a implementação do método \lstinline|addProject| nesta mesma camada.
 
 A notação \lstinline|@Service| permite ao \GLSxtrshort{IoC} \textit{container} identificar esta classe como serviço e guardá-la como \textit{Bean}. Já a notação \lstinline|@Slf4j| cria uma ferramenta utilizada para manter registo de qualquer ação no programa. 
 
