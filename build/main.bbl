@@ -34,6 +34,83 @@
       \verb https://projectlombok.org/features/Data
       \endverb
     \endentry
+    \entry{azure-pipelines-docs}{online}{}{}
+      \list{organization}{1}{%
+        {Microsoft}%
+      }
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{Azure Pipelines Documentation}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops
+      \endverb
+    \endentry
+    \entry{docker-docs}{online}{}{}
+      \list{organization}{1}{%
+        {Docker Inc.}%
+      }
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{title}{Docker Documentation}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.docker.com/
+      \endverb
+      \verb{url}
+      \verb https://docs.docker.com/
+      \endverb
+    \endentry
+    \entry{figma-docs}{online}{}{}
+      \list{organization}{1}{%
+        {Figma}%
+      }
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{title}{Figma Help Center}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://help.figma.com/hc/en-us
+      \endverb
+      \verb{url}
+      \verb https://help.figma.com/hc/en-us
+      \endverb
+    \endentry
+    \entry{geeksforgeeks-rest}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhashraw}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhashraw}{f1e069787ece74531d112559945c6871}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Tutorial online}
+      \field{title}{Easiest Way to Create REST API using Spring Boot}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/advance-java/easiest-way-to-create-rest-api-using-spring-boot/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/advance-java/easiest-way-to-create-rest-api-using-spring-boot/
+      \endverb
+    \endentry
     \entry{docs-hibernate}{online}{}{}
       \list{organization}{1}{%
         {Commonhaus Foundation}%
@@ -47,6 +124,38 @@
       \endverb
       \verb{url}
       \verb https://hibernate.org/orm/
+      \endverb
+    \endentry
+    \entry{kruchten-4plus1}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=dca64ceea72185cf29648fc367546339}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{dca64ceea72185cf29648fc367546339}
+      \strng{fullhash}{dca64ceea72185cf29648fc367546339}
+      \strng{fullhashraw}{dca64ceea72185cf29648fc367546339}
+      \strng{bibnamehash}{dca64ceea72185cf29648fc367546339}
+      \strng{authorbibnamehash}{dca64ceea72185cf29648fc367546339}
+      \strng{authornamehash}{dca64ceea72185cf29648fc367546339}
+      \strng{authorfullhash}{dca64ceea72185cf29648fc367546339}
+      \strng{authorfullhashraw}{dca64ceea72185cf29648fc367546339}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Software}
+      \field{number}{6}
+      \field{title}{The 4+1 View Model of Architecture}
+      \field{volume}{12}
+      \field{year}{1995}
+      \true{nocite}
+      \field{pages}{42\bibrangedash 50}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/52.469759
       \endverb
     \endentry
     \entry{run-a-self-hosted-agent-in-docker}{online}{}{}
@@ -111,6 +220,154 @@
       \endverb
       \verb{url}
       \verb https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/ssh-v0?view=azure-pipelines
+      \endverb
+    \endentry
+    \entry{pressman-engenharia-software}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=4d3f81788d99cf425c4b6e0a454baab0}{%
+           family={Pressman},
+           familyi={P\bibinitperiod},
+           given={Roger\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{fullhash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{fullhashraw}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{bibnamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authorbibnamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authornamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authorfullhash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authorfullhashraw}{4d3f81788d99cf425c4b6e0a454baab0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8ª edição}
+      \field{title}{Engenharia de Software: Uma Abordagem Profissional}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{react-docs}{online}{}{}
+      \list{organization}{1}{%
+        {Meta Open Source}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{title}{React Documentation – Getting Started}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://react.dev/learn
+      \endverb
+      \verb{url}
+      \verb https://react.dev/learn
+      \endverb
+    \endentry
+    \entry{spring-rest-intro}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdeb4ed4c97ccb88511105a4e044474e}{%
+           family={Shriv},
+           familyi={S\bibinitperiod},
+           given={Ayshe},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdeb4ed4c97ccb88511105a4e044474e}
+      \strng{fullhash}{bdeb4ed4c97ccb88511105a4e044474e}
+      \strng{fullhashraw}{bdeb4ed4c97ccb88511105a4e044474e}
+      \strng{bibnamehash}{bdeb4ed4c97ccb88511105a4e044474e}
+      \strng{authorbibnamehash}{bdeb4ed4c97ccb88511105a4e044474e}
+      \strng{authornamehash}{bdeb4ed4c97ccb88511105a4e044474e}
+      \strng{authorfullhash}{bdeb4ed4c97ccb88511105a4e044474e}
+      \strng{authorfullhashraw}{bdeb4ed4c97ccb88511105a4e044474e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Tutorial online}
+      \field{title}{Introduction to Spring REST}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://dev.to/ayshriv/introduction-to-spring-rest-3nhl
+      \endverb
+      \verb{url}
+      \verb https://dev.to/ayshriv/introduction-to-spring-rest-3nhl
+      \endverb
+    \endentry
+    \entry{sommerville-engenharia-software}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9ª edição}
+      \field{title}{Engenharia de Software}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{docs-spring-security}{online}{}{}
+      \list{organization}{1}{%
+        {Spring.io}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{title}{Spring Security Reference}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://spring.io/projects/spring-security
+      \endverb
+      \verb{url}
+      \verb https://spring.io/projects/spring-security
+      \endverb
+    \endentry
+    \entry{spring-guides}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=5b2f1491eb42ef654e03f1a5a0ba30fa}{%
+           family={Spring.io},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b2f1491eb42ef654e03f1a5a0ba30fa}
+      \strng{fullhash}{5b2f1491eb42ef654e03f1a5a0ba30fa}
+      \strng{fullhashraw}{5b2f1491eb42ef654e03f1a5a0ba30fa}
+      \strng{bibnamehash}{5b2f1491eb42ef654e03f1a5a0ba30fa}
+      \strng{authorbibnamehash}{5b2f1491eb42ef654e03f1a5a0ba30fa}
+      \strng{authornamehash}{5b2f1491eb42ef654e03f1a5a0ba30fa}
+      \strng{authorfullhash}{5b2f1491eb42ef654e03f1a5a0ba30fa}
+      \strng{authorfullhashraw}{5b2f1491eb42ef654e03f1a5a0ba30fa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Getting Started | Building REST services with Spring}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://spring.io/guides/tutorials/rest/
+      \endverb
+      \verb{url}
+      \verb https://spring.io/guides/tutorials/rest/
       \endverb
     \endentry
     \entry{docs-spring-repository}{online}{}{}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  5 SEP 2025 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  6 SEP 2025 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,6 +1824,13 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 235.
 Package hyperref Info: Option `unicode' set `true' on input line 235.
 Package hyperref Info: Option `breaklinks' set `true' on input line 235.
 
+(C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/citeall\citeall.sty
+Package: citeall 2017/12/03 v1.4 a package to test biblatex-cite commands
+\l__UFca_temp_listitem_int=\count621
+\l__UFca_temp_listlength_int=\count622
+\l__UFca_entrynum_int=\count623
+\l__UFca_cur_entrynum_int=\count624
+)
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glossa
 ries-extra.sty
 Package: glossaries-extra 2025/05/14 v1.7 (NLCT)
@@ -1832,9 +1839,9 @@ Package: glossaries-extra 2025/05/14 v1.7 (NLCT)
 Package glossaries Warning: automake=true deprecated. Use automake=delayed for 
 a delayed write on input line 966.
 
-\@glsxtr@leveloffset=\count621
-\glsxtrresourcecount=\count622
-\@glsxtrnewgls@inner=\count623
+\@glsxtr@leveloffset=\count625
+\glsxtrresourcecount=\count626
+\@glsxtrnewgls@inner=\count627
 \glsshortpltok=\toks66
 \glslongpltok=\toks67
 
@@ -1842,7 +1849,7 @@ a delayed write on input line 966.
 ries-extra-abbrstyles.def
 File: glossaries-extra-abbrstyles.def 2025/05/14 v1.7 (NLCT)
 )
-\mglselementindex=\count624
+\mglselementindex=\count628
 )
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
@@ -1858,7 +1865,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count625
+\BKM@id=\count629
 )) (frontmatter/glossary.tex
 \glswrite=\write6
 \glo@main@file=\write7
@@ -1919,16 +1926,16 @@ rtuges.trsl' found. on input line 59.
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count626
+\scratchcounter=\count630
 \scratchdimen=\dimen428
 \scratchbox=\box125
-\nofMPsegments=\count627
-\nofMParguments=\count628
+\nofMPsegments=\count631
+\nofMParguments=\count632
 \everyMPshowfont=\toks68
-\MPscratchCnt=\count629
+\MPscratchCnt=\count633
 \MPscratchDim=\dimen429
-\MPnumerator=\count630
-\makeMPintoPDFobject=\count631
+\MPnumerator=\count634
+\makeMPintoPDFobject=\count635
 \everyMPtoPDFconversion=\toks69
 )
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1941,7 +1948,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count632
+\c@lstlisting=\count636
 Package tocbasic Info: setting babel extension for `lol' on input line 59.
 
 (C:\Users\carlo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
@@ -2137,10 +2144,10 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <12> not available
 ]
 
 LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 86.
+(Font)              using `T1/cmbr/b/n' instead on input line 85.
 
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <12> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 87.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 86.
 
 
 [5])
@@ -2208,7 +2215,7 @@ LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 )
 
 [4]
-<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=345, 115
+<capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png, id=343, 115
 4.51324pt x 649.2255pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic
  file (type png)
@@ -2216,7 +2223,7 @@ File: capitulos/cap1-introducao/imagens/ferramentas/devops-homepage.png Graphic
 Package pdftex.def Info: capitulos/cap1-introducao/imagens/ferramentas/devops-h
 omepage.png  used on input line 116.
 (pdftex.def)             Requested size: 423.9459pt x 238.3968pt.
-<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=347, 970.22
+<capitulos/cap1-introducao/imagens/ferramentas/devops-board.png, id=345, 970.22
 475pt x 380.622pt>
 File: capitulos/cap1-introducao/imagens/ferramentas/devops-board.png Graphic fi
 le (type png)
@@ -2247,7 +2254,7 @@ Cap\'{\i }tulo 2.
 ]
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <17.28> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 16.
-<capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png, id=386, 1927.
+<capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png, id=384, 1927.
 2pt x 916.42375pt>
 File: capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png Graphic f
 ile (type png)
@@ -2259,7 +2266,7 @@ p-org.png  used on input line 28.
 
 [11 <./capitulos/cap2-estadodaarte/assets/image/esn/internship-org.png>]
 <capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png, id=39
-3, 368.37625pt x 572.1375pt>
+1, 368.37625pt x 572.1375pt>
 File: capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png G
 raphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png>
@@ -2276,7 +2283,7 @@ pela \T1/cmbr/m/sl/12 Eras-mu-sIn-tern.org\T1/cmbr/m/n/12 ,
 
 [12 <./capitulos/cap2-estadodaarte/assets/image/esn/erasmus-intern filters.png>
 ]
-<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png, id=399, 1
+<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png, id=397, 1
 927.2pt x 916.42375pt>
 File: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png Graph
 ic file (type png)
@@ -2284,7 +2291,7 @@ ic file (type png)
 Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/praxis/praxis
 -homepage.png  used on input line 56.
 (pdftex.def)             Requested size: 381.54872pt x 181.42169pt.
-<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png, id=400, 192
+<capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png, id=398, 192
 7.2pt x 916.42375pt>
 File: capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png Graphic
  file (type png)
@@ -2297,7 +2304,7 @@ Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/praxis/praxis
 [13 <./capitulos/cap2-estadodaarte/assets/image/praxis/praxis-homepage.png> <./
 capitulos/cap2-estadodaarte/assets/image/praxis/praxis-search.png>]
 <capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship-hom
-epage.png, id=407, 1927.2pt x 916.42375pt>
+epage.png, id=405, 1927.2pt x 916.42375pt>
 File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internshi
 p-homepage.png Graphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-internship
@@ -2306,7 +2313,7 @@ Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-interns
 hip/spain-internship-homepage.png  used on input line 74.
 (pdftex.def)             Requested size: 381.54872pt x 181.42169pt.
 <capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png, id
-=408, 766.36313pt x 646.66594pt>
+=406, 766.36313pt x 646.66594pt>
 File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.pn
 g Graphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-search.png
@@ -2315,7 +2322,7 @@ Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-interns
 hip/spain-search.png  used on input line 83.
 (pdftex.def)             Requested size: 381.54872pt x 321.96062pt.
 <capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-list.p
-ng, id=409, 157.33781pt x 181.42781pt>
+ng, id=407, 157.33781pt x 181.42781pt>
 File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-l
 ist.png Graphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-li
@@ -2324,7 +2331,7 @@ Package pdftex.def Info: capitulos/cap2-estadodaarte/assets/image/spain-interns
 hip/spain-contact-list.png  used on input line 90.
 (pdftex.def)             Requested size: 127.18506pt x 146.6595pt.
 <capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-partne
-rs.png, id=410, 784.43062pt x 589.4522pt>
+rs.png, id=408, 784.43062pt x 589.4522pt>
 File: capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-p
 artners.png Graphic file (type png)
 <use capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-pa
@@ -2345,7 +2352,7 @@ list.png>]
 [16 <./capitulos/cap2-estadodaarte/assets/image/spain-internship/spain-contact-
 partners.png>]
 Cap\'{\i }tulo 3.
-<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=428, 903.375
+<capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png, id=426, 903.375
 pt x 913.4125pt>
 File: capitulos/cap3-analisedoproblema/assets/domain-diagram/dd.png Graphic fil
 e (type png)
@@ -2378,7 +2385,7 @@ ex
 
 ]) (capitulos/cap3-analisedoproblema/arquitetura.tex
 <capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l1.
-png, id=469, 429.605pt x 273.02pt>
+png, id=467, 429.605pt x 273.02pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logica
 l_l1.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical
@@ -2398,7 +2405,7 @@ used with new abbreviation definitions. Use \GLSxtrshort instead on input line
 23.
 
 <capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l
-1.png, id=471, 305.14pt x 112.42pt>
+1.png, id=469, 305.14pt x 112.42pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physi
 cal_l1.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physic
@@ -2407,7 +2414,7 @@ Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
 tema/physical/physical_l1.png  used on input line 27.
 (pdftex.def)             Requested size: 211.97295pt x 78.09822pt.
 <capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l2.
-png, id=474, 599.23875pt x 404.51125pt>
+png, id=472, 599.23875pt x 404.51125pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logica
 l_l2.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical
@@ -2423,7 +2430,7 @@ tema/logical/logical_l2.png  used on input line 45.
 l1.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasistem
 a/physical/physical_l1.png (PNG copy)>]
 <capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l
-2.png, id=480, 473.77pt x 317.185pt>
+2.png, id=478, 473.77pt x 317.185pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physi
 cal_l2.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physic
@@ -2437,7 +2444,7 @@ tema/physical/physical_l2.png  used on input line 56.
 al_l2.png (PNG copy)> <./capitulos/cap3-analisedoproblema/assets/arquiteturasis
 tema/physical/physical_l2.png (PNG copy)>]
 <capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical_l3.
-png, id=486, 599.23875pt x 573.14125pt>
+png, id=484, 599.23875pt x 573.14125pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logica
 l_l3.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logical
@@ -2446,7 +2453,7 @@ Package pdftex.def Info: capitulos/cap3-analisedoproblema/assets/arquiteturasis
 tema/logical/logical_l3.png  used on input line 72.
 (pdftex.def)             Requested size: 339.158pt x 324.39386pt.
 <capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l
-3.png, id=488, 593.21625pt x 588.1975pt>
+3.png, id=486, 593.21625pt x 588.1975pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physi
 cal_l3.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physic
@@ -2459,7 +2466,7 @@ tema/physical/physical_l3.png  used on input line 82.
 [26 <./capitulos/cap3-analisedoproblema/assets/arquiteturasistema/logical/logic
 al_l3.png (PNG copy)>]
 <capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physical_l
-4.png, id=494, 913.4125pt x 597.23125pt>
+4.png, id=492, 913.4125pt x 597.23125pt>
 File: capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physi
 cal_l4.png Graphic file (type png)
 <use capitulos/cap3-analisedoproblema/assets/arquiteturasistema/physical/physic
@@ -2490,7 +2497,7 @@ Package glossaries-extra Warning: Base acronym command \acrlong should not be u
 sed with new abbreviation definitions. Use \glsxtrlong instead on input line 29
 .
 
-<capitulos/cap4-implementacao/assets/fold-struct-backend.png, id=511, 242.40562
+<capitulos/cap4-implementacao/assets/fold-struct-backend.png, id=509, 242.40562
 pt x 310.15875pt>
 File: capitulos/cap4-implementacao/assets/fold-struct-backend.png Graphic file 
 (type png)
@@ -2545,7 +2552,7 @@ Overfull \hbox (72.05923pt too wide) in paragraph at lines 130--131
 [39]
 
 [40]
-<capitulos/cap4-implementacao/assets/swagger-homepage.png, id=910, 1216.545pt x
+<capitulos/cap4-implementacao/assets/swagger-homepage.png, id=908, 1216.545pt x
  861.2175pt>
 File: capitulos/cap4-implementacao/assets/swagger-homepage.png Graphic file (ty
 pe png)
@@ -2556,7 +2563,7 @@ ng  used on input line 543.
 ) (capitulos/cap4-implementacao/seccoes/frontend.tex
 
 [41 <./capitulos/cap4-implementacao/assets/swagger-homepage.png>]
-<capitulos/cap4-implementacao/assets/frontend/blende-website1.png, id=916, 1445
+<capitulos/cap4-implementacao/assets/frontend/blende-website1.png, id=914, 1445
 .4pt x 1333.23094pt>
 File: capitulos/cap4-implementacao/assets/frontend/blende-website1.png Graphic 
 file (type png)
@@ -2564,7 +2571,7 @@ file (type png)
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/frontend/blende-we
 bsite1.png  used on input line 18.
 (pdftex.def)             Requested size: 296.76083pt x 273.72098pt.
-<capitulos/cap4-implementacao/assets/frontend/blende-website2.png, id=917, 1444
+<capitulos/cap4-implementacao/assets/frontend/blende-website2.png, id=915, 1444
 .64719pt x 1358.07375pt>
 File: capitulos/cap4-implementacao/assets/frontend/blende-website2.png Graphic 
 file (type png)
@@ -2572,7 +2579,7 @@ file (type png)
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/frontend/blende-we
 bsite2.png  used on input line 25.
 (pdftex.def)             Requested size: 296.76083pt x 278.96643pt.
-<capitulos/cap4-implementacao/assets/frontend/blende-website3.png, id=918, 1445
+<capitulos/cap4-implementacao/assets/frontend/blende-website3.png, id=916, 1445
 .4pt x 933.4875pt>
 File: capitulos/cap4-implementacao/assets/frontend/blende-website3.png Graphic 
 file (type png)
@@ -2591,7 +2598,7 @@ Overfull \hbox (58.05879pt too wide) in paragraph at lines 48--49
 ][][][][][][][][][][]  
  []
 
-<capitulos/cap4-implementacao/assets/frontend/blended-project-page.png, id=936,
+<capitulos/cap4-implementacao/assets/frontend/blended-project-page.png, id=934,
  1926.19624pt x 949.5475pt>
 File: capitulos/cap4-implementacao/assets/frontend/blended-project-page.png Gra
 phic file (type png)
@@ -2604,7 +2611,7 @@ roject-page.png  used on input line 72.
 [44]) (capitulos/cap4-implementacao/seccoes/deployments.tex
 
 [45 <./capitulos/cap4-implementacao/assets/frontend/blended-project-page.png>]
-<capitulos/cap4-implementacao/assets/devops-agent.png, id=1002, 949.74825pt x 2
+<capitulos/cap4-implementacao/assets/devops-agent.png, id=1000, 949.74825pt x 2
 18.61674pt>
 File: capitulos/cap4-implementacao/assets/devops-agent.png Graphic file (type p
 ng)
@@ -2612,7 +2619,7 @@ ng)
 Package pdftex.def Info: capitulos/cap4-implementacao/assets/devops-agent.png  
 used on input line 41.
 (pdftex.def)             Requested size: 423.9459pt x 97.58603pt.
-<capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png, id=1004, 26
+<capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png, id=1002, 26
 4.99pt x 555.07375pt>
 File: capitulos/cap4-implementacao/assets/pipeline-activity-diagram.png Graphic
  file (type png)
@@ -2689,11 +2696,18 @@ Cap\'{\i }tulo 5.
 [51
 
 ])
+(C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\build\main.bbl)
 
 [52]
-Overfull \hbox (0.9204pt too wide) in paragraph at lines 86--86
+Overfull \hbox (7.22034pt too wide) in paragraph at lines 88--88
 []\T1/cmbr/m/sl/12 Hibernate Do-cu-men-ta-tion\T1/cmbr/m/sc/12 . Com-mo-nhaus F
 oun-da-tion. url: []$\T1/zi4/m/n/12 https : / / hibernate .
+ []
+
+
+Overfull \hbox (1.79752pt too wide) in paragraph at lines 88--88
+[]\T1/cmbr/m/sl/12 React Do-cu-men-ta-tion ^^U Get-ting Star-ted\T1/cmbr/m/sc/1
+2 . Meta Open Source. 2025. url: []$\T1/zi4/m/n/12 https :
  []
 
 (frontmatter/appendix.tex (appendices/a-userflowchart/appendix-a.tex
@@ -2704,19 +2718,19 @@ oun-da-tion. url: []$\T1/zi4/m/n/12 https : / / hibernate .
 Ap\^endice A.
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <24.88> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 3.
-<appendices/a-userflowchart/BlendEd1.png, id=1119, 1445.4pt x 1440.88312pt>
+<appendices/a-userflowchart/BlendEd1.png, id=1143, 1445.4pt x 1440.88312pt>
 File: appendices/a-userflowchart/BlendEd1.png Graphic file (type png)
 <use appendices/a-userflowchart/BlendEd1.png>
 Package pdftex.def Info: appendices/a-userflowchart/BlendEd1.png  used on input
  line 9.
 (pdftex.def)             Requested size: 360.3566pt x 359.23051pt.
-<appendices/a-userflowchart/BlendEd2.png, id=1120, 1445.4pt x 1459.70343pt>
+<appendices/a-userflowchart/BlendEd2.png, id=1144, 1445.4pt x 1459.70343pt>
 File: appendices/a-userflowchart/BlendEd2.png Graphic file (type png)
 <use appendices/a-userflowchart/BlendEd2.png>
 Package pdftex.def Info: appendices/a-userflowchart/BlendEd2.png  used on input
  line 15.
 (pdftex.def)             Requested size: 423.9459pt x 428.13644pt.
-<appendices/a-userflowchart/BlendEd3.png, id=1121, 1445.4pt x 1742.00812pt>
+<appendices/a-userflowchart/BlendEd3.png, id=1145, 1445.4pt x 1742.00812pt>
 File: appendices/a-userflowchart/BlendEd3.png Graphic file (type png)
 <use appendices/a-userflowchart/BlendEd3.png>
 Package pdftex.def Info: appendices/a-userflowchart/BlendEd3.png  used on input
@@ -2774,11 +2788,11 @@ LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
 [62]))
 
 Package glossaries Warning: Ignoring attempt to run command `makeindex -s main.
-ist -t main.glg -o main.gls main.glo' on input line 96.
+ist -t main.glg -o main.gls main.glo' on input line 97.
 
 
 Package glossaries Warning: Ignoring attempt to run command `makeindex -s main.
-ist -t main.alg -o main.acr main.acn' on input line 96.
+ist -t main.alg -o main.acr main.acn' on input line 97.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -2805,10 +2819,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 68946 strings out of 468149
- 1632623 string characters out of 5431082
- 2858698 words of memory out of 5000000
- 95914 multiletter control sequences out of 15000+600000
+ 69093 strings out of 468149
+ 1636998 string characters out of 5431082
+ 2860578 words of memory out of 5000000
+ 96044 multiletter control sequences out of 15000+600000
  648089 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,20n,131p,2475b,2828s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2835,9 +2849,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C
 :/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inco
 nsolata-zi4r.pfb>
 Output written on "C:\Users\carlo\Documents\Universidade\2425\Relatorio Pesti\b
-uild\main.pdf" (73 pages, 8119608 bytes).
+uild\main.pdf" (73 pages, 8126709 bytes).
 PDF statistics:
- 2162 PDF objects out of 2487 (max. 8388607)
- 689 named destinations out of 1000 (max. 500000)
- 755 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2191 PDF objects out of 2487 (max. 8388607)
+ 700 named destinations out of 1000 (max. 500000)
+ 747 words of extra memory for PDF output out of 10000 (max. 10000000)
 
