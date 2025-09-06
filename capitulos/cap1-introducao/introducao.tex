@@ -16,7 +16,7 @@ Por último, apresentam-se as principais tecnologias selecionadas para a impleme
 
 Este relatório foi desenvolvido com base num projeto enquadrado no âmbito da unidade curricular de Projeto Estágio (PESTI) da Licenciatura em Engenharia Informática (LEI) do Instituto Superior de Engenharia do Porto (ISEP).
 
-Este projeto ocorreu no enquadramento do Projeto BlendED (também referido como Blended4Future ou BlendedMobility\footnote{https://blendedmobility.com}). Este curso dá a estudantes a oportunidade de desenvolverem as suas \textit{soft} e \textit{hard skills} num projeto com alunos de diferentes culturas e países trabalhando num projeto para empresas reais.
+Este projeto ocorreu no enquadramento do Projeto BlendED (também referido como Blended4Future ou BlendedMobility\footnote{https://blendedmobility.com}). Este curso dá a estudantes a oportunidade de desenvolverem as suas \textit{soft} e \textit{hard skills} num projeto com alunos de diferentes culturas e países trabalhando num ambiente para empresas reais.
 
 \subsection{Apresentação da organização}
 
@@ -24,7 +24,7 @@ BlendedMobility é uma iniciativa educativa internacional que promove o desenvol
 
 O programa reúne alunos de diferentes universidades europeias que, ao longo de quatro meses, trabalham em conjunto no desenvolvimento de projetos reais para empresas parceiras. A metodologia adotada assenta em práticas ativas e colaborativas, potenciando competências essenciais como trabalho em equipa, comunicação intercultural e resolução de problemas num ambiente profissional simulado.
 
-O percurso inicia-se com uma semana presencial no Instituto Universitário da Maia (ISMAI), onde as equipas se conhecem, recebem o enquadramento do projeto e planeiam as etapas de trabalho. O desenvolvimento dos projetos decorre num regime híbrido, combinando sessões \textit{online} e trabalho autónomo. Ao final do ciclo, todas as equipas reúnem-se presencialmente na Universidade de Trier, na Alemanha, para apresentar os resultados dos seus projetos a um painel de avaliadores e representantes das empresas envolvidas.
+O percurso iniciou-se com uma semana presencial no Instituto Universitário da Maia (ISMAI), onde as equipas se conheceram, receberam o enquadramento do projeto e planearam as etapas de trabalho. O desenvolvimento dos projetos decorreu num regime híbrido, combinando sessões \textit{online} e trabalho autónomo. Ao final do ciclo, todas as equipas reuniram-se presencialmente na Universidade de Trier, na Alemanha, para apresentar os resultados dos seus projetos a um painel de avaliadores e representantes das empresas envolvidas.
 
 
 \section{Descrição do Problema}
@@ -36,7 +36,7 @@ A organização desejava uma plataforma onde se pudesse automaticamente adiciona
 
 Nesta aplicação, estudantes professores e representantes de empresas poderiam ver os projetos em que estavam envolvidos e fazer posts sobre os seus respetivos projetos.
 
-Foi ainda requisitado uma maneira de ver todas a edições do Blended4Future e todos os projetos neste envolvido.
+Foi ainda requisitada a criação de uma ferramenta para visualizar todas a edições do Blended4Future e todos os projetos neste envolvido.
 
 \section{Objetivos}
 
@@ -137,7 +137,7 @@ O Jira apresenta-se como uma ferramenta de gestão de projetos altamente robusta
 
 \subsubsection{Tecnologias para desenvolvimento}
 
-Atendendo à heterogeneidade da equipa, composta por indivíduos com diferentes experiências, origens académicas e nacionalidades, tornou-se imperativo definir consensualmente as tecnologias a utilizar no projeto. Para tal, procedeu-se ao levantamento sistemático das ferramentas previamente utilizadas pelos elementos da equipa, tendo-se optado, em média, pelas tecnologias mais frequentemente referidas e consideradas mais adequadas à criação de interfaces de utilizador e à implementação de APIs do tipo REST. 
+Atendendo à heterogeneidade da equipa, composta por indivíduos com diferentes experiências, origens académicas e nacionalidades, tornou-se imperativo definir consensualmente as tecnologias a utilizar no projeto. Para tal, procedeu-se ao levantamento sistemático das ferramentas previamente utilizadas pelos elementos da equipa, tendo-se optado pelas tecnologias mais referidas e consideradas mais adequadas à criação de interfaces de utilizador e à implementação de APIs do tipo REST. 
 
 Houve uma clara preferência quanto ao uso de linguagens com tipagem forte. Estas permitem o melhor rastreamento de erros e garantem o formato dos objetos no programa. Esta preferência teve como base principal a inexperiência de vários elementos da equipa.
 
@@ -145,6 +145,7 @@ A tabela \ref{tab:tecnologias-mais-utilizadas} demonstra este levantamento que p
 
 \input{capitulos/cap1-introducao/tabelas/tab-tecnologias-mais-utilizadas.tex}
 
+\pagebreak
 
 \paragraph{Java} Linguagem de programação orientada a objetos amplamente utilizada no desenvolvimento de aplicações empresariais e sistemas robustos. A sua integração com o ecossistema Spring possibilita a criação eficiente de APIs REST, suportando a escalabilidade e manutenção do software. A sua tipagem forte permite que erros sejam mais fáceis de evitar, principalmente para desenvolvedores com pouca experiência.  
 
@@ -168,8 +169,8 @@ A tabela \ref{tab:tecnologias-mais-utilizadas} demonstra este levantamento que p
 
 Esta secção é apresentada na perspetiva do autor do relatório, procurando não apenas identificar os principais obstáculos encontrados ao longo do projeto, mas também refletir sobre as aprendizagens decorrentes da experiência, em especial no que respeita à gestão de equipa e à adaptação em contextos de incerteza.
 
-Um dos desafios mais marcantes prendeu-se com a falta de comunicação entre os membros da equipa. Esta dificuldade comprometeu a coordenação das atividades e levou, em diversas ocasiões, ao incumprimento de tarefas previamente atribuídas. Acresce que a ausência de contributos regulares por parte de alguns elementos originou constrangimentos adicionais, dificultando a execução contínua de certas fases do projeto.
+Um dos desafios prendeu-se com o desalinhamento de objetivos gerado pelo desequilíbrio do número de créditos atribuído a cada elemento, resultando um nível de empenho diferente, originando uma falta de comunicação entre os membros da equipa. Esta dificuldade comprometeu a coordenação das atividades e levou, em diversas ocasiões, ao incumprimento de tarefas previamente atribuídas. Acresce que a ausência de contributos regulares por parte de alguns elementos originou constrangimentos adicionais, dificultando a execução contínua de certas fases do projeto.
 
 Como tentativa de mitigar estas dificuldades, procurou-se aumentar a frequência de reuniões e envolver mais ativamente os professores responsáveis pela orientação. No entanto, estas medidas revelaram-se insuficientes, o que levou, sensivelmente a meio do projeto, à necessidade de reduzir significativamente o âmbito (\textit{scope}) inicialmente definido, ajustando a complexidade do domínio de trabalho.
 
-Em retrospetiva, é importante reconhecer que alguns elementos da equipa não demonstraram capacidade ou disponibilidade para contribuir de forma consistente. Enquanto \textit{Scrum Master}, teria sido desejável adotar uma postura mais preventiva e, principalmente, assertiva, intervindo mais cedo quando estes sinais começaram a emergir, de modo a minimizar o impacto na progressão do projeto.
+Em retrospetiva, é importante reconhecer que alguns elementos da equipa não demonstraram capacidade ou disponibilidade para contribuir de forma consistente, pelo anteriormente referido. Enquanto \textit{Scrum Master}, teria sido desejável adotar uma postura mais preventiva e, principalmente, assertiva, intervindo mais cedo quando estes sinais começaram a emergir, de modo a minimizar o impacto na progressão do projeto.

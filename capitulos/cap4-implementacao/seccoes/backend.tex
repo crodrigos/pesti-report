@@ -13,7 +13,7 @@ Nesta secção irá se apresentar funcionalidades do backend no contexto da US3 
 \subsubsection{Spring}
 \label{sec:backend-Spring}
 
-A framework Spring apresentou à equipa uma alta curva de aprendizagem. Os vários conceitos e ferramentas nesta são bastante alienígenas a qualquer outra ferramenta antes utilizada pelos membros. Por tal foi necessário mais tempo para a aprender. Alguns dos conceitos-chave considerados incluem:
+A framework Spring apresentou à equipa uma alta curva de aprendizagem. Os vários conceitos e ferramentas nesta são bastante alienígenas a qualquer outra ferramenta antes utilizada pelos membros, em comparação com qualquer outra ferramenta antes utilizada. Por tal foi necessário mais tempo para a aprender. Alguns dos conceitos-chave considerados incluem:
 
 \begin{itemize}
     \item \textbf{\textit{Spring Data}} é um agregado de módulos Spring que têm como função principal facilitar a programção de entidades e o seu respetivos acesso quando conectado a uma fonte de dados.
@@ -127,7 +127,11 @@ A implementação da \textit{BaseEntity} envolve várias decisões de \textit{de
 \begin{itemize}
     \item No \gls{Hibernate}, os atributos definidos em superclasses não são, por defeito, persistidos. A utilização da anotação \lstinline|@MappedSuperclass| assegura que as classes filhas possam herdar esses parâmetros, permitindo a sua correta persistência na base de dados.
 
-    \item A anotação \lstinline|@Id| define o atributo \lstinline|iid| como identificador principal da entidade no contexto da persistência. Complementarmente, \lstinline|@GeneratedValue(strategy=GenerationType.UUID)| especifica a forma como o identificador deve ser gerado, recorrendo ao padrão \textit{UUID}. Esta opção é particularmente relevante dado que, por omissão, o \gls{Hibernate} apenas consegue popular atributos de tipos primitivos.
+    \item A anotação \lstinline|@Id| define o atributo \lstinline|iid| como identificador principal da entidade no contexto da persistência. 
+    
+    \begin{itemize}
+        \item Complementarmente, \lstinline|@GeneratedValue(strategy=GenerationType.UUID)| especifica a forma como o identificador deve ser gerado, recorrendo ao padrão \textit{UUID}. Esta opção é particularmente relevante dado que, por omissão, o \gls{Hibernate} apenas consegue popular atributos de tipos primitivos.
+    \end{itemize}
     
     \item Verificou-se a necessidade de avaliar, de forma global, todos os atributos relacionados com a lógica de negócio, de modo a identificar e retornar eventuais erros existentes. Para esse fim, a função \lstinline|isBusinessDataValid()| analisa todos os \textit{Value Objects} (Ver secção \ref{sec:backend-value-objects}) da respetiva classe e devolve um \lstinline|HashMap| contendo a listagem dos erros detetados.
 \end{itemize}
@@ -266,7 +270,7 @@ public class ProjectDescription implements IValueObject<String> {
 }
 \end{lstlisting}
 
-A listagem \ref{lst:class-project-description} demonstra uma implementação de \lstinline|IValueObject|. Como referido a função \lstinline|isValid()| avalia se o objeto é valido ou não retornando quaisquer erros.
+A listagem \ref{lst:class-project-description} demonstra uma implementação de \lstinline|IValueObject|. Como referido a função \lstinline|isValid()| avalia se o objeto é valido, retornado um \lstinline|HashMap| com os erros neste.
 
 Importante também seria referir a necessidade de um conversor, uma classe que informa o \gls{Hibernate} como deve mapear o objeto do programa para a base de dados e vice-versa.
 
@@ -282,7 +286,7 @@ Como referido na secção \ref{sec:backend-Spring}, o modulo Spring Data \GLSxtr
 
 Tendo em conta a implementação de \lstinline|BaseEntity| e a necessidade de diferenciação entre identificadores internos e externos, foi implementada a interface \lstinline|BaseRepository| (ver listagem \ref{lst:interface-base-repository}). 
 
-Na referida interface o uso de \lstinline|@NoRepositoryBean| informa o \GLSxtrshort{IoC} \textit{Container} para não guardar uma instância deste repositório, pois por norma todos os \lstinline|JpaRepository| são guardados automaticamente. É ainda adicionada a função \lstinline|findByExternalId|, esta procura automaticamente por todas a instâncias que o correspondem ao nome do atributo \lstinline|externalId|. Esta segue uma nomenclatura especifica do Spring \cite{docs-spring-repository}.
+Na referida interface o uso de \lstinline|@NoRepositoryBean| informa o \GLSxtrshort{IoC} \textit{Container} para não guardar uma instância deste repositório, pois por norma todos os \lstinline|JpaRepository| são guardados automaticamente. É ainda adicionada a função \lstinline|findByExternalId|, esta procura automaticamente pela instância que corresponde ao nome do atributo \lstinline|externalId|. Esta segue uma nomenclatura especifica do Spring \cite{docs-spring-repository}.
 
 \begin{lstlisting}[language=Java,caption={Inteface BaseRepository}, label={lst:interface-base-repository}]
 @NoRepositoryBean
@@ -305,7 +309,7 @@ Graças ao \gls{Spring} é possível então fazer implementações de repositór
 
 \subsubsection{Controladores e prevenção de erros}
 
-Na eventualidade da ocorrência de erros, que estes sejam de negócio ou de sistema torna-se necessária implementar um sistema que os consiga detetar e retornar num formata predefinido, algo que o \gls{Spring} não faz por base. 
+Na eventualidade da ocorrência de erros, quer estes sejam de negócio ou de sistema torna-se necessária implementar uma ferramenta que os consiga detetar e retornar num formato predefinido, algo que o \gls{Spring} não faz por base. 
 
 O \gls{Spring} disponibiliza \lstinline|@RestControllerAdvice| que permite a implementação de rotas ou ferramentas de deteção de erros em todas as classes anotadas com \lstinline|@RestController|.
 

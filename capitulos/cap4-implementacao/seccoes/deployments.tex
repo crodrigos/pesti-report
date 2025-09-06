@@ -12,7 +12,7 @@ No contexto do Azure Pipelines um agente (em inglês, \textit{Agent}) é a máqu
 
 Neste caso iremos indicar ao Azure Pipelines para que utilize a nossa máquina como um agente. O agente irá executar dentro de um \textit{container Docker}.
 
-A Microsoft oferece ferramentas para ajudar neste processo \cite{run-a-self-hosted-agent-in-docker}. O script que estabelece a relação entre os agentes e os serviços Azure, tal como o Dockerfile necessário para a compilção do Docker poderá ser encontrado nos anexos \ref{app:pipeline-start.sh} e \ref{app:dockerfile-pipeline-agent} respetivamente.
+A Microsoft oferece ferramentas para ajudar neste processo \cite{run-a-self-hosted-agent-in-docker}. O script que estabelece a relação entre os agentes e os serviços Azure, tal como o ficheiro \textit{.Dockerfile} necessário para a construção da Imagem Docker poderá ser encontrado nos anexos \ref{app:pipeline-start.sh} e \ref{app:dockerfile-pipeline-agent} respetivamente.
 
 Após a criação do agente basta iniciar o \textit{container Docker}, tendo em atenção à indicação das variáveis de ambiente necessárias. A figura \ref{fig:start-docker-agent} demonstra isso mesmo, com censura a qualquer informação sensivel à organização.
 
