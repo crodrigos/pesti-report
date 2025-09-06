@@ -9,11 +9,11 @@ package Blended4Future {
         interface nginx_frontend as "'/'"
 
         node nginx as "Nginx Proxy Server" {
-            node frontend_docker as "Frontend Docker Image"
+            node frontend_docker as "Frontend Docker Container"
             interface frontend_docker_int as "Port: 3000"
             
             interface backend_docker_int as "Port: 4000"
-            node backend_docker as "Backend Docker Image"
+            node backend_docker as "Backend Docker Container"
 
             frontend_docker -d- frontend_docker_int
             backend_docker -d- backend_docker_int

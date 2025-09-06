@@ -372,14 +372,16 @@ KOMA-script documentation for details.}]{fancyhdr}
 
 			{\large \bfseries \noindent \advisorlabel: \advname } \\
 
+			\null \null
+
+			{\large \bfseries \tdate} % Date
+
 		\end{center}
 
 		\vfill
 		\fi 
 
-		\begin{center}
-			{\Large \tdate} % Date
-		\end{center}
+		{\centering \includegraphics[width=4in]{/frontmatter/assets/dei_logo.pdf} \\}
 	
 	\end{titlepage}
 }

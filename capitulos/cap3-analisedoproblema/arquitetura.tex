@@ -65,7 +65,7 @@ A figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nív
 
 \subsubsection{Diagrama Lógico}
 
-Com um nivel menor de abstração, a figura \ref{fig:diagram-lvl3-logical} apresenta aprofunda os modulos de \textit{Backend} e \textit{Frontend}. O primeiro é responsável pela logica de negócio e persistencia e, por tal, é detentor de uma aplicação Spring e de uma base de dados relacional \textit{MySQL}.
+Com um nivel menor de abstração, a figura \ref{fig:diagram-lvl3-logical} apresenta aprofunda os módulos de \textit{Backend} e \textit{Frontend}. O primeiro é responsável pela lógica de negócio e persistência e, por tal, é detentor de uma aplicação Spring e de uma base de dados relacional \textit{MySQL}.
 
 \begin{figure}[h!tbp]
     \centering
@@ -75,7 +75,7 @@ Com um nivel menor de abstração, a figura \ref{fig:diagram-lvl3-logical} apres
 \end{figure}
 
 \subsubsection{Diagrama Físico} 
-A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nível 3. Com este é possível verificar o mapeamento das duas rotas criadas pelo servidor \textit{proxy} \gls{NGINX} para os PORTS 3000 e 4000, escolhidos, pois são memoráveis. Foi feita ainda a escolha de encapsular as aplicações \textit{Backend} e \textit{Frontend} em imagens \gls{Docker} garantindo assim o seu funcionamento independentemente do \textit{hardware} escolhido.
+A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nível 3. Com este é possível verificar o mapeamento das duas rotas criadas pelo servidor \textit{proxy} \gls{NGINX} para os PORTS 3000 e 4000, escolhidos, pois são memoráveis. Foi feita ainda a escolha de encapsular as aplicações \textit{Backend} e \textit{Frontend} em contentores \gls{Docker} garantindo assim o seu funcionamento independentemente do \textit{hardware} escolhido.
 
 \begin{figure}[h!tbp]
     \centering
@@ -92,9 +92,9 @@ A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nív
 
 \subsubsection{Diagrama Físico} 
 
-A figura \ref{fig:diagram-lvl4-physical} demonstra o diagrama de físico de nível 4. Dento das respetivas imagens \gls{Docker} é possível ver as aplicações  \textit{Backend} e \textit{Frontend} encapsuladas. No contexto do \gls{Docker} é necessário fazer um mapeamento dos \textit{ports} utilizados do ambiente interno (Imagem) para o externo (Máquina Virtual), por isso é possível ver o mapeamento dos ports, respetivamente, internos e externos, 8080 e 4000, no \textit{Backend} e 3000 e 3000 no \textit{Frontend}.
+A figura \ref{fig:diagram-lvl4-physical} demonstra o diagrama de físico de nível 4. Dento dos respetivss contentores \gls{Docker} é possível ver as aplicações  \textit{Backend} e \textit{Frontend} encapsuladas. No contexto do \gls{Docker} é necessário fazer um mapeamento dos \textit{ports} utilizados do ambiente interno (Contentor) para o externo (Máquina Virtual), sendo possível ver o mapeamento dos ports, respetivamente, internos e externos, 8080 e 4000, no \textit{Backend} e 3000 e 3000 no \textit{Frontend}.
 
-Em nota, é possível incluir a base de dados na imagem graças à funcionalidade \textit{Volumes} do Docker e esta pode persistir diretamente no \textit{hardware} da máquina virtual.
+Em nota, é possível incluir a base de dados no contentor graças à funcionalidade \textit{Volumes} do Docker e esta pode persistir diretamente no \textit{hardware} da máquina virtual.
 
 \begin{figure}[h!tbp]
     \centering

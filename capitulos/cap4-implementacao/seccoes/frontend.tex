@@ -65,14 +65,7 @@ const LandingPageContainer = (props: LandingPageContainerProps) => {
 
 \subsubsection{Pagina de Visualização de Projetos}
 
-A pagina de visualização de projetos era um dos elementos de maior importancia. Esta permite qualquer visitante do website visualizar os projetos que estão a ser realizados. A listagem \ref{lst:frontend-ProjectLibraryPage} permite entender a implementação desta pagina. Esta utiliza elementos essenciais do \textit{React}, como \lstinline|useState| e \lstinline|useEffect| que, respetivamente, permite 
-
-\begin{figure}[h!tbp]
-    \centering
-    \includegraphics[width=\linewidth]{capitulos/cap4-implementacao/assets/frontend/blended-project-page.png}
-    \caption{Pagina de visualização de projetos}
-    \label{fig:frontend-project-page}
-\end{figure}
+A pagina de visualização de projetos era um dos elementos de maior importancia. Esta permite qualquer visitante do website visualizar os projetos que estão a ser realizados. A listagem \ref{lst:frontend-ProjectLibraryPage} permite entender a implementação desta pagina. Esta utiliza elementos essenciais do \textit{React}, como \lstinline|useState| e \lstinline|useEffect| que, respetivamente, permitem a criação de \textit{states} (em prática, variáveis) e estabelecer eventos caso algum dos \textit{states} altere.  
 
 \begin{lstlisting}[caption={Função ProjectLibraryPage}, label={lst:frontend-ProjectLibraryPage}]
 const ProjectLibraryPage = () => {
@@ -106,3 +99,10 @@ const ProjectLibraryPage = () => {
   );
 };
 \end{lstlisting}
+
+\begin{figure}[h!tbp]
+    \centering
+    \includegraphics[width=\linewidth]{capitulos/cap4-implementacao/assets/frontend/blended-project-page.png}
+    \caption{Pagina de visualização de projetos}
+    \label{fig:frontend-project-page}
+\end{figure}

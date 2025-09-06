@@ -12,7 +12,7 @@ package Blended4Future {
 
         node nginx as "Nginx Proxy Server" {
 
-            node frontend_docker as "Frontend Docker Image" {
+            node frontend_docker as "Frontend Docker Container" {
                 component frontend as "React Application"
                 interface frontend_interface as "Port: 3000"
                 frontend -d- frontend_interface
@@ -20,7 +20,7 @@ package Blended4Future {
             interface frontend_docker_int as "Port: 3000"
             
             interface backend_docker_int as "Port: 4000"
-            node backend_docker as "Backend Docker Image" {
+            node backend_docker as "Backend Docker Container" {
                 component db as "MySQL Database (Volume)"
                 component backend as "Spring Application"
                 interface backend_interface as "Port: 8080"
