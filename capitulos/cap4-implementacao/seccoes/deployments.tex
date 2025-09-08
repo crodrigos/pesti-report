@@ -14,7 +14,7 @@ Neste caso iremos indicar ao Azure Pipelines para que utilize a nossa máquina c
 
 A Microsoft oferece ferramentas para ajudar neste processo \cite{run-a-self-hosted-agent-in-docker}. O script que estabelece a relação entre os agentes e os serviços Azure, tal como o ficheiro \textit{.Dockerfile} necessário para a construção da Imagem Docker poderá ser encontrado nos anexos \ref{app:pipeline-start.sh} e \ref{app:dockerfile-pipeline-agent} respetivamente.
 
-Após a criação do agente basta iniciar o \textit{container Docker}, tendo em atenção à indicação das variáveis de ambiente necessárias. A figura \ref{fig:start-docker-agent} demonstra isso mesmo, com censura a qualquer informação sensivel à organização.
+Após a criação do agente basta iniciar o \textit{container Docker}, tendo em atenção à indicação das variáveis de ambiente necessárias. A Figura \ref{fig:start-docker-agent} demonstra isso mesmo, com censura a qualquer informação sensivel à organização.
 
 \begin{figure}[h!tbp]
     
@@ -57,7 +57,7 @@ Nesta secção demonstra-se a \textit{pipeline} criada e os respetivos passos po
 \end{figure}
 
 
-Na figura \ref{fig:pipeline-ad}, é possível ver o um diagrama de atividade que descreve cada passo feito por este trabalho.
+Na Figura \ref{fig:pipeline-ad}, é possível ver o um diagrama de atividade que descreve cada passo feito por este trabalho.
 
 \begin{lstlisting}[caption={Trigger - Pipeline},label={lst:pipeline-trigger}]
 trigger:
@@ -67,7 +67,7 @@ trigger:
 \end{lstlisting}
 
 
-A listagem \ref{lst:pipeline-trigger}, descreve o gatilho (em inglês, \textit{trigger}) de ativação da pipeline. Neste caso qualquer \textit{commit} no \textit{branch} "main" irá ativar os trabalhos definidos.
+A Listagem \ref{lst:pipeline-trigger}, descreve o gatilho (em inglês, \textit{trigger}) de ativação da pipeline. Neste caso qualquer \textit{commit} no \textit{branch} "main" irá ativar os trabalhos definidos.
 
 É importante enaltecer que existem variáveis que foram definidas externamente através do Azure DevOps e que são utilizadas ao longo da pipeline. Estas são:
 
@@ -77,4 +77,4 @@ A listagem \ref{lst:pipeline-trigger}, descreve o gatilho (em inglês, \textit{t
     \item \textbf{VMBUILDPATH}: Caminho para o qual a \gls{Build} do projeto irá ser colada em.
 \end{itemize}
 
-Finalmente, cada passo segue o conceito apresentado na figura \ref{fig:pipeline-ad}. Especial atenção para o uso de \lstinline|SSH@0|\cite{docs-SSH0}, esta é uma \textit{task} pre disponibilizada para estabelecer uma conexão SSH a uma máquina alvo. A chave está definida como segredo e é importado no início do ficheiro quando ocorre uma referência ao grupo de variáveis "ssh".
+Finalmente, cada passo segue o conceito apresentado na Figura \ref{fig:pipeline-ad}. Especial atenção para o uso de \lstinline|SSH@0|\cite{docs-SSH0}, esta é uma \textit{task} pre disponibilizada para estabelecer uma conexão SSH a uma máquina alvo. A chave está definida como segredo e é importado no início do ficheiro quando ocorre uma referência ao grupo de variáveis "ssh".

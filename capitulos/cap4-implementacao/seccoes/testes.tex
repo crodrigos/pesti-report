@@ -6,6 +6,8 @@ A prática de testes é fundamental para assegurar o correto funcionamento de qu
 
 Os testes unitários constituem uma prática essencial no desenvolvimento de \textit{software}, cujo principal objetivo é garantir que cada unidade de código se comporta conforme esperado. Esta abordagem permite a deteção precoce de erros, aumenta a fiabilidade do \textit{software} e facilita a manutenção e evolução do sistema. Para a execução destes testes, deu-se prioridade à utilização do \textit{JUnit}, em conjunto com as ferramentas disponibilizadas pelo \gls{Spring}.
 
+A Figura \ref{lst:class-CompanyTest} apresenta um exemplo de teste unitário que valida a correta criação de um objeto \lstinline|Company| e a sua inserção no \lstinline|entityManager|, permitindo a persistência dos objetos diretamente em \textit{runtime}.
+
 \begin{lstlisting}[language=Java, label={lst:class-CompanyTest}, caption={Class \textit{CompanyTest} - Exemplificação de testes Unitários}]
 @DataJpaTest()
 class CompanyTest {
@@ -37,11 +39,13 @@ class CompanyTest {
 }
 \end{lstlisting}
 
+Foram implementados testes unitários para as entidades de domínio, bem como para os respetivos \lstinline|ValueObjects|, abrangendo tanto casos de sucesso, com dados válidos, como casos de insucesso, com informações incorretas.
+
 \subsection{Testes de Implementação}
 
 Para os testes de implementação, deu-se especial ênfase à utilização da ferramenta Postman, a qual proporciona um ambiente colaborativo e estruturado para a testagem de \gls{API}.
 
-A figura \ref{lst:postman-post-company} apresenta o script pós-teste executado pelo postman para verificar a resposta ao pedido do tipo POST para "/company". 
+A Listagem \ref{lst:postman-post-company} apresenta o \textit{script} pós-teste executado pelo \textit{postman} para verificar a resposta ao pedido do tipo POST para "/company". 
 
 \begin{lstlisting}[style=Javascript, label={lst:postman-post-company}, caption={Script de test da rota POST /company}]
 pm.test("Status code is 201", function () {

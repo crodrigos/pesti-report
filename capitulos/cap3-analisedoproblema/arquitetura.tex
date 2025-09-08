@@ -9,7 +9,7 @@ No desenvolvimento desta solução, revela-se fundamental a organização do sis
 
 \subsubsection{Diagrama Lógico}
 
-Na figura \ref{fig:diagram-lvl1-logical} encontra-se o diagrama lógico de nível. Este mostra os componentes desta arquitetura com um alto nível de abstração. Apenas é possível ver a exposição de 3 tipos de página \textit{web} para vários tipos de utilizadores: não registado, registado e administradores.   
+Na Figura \ref{fig:diagram-lvl1-logical} encontra-se o diagrama lógico de nível. Este mostra os componentes desta arquitetura com um alto nível de abstração. Apenas é possível ver a exposição de 3 tipos de página \textit{web} para vários tipos de utilizadores: não registado, registado e administradores.   
 
 \begin{figure}[h!tbp]
     \centering
@@ -20,7 +20,7 @@ Na figura \ref{fig:diagram-lvl1-logical} encontra-se o diagrama lógico de níve
 
 \subsubsection{Diagrama Físico} 
 
-A figura \ref{fig:diagram-lvl1-physical} demonstra o diagrama de físico de nível 1. Utiliza-se o \textit{port} 80 pois este é por norma utilizado em chamadas \Acrshort{HTTP} por este um protocolo baseado em \ACRshort{TCP}
+A Figura \ref{fig:diagram-lvl1-physical} demonstra o diagrama de físico de nível 1. Utiliza-se o \textit{port} 80 pois este é por norma utilizado em chamadas \Acrshort{HTTP} por este um protocolo baseado em \ACRshort{TCP}
 
 \begin{figure}[h!tbp]
     \centering
@@ -37,7 +37,7 @@ A figura \ref{fig:diagram-lvl1-physical} demonstra o diagrama de físico de nív
 
 \subsubsection{Diagrama Lógico}
 
-Na figura \ref{fig:diagram-lvl2-logical} é possivel ver o anteriormente desmosntrado na figura \ref{fig:diagram-lvl1-logical} com um menor nível de abstração.
+Na Figura \ref{fig:diagram-lvl2-logical} é possivel ver o anteriormente desmosntrado na Figura \ref{fig:diagram-lvl1-logical} com um menor nível de abstração.
 A este somam-se os conceitos de \textit{Frontend} e \textit{Backend}.
 
 \begin{figure}[h!tbp]
@@ -49,7 +49,7 @@ A este somam-se os conceitos de \textit{Frontend} e \textit{Backend}.
 
 \subsubsection{Diagrama Físico} 
 
-A figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nível 2. Neste entende-se a função do servidor \gls{NGINX} como a de criação de duas rotas para \textit{Backend} e \textit{Frontend}, respetivamente \textit{'/api'} e \textit{'/'}.
+A Figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nível 2. Neste entende-se a função do servidor \gls{NGINX} como a de criação de duas rotas para \textit{Backend} e \textit{Frontend}, respetivamente \textit{'/api'} e \textit{'/'}.
 
 \begin{figure}[h!tbp]
     \centering
@@ -65,7 +65,7 @@ A figura \ref{fig:diagram-lvl2-physical} demonstra o diagrama de físico de nív
 
 \subsubsection{Diagrama Lógico}
 
-Com um nivel menor de abstração, a figura \ref{fig:diagram-lvl3-logical} apresenta aprofunda os módulos de \textit{Backend} e \textit{Frontend}. O primeiro é responsável pela lógica de negócio e persistência e, por tal, é detentor de uma aplicação Spring e de uma base de dados relacional \textit{MySQL}.
+Com um nivel menor de abstração, a Figura \ref{fig:diagram-lvl3-logical} apresenta aprofunda os módulos de \textit{Backend} e \textit{Frontend}. O primeiro é responsável pela lógica de negócio e persistência e, por tal, é detentor de uma aplicação Spring e de uma base de dados relacional \textit{MySQL}.
 
 \begin{figure}[h!tbp]
     \centering
@@ -75,7 +75,7 @@ Com um nivel menor de abstração, a figura \ref{fig:diagram-lvl3-logical} apres
 \end{figure}
 
 \subsubsection{Diagrama Físico} 
-A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nível 3. Com este é possível verificar o mapeamento das duas rotas criadas pelo servidor \textit{proxy} \gls{NGINX} para os PORTS 3000 e 4000, escolhidos, pois são memoráveis. Foi feita ainda a escolha de encapsular as aplicações \textit{Backend} e \textit{Frontend} em contentores \gls{Docker} garantindo assim o seu funcionamento independentemente do \textit{hardware} escolhido.
+A Figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nível 3. Com este é possível verificar o mapeamento das duas rotas criadas pelo servidor \textit{proxy} \gls{NGINX} para os PORTS 3000 e 4000, escolhidos, pois são memoráveis. Foi feita ainda a escolha de encapsular as aplicações \textit{Backend} e \textit{Frontend} em contentores \gls{Docker} garantindo assim o seu funcionamento independentemente do \textit{hardware} escolhido.
 
 \begin{figure}[h!tbp]
     \centering
@@ -92,7 +92,7 @@ A figura \ref{fig:diagram-lvl3-physical} demonstra o diagrama de físico de nív
 
 \subsubsection{Diagrama Físico} 
 
-A figura \ref{fig:diagram-lvl4-physical} demonstra o diagrama de físico de nível 4. Dento dos respetivss contentores \gls{Docker} é possível ver as aplicações  \textit{Backend} e \textit{Frontend} encapsuladas. No contexto do \gls{Docker} é necessário fazer um mapeamento dos \textit{ports} utilizados do ambiente interno (Contentor) para o externo (Máquina Virtual), sendo possível ver o mapeamento dos ports, respetivamente, internos e externos, 8080 e 4000, no \textit{Backend} e 3000 e 3000 no \textit{Frontend}.
+A Figura \ref{fig:diagram-lvl4-physical} demonstra o diagrama de físico de nível 4. Dento dos respetivss contentores \gls{Docker} é possível ver as aplicações  \textit{Backend} e \textit{Frontend} encapsuladas. No contexto do \gls{Docker} é necessário fazer um mapeamento dos \textit{ports} utilizados do ambiente interno (Contentor) para o externo (Máquina Virtual), sendo possível ver o mapeamento dos ports, respetivamente, internos e externos, 8080 e 4000, no \textit{Backend} e 3000 e 3000 no \textit{Frontend}.
 
 Em nota, é possível incluir a base de dados no contentor graças à funcionalidade \textit{Volumes} do Docker e esta pode persistir diretamente no \textit{hardware} da máquina virtual.
 

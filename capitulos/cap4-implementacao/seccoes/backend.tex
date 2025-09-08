@@ -2,7 +2,7 @@
 
 O desenvolvimento do \textit{backend} constituiu uma das partes fundamentais do projeto, assegurando a implementação da lógica de negócio, a gestão dos dados e a comunicação entre o sistema e a interface de utilizador. Este componente atua como a camada central responsável por garantir que os processos internos sejam executados de forma consistente, segura e eficiente, proporcionando suporte às funcionalidades disponibilizadas no \textit{frontend}.  
 
-Nesta secção irá se apresentar funcionalidades do backend no contexto da US3 (definida na tabela \ref{tab:req-funcionais}).
+Nesta secção irá se apresentar funcionalidades do backend no contexto da US3 (definida na Tabela \ref{tab:req-funcionais}).
 
 
 
@@ -40,7 +40,7 @@ A framework Spring apresentou à equipa uma alta curva de aprendizagem. Os vári
 
 \subsubsection{Estrutura de pastas}
 
-A estrutura de pastas do backend foi definida para enaltecer a função de cada ficheiro e/ou classe em cada uma, como pode ser observado na figura \ref{fig:folder-struct-backend}.
+A estrutura de pastas do backend foi definida para enaltecer a função de cada ficheiro e/ou classe em cada uma, como pode ser observado na Figura \ref{fig:folder-struct-backend}.
 
 \begin{figure}[h!tbp]
     \centering
@@ -51,7 +51,7 @@ A estrutura de pastas do backend foi definida para enaltecer a função de cada 
 
 \subsubsection{Entidades e relações}
 
-Para o caso de uso a ser considerado, a entidade de maior importância será \textit{Project}. Esta encontra-se representada na figura \ref{lst:class-project}.
+Para o caso de uso a ser considerado, a entidade de maior importância será \textit{Project}. Esta encontra-se representada na Figura \ref{lst:class-project}.
 
 Em nota, interessante enaltecer o uso das respetivas anotações:
 
@@ -118,7 +118,7 @@ public class Project extends BaseEntity {
 \subsubsection{\textit{BaseEntity}}
 \label{sec:backend-base-entity}
 
-Como medida de segurança e de padronização, foi desenvolvida a classe \textit{BaseEntity} (ver listagem \ref{lst:backend-base-entity}). Esta classe define dois identificadores: um interno e um externo. O identificador externo é utilizado na comunicação com o cliente, sendo retornado nos pedidos sob a forma de \textit{DTO}, enquanto o identificador interno é reservado para uso exclusivo do sistema.
+Como medida de segurança e de padronização, foi desenvolvida a classe \textit{BaseEntity} (ver Listagem \ref{lst:backend-base-entity}). Esta classe define dois identificadores: um interno e um externo. O identificador externo é utilizado na comunicação com o cliente, sendo retornado nos pedidos sob a forma de \textit{DTO}, enquanto o identificador interno é reservado para uso exclusivo do sistema.
 
 Tal como o próprio nome indica, a \textit{BaseEntity} foi concebida para servir como \textit{superclasse} de todas as entidades persistentes.
 
@@ -210,7 +210,7 @@ public abstract class BaseEntity {
 
 A utilização de \textit{Value Objects} permite um maior controlo sobre a lógica de negócio inerente ao projeto. Por tal a sua implementação é necessária aquando a construção de um sistema de superior complexidade. 
 
-A listagem \ref{lst:interface-value-object} mostra a interface \lstinline|ValueObject|.
+A Listagem \ref{lst:interface-value-object} mostra a interface \lstinline|ValueObject|.
 
 \begin{lstlisting}[language=Java,caption={Interface \textit{Value Object}},label={lst:interface-value-object}]
 public interface IValueObject<T> {
@@ -270,7 +270,7 @@ public class ProjectDescription implements IValueObject<String> {
 }
 \end{lstlisting}
 
-A listagem \ref{lst:class-project-description} demonstra uma implementação de \lstinline|IValueObject|. Como referido a função \lstinline|isValid()| avalia se o objeto é valido, retornado um \lstinline|HashMap| com os erros neste.
+A Listagem \ref{lst:class-project-description} demonstra uma implementação de \lstinline|IValueObject|. Como referido a função \lstinline|isValid()| avalia se o objeto é valido, retornado um \lstinline|HashMap| com os erros neste.
 
 Importante também seria referir a necessidade de um conversor, uma classe que informa o \gls{Hibernate} como deve mapear o objeto do programa para a base de dados e vice-versa.
 
@@ -284,7 +284,7 @@ Importante também seria referir a necessidade de um conversor, uma classe que i
 
 Como referido na secção \ref{sec:backend-Spring}, o modulo Spring Data \GLSxtrshort{JPA}, permite a implementação de repositórios em \textit{runtime}.
 
-Tendo em conta a implementação de \lstinline|BaseEntity| e a necessidade de diferenciação entre identificadores internos e externos, foi implementada a interface \lstinline|BaseRepository| (ver listagem \ref{lst:interface-base-repository}). 
+Tendo em conta a implementação de \lstinline|BaseEntity| e a necessidade de diferenciação entre identificadores internos e externos, foi implementada a interface \lstinline|BaseRepository| (ver Listagem \ref{lst:interface-base-repository}). 
 
 Na referida interface o uso de \lstinline|@NoRepositoryBean| informa o \GLSxtrshort{IoC} \textit{Container} para não guardar uma instância deste repositório, pois por norma todos os \lstinline|JpaRepository| são guardados automaticamente. É ainda adicionada a função \lstinline|findByExternalId|, esta procura automaticamente pela instância que corresponde ao nome do atributo \lstinline|externalId|. Esta segue uma nomenclatura especifica do Spring \cite{docs-spring-repository}.
 
@@ -295,7 +295,7 @@ public interface BaseRepository<T extends BaseEntity> extends JpaRepository<T, U
 }
 \end{lstlisting}
 
-Graças ao \gls{Spring} é possível então fazer implementações de repositórios muito facilmente, como exemplificado na listagem \ref{lst:interface-project-repository}
+Graças ao \gls{Spring} é possível então fazer implementações de repositórios muito facilmente, como exemplificado na Listagem \ref{lst:interface-project-repository}
 
 \begin{lstlisting}[language=Java, caption={interface \textit{ProjectRepository}}, label={lst:interface-project-repository}]
     public interface ProjectRepository extends BaseRepository<Project> {}
@@ -313,7 +313,7 @@ Na eventualidade da ocorrência de erros, quer estes sejam de negócio ou de sis
 
 O \gls{Spring} disponibiliza \lstinline|@RestControllerAdvice| que permite a implementação de rotas ou ferramentas de deteção de erros em todas as classes anotadas com \lstinline|@RestController|.
 
-Na listagem \ref{lst:exception-AppException} entende-se o elemento base que permite capturar erros internos ou de negócio e retorná-los num formato predefinido (ver listagem \ref{lst:class-Error}). Em prática a anotação \lstinline|@ExceptionHandler(AppException.class)| faz com que a qualquer ponto de execução do programa, no caso de ser lançada uma exceção do tipo \lstinline|AppException| a esta se redirecione para a função \lstinline|handleAppException|. Na listagem \ref{lst:class-ProjectController} e \ref{lst:exception-AppException} mostra-se, respetivamente, exemplo do uso desta exceções e propria exceção \lstinline|AppException|.
+Na Listagem \ref{lst:exception-AppException} entende-se o elemento base que permite capturar erros internos ou de negócio e retorná-los num formato predefinido (ver Listagem \ref{lst:class-Error}). Em prática a anotação \lstinline|@ExceptionHandler(AppException.class)| faz com que a qualquer ponto de execução do programa, no caso de ser lançada uma exceção do tipo \lstinline|AppException|, esta se redirecione para a função \lstinline|handleAppException|. 
 
 \begin{lstlisting}[language=Java, caption={Class \textit{AppExceptionController}}, label=lst:exception-AppException]
 @Slf4j
@@ -338,12 +338,9 @@ public class AppExceptionController {
                 Instant.now(),
                 e.getData()
         );
-
         ErrorResponse errorResponse = ErrorResponse.fromError(err);
-
         return new ResponseEntity<>(errorResponse,new HttpHeaders(), e.getStatus());
     }
-
 }
 \end{lstlisting}
 
@@ -359,36 +356,15 @@ public class Error {
 }
 \end{lstlisting}
 
-
-
-
+Na Listagem \ref{lst:class-ProjectController} e \ref{lst:exception-AppException} mostra-se, respetivamente, um exemplo do uso da exceção, \lstinline|AppException|, e a classe desta mesma.
 
 \begin{lstlisting}[language=Java, caption={Class \textit{ProjectController}}, label={lst:class-ProjectController}]
 @RestController
 @RequestMapping("/api/project")
 public class ProjectController {
-
-
-    private final IProjectService service;
-
-    public ProjectController(IProjectService IProjectService) {
-        this.service = IProjectService;
-    }
-
-    @GetMapping("")
-    public List<ProjectDTO> getAllProjects() {
-        return service.getProjects();
-    }
-
-    @GetMapping("/{id}")
-    public ProjectDTO getProjectById(UUID id) {
-        try {
-            return service.getProject(id);
-        } catch (NoSuchElementException e) {
-            throw new AppException(e, HttpStatus.NOT_FOUND);
-        }
-    }
-
+    |\Suppressnumber|
+    ... 
+    |\Reactivatenumber|
     @PostMapping("")
     public ProjectDTO addProject(@RequestBody AddProjectDTO project) {
         try {
@@ -399,26 +375,9 @@ public class ProjectController {
             throw new AppException(e, HttpStatus.BAD_REQUEST, e.getErrors());
         }
     }
-
-    @PutMapping("/{id}")
-    public ProjectDTO updateProject(@PathVariable UUID id, @RequestBody @Valid AddProjectDTO project) {
-        try {
-            return service.updateProject(id, project);
-        } catch (NoSuchElementException e) {
-            throw new AppException(e, HttpStatus.NOT_FOUND);
-        } catch (FormDataException e) {
-            throw new AppException(e, HttpStatus.BAD_REQUEST, e.getErrors());
-        }
-    }
-
-    @DeleteMapping("/{id}")
-    public ProjectDTO deleteProject(@PathVariable UUID id) {
-        try {
-            return service.deleteProject(id);
-        } catch (NoSuchElementException e) {
-            throw new AppException(e, HttpStatus.NOT_FOUND);
-        }
-    }
+    |\Suppressnumber|
+    ... 
+    |\Reactivatenumber|
 }
 \end{lstlisting}
 
@@ -434,24 +393,14 @@ public class AppException extends RuntimeException{
         this.status = status;
         this.data = data;
     }
-
     public AppException(Exception e, HttpStatus status, Map<String, Object> data) {
         super(e.getMessage());
         this.status = status;
         this.data = data;
     }
-
-    public AppException(Exception e, HttpStatus status) {
-        super(e.getMessage());
-        this.status = status;
-        this.data = new HashMap<>();
-    }
-
-    public AppException(String message, HttpStatus status) {
-        super(message);
-        this.status = status;
-        this.data = new HashMap<>();
-    }
+    |\Suppressnumber|
+    ... 
+    |\Reactivatenumber|
 }
 \end{lstlisting}
 
@@ -463,7 +412,9 @@ public class AppException extends RuntimeException{
 
 \subsubsection{Serviços}
 
-O padrão de \textit{software} \textit{Service} entende a concentração de toda a lógica de negócio numa só camada do sistema. A listagem \ref{lst:method-create-new-project-class-ProjectService} apresenta a implementação do método \lstinline|addProject| nesta mesma camada.
+O padrão de \textit{software} \textit{Service} entende a concentração de toda a lógica de negócio numa só camada do sistema. 
+
+A Listagem \ref{lst:method-create-new-project-class-ProjectService} apresenta a implementação do método \lstinline|addProject| nesta mesma camada. Neste é possível ver a criação de um projeto e a utilização da função \lstinline|isBusinessDataValid()| para a verificação de erros de negócio, para além da pesquisa de identificadores de todas as outras entidades relacionadas.
 
 A notação \lstinline|@Service| permite ao \GLSxtrshort{IoC} \textit{container} identificar esta classe como serviço e guardá-la como \textit{Bean}. Já a notação \lstinline|@Slf4j| cria uma ferramenta utilizada para manter registo de qualquer ação no programa. 
 
@@ -481,7 +432,6 @@ public class ProjectService implements IProjectService{
 
         ProjectName name = new ProjectName(project.name());
         ProjectDescription description = new ProjectDescription(project.description());
-
         errors.putAll(
             Project.isBusinessDataValid(
                     new ArrayList<>(List.of(name, description))
@@ -493,13 +443,11 @@ public class ProjectService implements IProjectService{
 
         Company company = project.companyId() == null ? 
             companyRepository.findByExternalId(project.companyId()).get() : null;
-
         CompanyRepresentative companyRepresentative =
             project.companyRepresentativeId()==null ? 
             companyRepresentativeRepository.findByExternalId(
                 project.companyRepresentativeId()
             ).get() : null;
-        
         List<Student> students = project.studentIds() == null ? 
                 List.of() : 
                 project.studentIds().stream()
@@ -507,7 +455,6 @@ public class ProjectService implements IProjectService{
                 .filter(Optional::isPresent)
                 .map(Optional::get)
                 .toList();
-
         CourseEdition courseEdition = 
             project.courseEditionId() == null ? 
             courseEditionRepository.findByExternalId(
@@ -515,7 +462,6 @@ public class ProjectService implements IProjectService{
             ).get() : null;
 
         Project newProject = new Project();
-
         newProject.setName(name);
         newProject.setDescription(description);
         newProject.setCompany(company);
@@ -540,7 +486,7 @@ public class ProjectService implements IProjectService{
 
 \subsubsection{Documentação}
 
-De forma a assegurar que os atuais e potenciais futuros desenvolvedores pudessem acompanhar e compreender o trabalho previamente realizado, optou-se pela integração do \textit{Swagger}. Esta ferramenta permite a geração automática de documentação da API, disponibilizando-a por uma interface \textit{Web} centralizada. Para além de facilitar a consulta das funcionalidades já implementadas, o \textit{Swagger} contribui para a padronização da comunicação entre a equipa de desenvolvimento e outros intervenientes, garantindo maior clareza, acessibilidade e manutenção contínua da solução.
+De forma a assegurar que os atuais e potenciais futuros programadores pudessem acompanhar e compreender o trabalho previamente realizado, optou-se pela integração do \textit{Swagger}. Esta ferramenta permite a geração automática de documentação da API, disponibilizando-a por uma interface \textit{Web} centralizada. Para além de facilitar a consulta das funcionalidades já implementadas, o \textit{Swagger} contribui para a padronização da comunicação entre a equipa de desenvolvimento e outros intervenientes, garantindo maior clareza, acessibilidade e manutenção contínua da solução.
 
 \begin{figure}[h!tbp]
     \centering
