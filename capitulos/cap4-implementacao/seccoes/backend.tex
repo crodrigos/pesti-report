@@ -16,7 +16,7 @@ Nesta secção irá se apresentar funcionalidades do backend no contexto da US3 
 A framework Spring apresentou à equipa uma alta curva de aprendizagem. Os vários conceitos e ferramentas nesta são bastante alienígenas a qualquer outra ferramenta antes utilizada pelos membros, em comparação com qualquer outra ferramenta antes utilizada. Por tal foi necessário mais tempo para a aprender. Alguns dos conceitos-chave considerados incluem:
 
 \begin{itemize}
-    \item \textbf{\textit{Spring Data}} é um agregado de módulos Spring que têm como função principal facilitar a programção de entidades e o seu respetivos acesso quando conectado a uma fonte de dados.
+    \item \textbf{\textit{Spring Data}} é um agregado de módulos Spring que têm como função principal facilitar a programação de entidades e o seu respetivos acesso quando conectado a uma fonte de dados.
 
     \item \textbf{\textit{Spring Data JPA}} (ou só \textit{JPA}) é um dos módulos pertencente à coletânea Spring Data. O seu objetivo é facilitar a implementação de repositórios, reduzindo estes a interfaces Java, nas quais o Spring analisa o nome do método e implementa em \textit{runtime} o mesmo. 
 
@@ -219,7 +219,7 @@ public interface IValueObject<T> {
 }
 \end{lstlisting}
 
-A notar, a função \lstinline|isValid()| em conjunto com a superclasse \lstinline|BaseEntity| permite verificar a lógica de negócio de cada respetivo \lstinline|ValueObject|. Para tal basta implementação fazer uma verificação do objecto em questão e retornar um \lstinline|HashMap| com toda a informação de erros.
+A notar, a função \lstinline|isValid()| em conjunto com a superclasse \lstinline|BaseEntity| permite verificar a lógica de negócio de cada respetivo \lstinline|ValueObject|. Para tal basta fazer uma verificação do objeto em questão e retornar um \lstinline|HashMap| com toda a informação de erros.
 
 \begin{lstlisting}[language=Java,caption={Classe \textit{ProjectDescription}},label={lst:class-project-description}]
 @Value
@@ -270,7 +270,7 @@ public class ProjectDescription implements IValueObject<String> {
 }
 \end{lstlisting}
 
-A Listagem \ref{lst:class-project-description} demonstra uma implementação de \lstinline|IValueObject|. Como referido a função \lstinline|isValid()| avalia se o objeto é valido, retornado um \lstinline|HashMap| com os erros neste.
+A Listagem \ref{lst:class-project-description} demonstra uma implementação de \lstinline|IValueObject|. Como referido a função \lstinline|isValid()| avalia se o objeto é válido, retornado um \lstinline|HashMap| com os erros neste.
 
 Importante também seria referir a necessidade de um conversor, uma classe que informa o \gls{Hibernate} como deve mapear o objeto do programa para a base de dados e vice-versa.
 
@@ -288,7 +288,7 @@ Tendo em conta a implementação de \lstinline|BaseEntity| e a necessidade de di
 
 Na referida interface o uso de \lstinline|@NoRepositoryBean| informa o \GLSxtrshort{IoC} \textit{Container} para não guardar uma instância deste repositório, pois por norma todos os \lstinline|JpaRepository| são guardados automaticamente. É ainda adicionada a função \lstinline|findByExternalId|, esta procura automaticamente pela instância que corresponde ao nome do atributo \lstinline|externalId|. Esta segue uma nomenclatura especifica do Spring \cite{docs-spring-repository}.
 
-\begin{lstlisting}[language=Java,caption={Inteface BaseRepository}, label={lst:interface-base-repository}]
+\begin{lstlisting}[language=Java,caption={Interface BaseRepository}, label={lst:interface-base-repository}]
 @NoRepositoryBean
 public interface BaseRepository<T extends BaseEntity> extends JpaRepository<T, UUID> {
     Optional<T> findByExternalId(UUID internalId);
